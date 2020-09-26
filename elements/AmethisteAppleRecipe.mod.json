@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Amethiste"
+      },
+      {
+        "value": "CUSTOM:Amethiste"
+      },
+      {
+        "value": "CUSTOM:Amethiste"
+      },
+      {
+        "value": "CUSTOM:Amethiste"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE"
+      },
+      {
+        "value": "CUSTOM:Amethiste"
+      },
+      {
+        "value": "CUSTOM:Amethiste"
+      },
+      {
+        "value": "CUSTOM:Amethiste"
+      },
+      {
+        "value": "CUSTOM:Amethiste"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AmethisteApple"
+    },
+    "name": "amethisteapplerecipe",
+    "namespace": "mod"
+  }
+}

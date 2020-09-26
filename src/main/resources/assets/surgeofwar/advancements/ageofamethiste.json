@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "surgeofwar:amethiste"
+    },
+    "title": {
+      "translate": "advancements.ageofamethiste.title"
+    },
+    "description": {
+      "translate": "advancements.ageofamethiste.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ageofamethiste": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "surgeofwar:installmod"
+}

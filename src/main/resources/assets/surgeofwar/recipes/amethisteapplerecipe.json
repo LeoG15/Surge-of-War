@@ -1,0 +1,43 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:amethiste"
+    },
+    "1": {
+      "item": "surgeofwar:amethiste"
+    },
+    "2": {
+      "item": "surgeofwar:amethiste"
+    },
+    "3": {
+      "item": "surgeofwar:amethiste"
+    },
+    "4": {
+      "item": "minecraft:golden_apple",
+      "data": 32767
+    },
+    "5": {
+      "item": "surgeofwar:amethiste"
+    },
+    "6": {
+      "item": "surgeofwar:amethiste"
+    },
+    "7": {
+      "item": "surgeofwar:amethiste"
+    },
+    "8": {
+      "item": "surgeofwar:amethiste"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:amethisteapple",
+    "count": 1
+  }
+}

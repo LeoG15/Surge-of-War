@@ -1,0 +1,39 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:amethiste"
+    },
+    "2": {
+      "item": "surgeofwar:amethiste"
+    },
+    "3": {
+      "item": "surgeofwar:amethiste"
+    },
+    "4": {
+      "item": "surgeofwar:amethiste"
+    },
+    "5": {
+      "item": "surgeofwar:amethiste"
+    },
+    "6": {
+      "item": "surgeofwar:amethiste"
+    },
+    "7": {
+      "item": "surgeofwar:amethiste"
+    },
+    "8": {
+      "item": "surgeofwar:amethiste"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:amethistearmorbody",
+    "count": 1
+  }
+}

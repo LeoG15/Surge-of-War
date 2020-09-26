@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/viprindirt",
+    "up": "surgeofwar:blocks/viprindirt",
+    "north": "surgeofwar:blocks/viprindirt",
+    "east": "surgeofwar:blocks/viprindirt",
+    "south": "surgeofwar:blocks/viprindirt",
+    "west": "surgeofwar:blocks/viprindirt",
+    "particle": "surgeofwar:blocks/viprindirt"
+  }
+}

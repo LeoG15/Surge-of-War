@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/nitroniumore",
+    "up": "surgeofwar:blocks/nitroniumore",
+    "north": "surgeofwar:blocks/nitroniumore",
+    "east": "surgeofwar:blocks/nitroniumore",
+    "south": "surgeofwar:blocks/nitroniumore",
+    "west": "surgeofwar:blocks/nitroniumore",
+    "particle": "surgeofwar:blocks/nitroniumore"
+  }
+}

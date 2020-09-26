@@ -1,0 +1,59 @@
+{
+  "_fv": 6,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:ViprinBlockPortal"
+    },
+    "portalParticles": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "block.lava.extinguish"
+    },
+    "igniterName": "Viprin Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "texture": "viprinigniter",
+    "portalTexture": "viprinportaltexture",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:ViprinBiome"
+      },
+      {
+        "value": "CUSTOM:Nagara"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:ViprinDirt"
+    },
+    "secondaryFillerBlock": {
+      "value": "CUSTOM:ViprinGrass"
+    },
+    "tertiaryFillerBlock": {
+      "value": ""
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:ViprinWater"
+    },
+    "airColor": {
+      "value": -1656470,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "hasWeather": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": true,
+    "dimensionMusic": {
+      "value": "block.lava.ambient"
+    }
+  }
+}

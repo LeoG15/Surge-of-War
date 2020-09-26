@@ -1,0 +1,50 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "methisteead",
+    "enableBody": true,
+    "textureBody": "methisteody",
+    "enableLeggings": true,
+    "textureLeggings": "methisteegs",
+    "enableBoots": true,
+    "textureBoots": "methisteots",
+    "onBodyTick": {
+      "name": "AmethistearmorBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "armorTextureFile": "metihiste_",
+    "helmetName": "Amethiste Helmet",
+    "bodyName": "Amethiste Body",
+    "leggingsName": "Amethiste Leggings",
+    "bootsName": "Amethiste Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 200,
+    "damageValueHelmet": 4,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 9,
+    "toughness": 2.0,
+    "equipSound": {
+      "value": "block.dispenser.launch"
+    },
+    "repairItems": []
+  }
+}

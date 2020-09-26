@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/inerais_dmethiste",
+    "up": "surgeofwar:blocks/inerais_dmethiste",
+    "north": "surgeofwar:blocks/inerais_dmethiste",
+    "east": "surgeofwar:blocks/inerais_dmethiste",
+    "south": "surgeofwar:blocks/inerais_dmethiste",
+    "west": "surgeofwar:blocks/inerais_dmethiste",
+    "particle": "surgeofwar:blocks/inerais_dmethiste"
+  }
+}

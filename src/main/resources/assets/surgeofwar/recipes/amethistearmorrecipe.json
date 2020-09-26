@@ -1,0 +1,29 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:amethiste"
+    },
+    "1": {
+      "item": "surgeofwar:amethiste"
+    },
+    "2": {
+      "item": "surgeofwar:amethiste"
+    },
+    "3": {
+      "item": "surgeofwar:amethiste"
+    },
+    "5": {
+      "item": "surgeofwar:amethiste"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:amethistearmorhelmet",
+    "count": 1
+  }
+}

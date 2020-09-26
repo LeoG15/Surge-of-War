@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "surgeofwar:textures/2.png",
+    "icon": {
+      "item": "surgeofwar:vipringrass"
+    },
+    "title": {
+      "translate": "advancements.installmod.title"
+    },
+    "description": {
+      "translate": "advancements.installmod.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "installmod": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

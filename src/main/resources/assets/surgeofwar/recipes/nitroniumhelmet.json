@@ -1,0 +1,29 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:nitronium"
+    },
+    "1": {
+      "item": "surgeofwar:nitronium"
+    },
+    "2": {
+      "item": "surgeofwar:nitronium"
+    },
+    "3": {
+      "item": "surgeofwar:nitronium"
+    },
+    "5": {
+      "item": "surgeofwar:nitronium"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:nitroniumarmorhelmet",
+    "count": 1
+  }
+}

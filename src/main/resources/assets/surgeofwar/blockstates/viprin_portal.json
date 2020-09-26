@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "surgeofwar:viprin_portal_ew"
+    },
+    "axis=x": {
+      "model": "surgeofwar:viprin_portal_ns"
+    },
+    "inventory": {
+      "model": "surgeofwar:viprin_portal_ns"
+    }
+  }
+}

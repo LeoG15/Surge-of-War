@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/nagarafruit",
+    "up": "surgeofwar:blocks/nagarafruit",
+    "north": "surgeofwar:blocks/nagarafruit",
+    "east": "surgeofwar:blocks/nagarafruit",
+    "south": "surgeofwar:blocks/nagarafruit",
+    "west": "surgeofwar:blocks/nagarafruit",
+    "particle": "surgeofwar:blocks/nagarafruit"
+  }
+}

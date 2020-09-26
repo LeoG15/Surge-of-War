@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/vipriblockportaltop",
+    "up": "surgeofwar:blocks/vipriblockportaltop",
+    "north": "surgeofwar:blocks/viprinblockportalframe",
+    "east": "surgeofwar:blocks/viprinblockportalframe",
+    "south": "surgeofwar:blocks/viprinblockportalframe",
+    "west": "surgeofwar:blocks/viprinblockportalframe",
+    "particle": "surgeofwar:blocks/vipriblockportaltop"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:amethiste"
+    },
+    "1": {
+      "item": "surgeofwar:amethiste"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:amethistesword",
+    "count": 1
+  }
+}

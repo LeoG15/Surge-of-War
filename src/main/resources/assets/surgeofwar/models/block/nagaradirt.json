@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/viprinbiome2dirt",
+    "up": "surgeofwar:blocks/viprinbiome2dirt",
+    "north": "surgeofwar:blocks/viprinbiome2dirt",
+    "east": "surgeofwar:blocks/viprinbiome2dirt",
+    "south": "surgeofwar:blocks/viprinbiome2dirt",
+    "west": "surgeofwar:blocks/viprinbiome2dirt",
+    "particle": "surgeofwar:blocks/viprinbiome2dirt"
+  }
+}

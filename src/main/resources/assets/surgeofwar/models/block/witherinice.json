@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/ither_in_ice",
+    "up": "surgeofwar:blocks/ither_in_ice",
+    "north": "surgeofwar:blocks/ither_in_ice",
+    "east": "surgeofwar:blocks/ither_in_ice",
+    "south": "surgeofwar:blocks/ither_in_ice",
+    "west": "surgeofwar:blocks/ither_in_ice",
+    "particle": "surgeofwar:blocks/ither_in_ice"
+  }
+}

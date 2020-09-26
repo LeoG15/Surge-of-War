@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/nagarawoodtop",
+    "up": "surgeofwar:blocks/nagarawoodtop",
+    "north": "surgeofwar:blocks/nagarawood",
+    "east": "surgeofwar:blocks/nagarawood",
+    "south": "surgeofwar:blocks/nagarawood",
+    "west": "surgeofwar:blocks/nagarawood",
+    "particle": "surgeofwar:blocks/nagarawoodtop"
+  }
+}
