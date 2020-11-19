@@ -1,0 +1,42 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:ederniumflower"
+    },
+    "1": {
+      "item": "surgeofwar:nitronium"
+    },
+    "2": {
+      "item": "surgeofwar:ederniumfragment"
+    },
+    "3": {
+      "item": "surgeofwar:nitronium"
+    },
+    "4": {
+      "item": "surgeofwar:ederniumnugget"
+    },
+    "5": {
+      "item": "surgeofwar:nitronium"
+    },
+    "6": {
+      "item": "surgeofwar:ederniumfragment"
+    },
+    "7": {
+      "item": "surgeofwar:nitronium"
+    },
+    "8": {
+      "item": "surgeofwar:ederniumflower"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:edernium",
+    "count": 9
+  }
+}

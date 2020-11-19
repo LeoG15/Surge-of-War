@@ -25,9 +25,7 @@ import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAISwimming;
 import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
 import net.minecraft.entity.ai.EntityAILookIdle;
-import net.minecraft.entity.ai.EntityAILeapAtTarget;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
-import net.minecraft.entity.ai.EntityAIAvoidEntity;
 import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EnumCreatureType;
@@ -36,6 +34,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 
+import com.leovideo.surgeofwar.procedure.ProcedureDevilOnEntityTickUpdate;
 import com.leovideo.surgeofwar.item.ItemVitrome;
 import com.leovideo.surgeofwar.ElementsSurgeofWar;
 
@@ -90,14 +89,12 @@ public class EntityDevil extends ElementsSurgeofWar.ModElement {
 		@Override
 		protected void initEntityAI() {
 			super.initEntityAI();
-			this.tasks.addTask(1, new EntityAIWander(this, 1));
+			this.tasks.addTask(1, new EntityAIWander(this, 0.8));
 			this.tasks.addTask(2, new EntityAILookIdle(this));
-			this.tasks.addTask(3, new EntityAIAvoidEntity(this, EntityPlayer.class, (float) 6, 1, 1.2));
-			this.tasks.addTask(4, new EntityAISwimming(this));
-			this.tasks.addTask(5, new EntityAILeapAtTarget(this, (float) 0.8));
+			this.tasks.addTask(3, new EntityAISwimming(this));
+			this.targetTasks.addTask(4, new EntityAINearestAttackableTarget(this, EntityPlayer.class, false, true));
+			this.tasks.addTask(5, new EntityAIAttackMelee(this, 1.2, false));
 			this.targetTasks.addTask(6, new EntityAIHurtByTarget(this, true));
-			this.targetTasks.addTask(7, new EntityAINearestAttackableTarget(this, EntityPlayer.class, true, true));
-			this.tasks.addTask(8, new EntityAIAttackMelee(this, 1.2, false));
 		}
 
 		@Override
@@ -112,7 +109,7 @@ public class EntityDevil extends ElementsSurgeofWar.ModElement {
 
 		@Override
 		public net.minecraft.util.SoundEvent getAmbientSound() {
-			return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("enchant.thorns.hit"));
+			return (net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation(""));
 		}
 
 		@Override
@@ -143,6 +140,24 @@ public class EntityDevil extends ElementsSurgeofWar.ModElement {
 			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public void onEntityUpdate() {
+			super.onEntityUpdate();
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			Entity entity = this;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureDevilOnEntityTickUpdate.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

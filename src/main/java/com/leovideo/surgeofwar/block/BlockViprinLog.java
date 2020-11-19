@@ -16,6 +16,7 @@ import net.minecraft.block.Block;
 
 import com.leovideo.surgeofwar.creativetab.TabBlocksOfSurge;
 import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import net.minecraft.world.IBlockAccess;
 
 @ElementsSurgeofWar.ModElement.Tag
 public class BlockViprinLog extends ElementsSurgeofWar.ModElement {
@@ -46,6 +47,10 @@ public class BlockViprinLog extends ElementsSurgeofWar.ModElement {
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabBlocksOfSurge.tab);
+		}
+
+		@Override public boolean canSustainLeaves(net.minecraft.block.state.IBlockState state, net.minecraft.world.IBlockAccess world, net.minecraft.util.math.BlockPos pos){
+			return true;
 		}
 	}
 }

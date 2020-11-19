@@ -70,7 +70,6 @@ import java.util.Random;
 import java.util.List;
 
 import com.leovideo.surgeofwar.item.ItemViprin;
-import com.leovideo.surgeofwar.block.BlockViprinWater;
 import com.leovideo.surgeofwar.block.BlockViprinGrass;
 import com.leovideo.surgeofwar.block.BlockViprinDirt;
 import com.leovideo.surgeofwar.block.BlockViprinBlockPortal;
@@ -751,7 +750,7 @@ public class WorldViprin extends ElementsSurgeofWar.ModElement {
 	public static class ChunkProviderModded implements IChunkGenerator {
 		private static final IBlockState STONE = BlockViprinDirt.block.getDefaultState();
 		private static final IBlockState STONE2 = BlockViprinGrass.block.getDefaultState();
-		private static final IBlockState FLUID = BlockViprinWater.block.getDefaultState();
+		private static final IBlockState FLUID = Blocks.WATER.getDefaultState();
 		private static final IBlockState AIR = Blocks.AIR.getDefaultState();
 		private static final IBlockState BEDROCK = Blocks.BEDROCK.getDefaultState();
 		private static final int SEALEVEL = 63;

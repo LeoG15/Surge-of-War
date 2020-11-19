@@ -1,0 +1,79 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Vhacander Biome",
+    "groundBlock": {
+      "value": "CUSTOM:Vhacandergrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:VhacanderDirt"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "CUSTOM:ViprinBlockPortal"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Vhacanderleaves"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -13261,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6750208,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -26215,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 5,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": true,
+    "biomeWeight": 4,
+    "biomeType": "WARM",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [],
+    "spawnList": [
+      {
+        "value": "EntitySkeleton"
+      },
+      {
+        "value": "EntitySilverfish"
+      },
+      {
+        "value": "EntityWitch"
+      },
+      {
+        "value": "EntityWitherSkeleton"
+      }
+    ]
+  }
+}

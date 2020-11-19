@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/vhacanderdirtreal",
+    "up": "surgeofwar:blocks/vhacanderdirtreal",
+    "north": "surgeofwar:blocks/vhacanderdirtreal",
+    "east": "surgeofwar:blocks/vhacanderdirtreal",
+    "south": "surgeofwar:blocks/vhacanderdirtreal",
+    "west": "surgeofwar:blocks/vhacanderdirtreal",
+    "particle": "surgeofwar:blocks/vhacanderdirtreal"
+  }
+}

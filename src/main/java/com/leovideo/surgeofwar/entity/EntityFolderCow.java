@@ -18,17 +18,20 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.passive.EntityAnimal;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAISwimming;
 import net.minecraft.entity.ai.EntityAIPanic;
+import net.minecraft.entity.ai.EntityAIMate;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAILeapAtTarget;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
+import net.minecraft.entity.ai.EntityAIEatGrass;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.EnumCreatureAttribute;
 import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.EntityCreature;
+import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.model.ModelCow;
@@ -69,7 +72,7 @@ public class EntityFolderCow extends ElementsSurgeofWar.ModElement {
 			};
 		});
 	}
-	public static class EntityCustom extends EntityCreature {
+	public static class EntityCustom extends EntityAnimal {
 		public EntityCustom(World world) {
 			super(world);
 			setSize(0.9f, 1.4f);
@@ -83,10 +86,12 @@ public class EntityFolderCow extends ElementsSurgeofWar.ModElement {
 			super.initEntityAI();
 			this.tasks.addTask(1, new EntityAIWander(this, 1));
 			this.tasks.addTask(2, new EntityAILookIdle(this));
-			this.tasks.addTask(3, new EntityAISwimming(this));
-			this.tasks.addTask(4, new EntityAILeapAtTarget(this, (float) 0.8));
-			this.tasks.addTask(5, new EntityAIPanic(this, 1.2));
-			this.targetTasks.addTask(6, new EntityAIHurtByTarget(this, false));
+			this.tasks.addTask(3, new EntityAIEatGrass(this));
+			this.tasks.addTask(4, new EntityAISwimming(this));
+			this.tasks.addTask(5, new EntityAILeapAtTarget(this, (float) 0.8));
+			this.tasks.addTask(6, new EntityAIPanic(this, 1.2));
+			this.targetTasks.addTask(7, new EntityAIHurtByTarget(this, false));
+			this.tasks.addTask(3, new EntityAIMate(this, 1.0D));
 		}
 
 		@Override
@@ -164,6 +169,23 @@ public class EntityFolderCow extends ElementsSurgeofWar.ModElement {
 				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(20D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(0D);
+		}
+
+		@Override
+		public EntityCustom createChild(EntityAgeable ageable) {
+			return new EntityCustom(world);
+		}
+
+		@Override
+		public float getEyeHeight() {
+			return this.isChild() ? this.height : 1.3F;
+		}
+
+		@Override
+		public boolean isBreedingItem(ItemStack stack) {
+			if (stack == null)
+				return false;
+			return false;
 		}
 
 		@Override

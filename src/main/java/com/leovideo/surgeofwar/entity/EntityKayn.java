@@ -91,7 +91,7 @@ public class EntityKayn extends ElementsSurgeofWar.ModElement {
 			this.tasks.addTask(1, new EntityAIWander(this, 1));
 			this.tasks.addTask(2, new EntityAILookIdle(this));
 			this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, EntityPlayer.class, true, false));
-			this.tasks.addTask(4, new EntityAIAttackMelee(this, 1.2, true));
+			this.tasks.addTask(4, new EntityAIAttackMelee(this, 1.2, false));
 			this.tasks.addTask(5, new EntityAIAvoidEntity(this, EntityPlayer.class, (float) 8, 1, 1.2));
 			this.tasks.addTask(6, new EntityAISwimming(this));
 			this.tasks.addTask(7, new EntityAILeapAtTarget(this, (float) 0.8));

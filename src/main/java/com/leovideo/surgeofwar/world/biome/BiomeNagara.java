@@ -1,6 +1,8 @@
 
 package com.leovideo.surgeofwar.world.biome;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
@@ -40,7 +42,8 @@ public class BiomeNagara extends ElementsSurgeofWar.ModElement {
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("Nagara").setRainfall(0F).setBaseHeight(0.1F).setHeightVariation(0.2F).setTemperature(0.5F));
+			super(new Biome.BiomeProperties("Nagara").setRainfall(0F).setBaseHeight(0.1F).setWaterColor(-16724788).setHeightVariation(0.2F)
+					.setTemperature(0.5F));
 			setRegistryName("nagara");
 			topBlock = BlockNagaraGrass.block.getDefaultState();
 			fillerBlock = BlockNagaraDirt.block.getDefaultState();
@@ -59,6 +62,24 @@ public class BiomeNagara extends ElementsSurgeofWar.ModElement {
 			this.spawnableCreatureList.clear();
 			this.spawnableWaterCreatureList.clear();
 			this.spawnableCaveCreatureList.clear();
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public int getGrassColorAtPos(BlockPos pos) {
+			return -13261999;
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public int getFoliageColorAtPos(BlockPos pos) {
+			return -13261999;
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public int getSkyColorByTemp(float currentTemperature) {
+			return -5916161;
 		}
 
 		@Override

@@ -42,8 +42,8 @@ public class BlockNitroniumore extends ElementsSurgeofWar.ModElement {
 			super(Material.ROCK);
 			setUnlocalizedName("nitroniumore");
 			setSoundType(SoundType.STONE);
-			setHardness(1F);
-			setResistance(10F);
+			setHardness(10F);
+			setResistance(60F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabBlocksOfSurge.tab);

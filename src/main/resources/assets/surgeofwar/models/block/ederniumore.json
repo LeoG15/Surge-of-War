@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/edernium",
+    "up": "surgeofwar:blocks/edernium",
+    "north": "surgeofwar:blocks/edernium",
+    "east": "surgeofwar:blocks/edernium",
+    "south": "surgeofwar:blocks/edernium",
+    "west": "surgeofwar:blocks/edernium",
+    "particle": "surgeofwar:blocks/edernium"
+  }
+}

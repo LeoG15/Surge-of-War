@@ -1,0 +1,41 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "surgeofwar:edernium"
+    },
+    "title": {
+      "translate": "advancements.lelingotdeglace.title"
+    },
+    "description": {
+      "translate": "advancements.lelingotdeglace.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lelingotdeglace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "surgeofwar:edernium",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000,
+    "recipes": [
+      "surgeofwar:icebulletrecipe",
+      "surgeofwar:lanceglacerecipe"
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 10,
-    "DIMENSION": 1
+    "DIMENSION": 1,
+    "ENTITY": 15
   },
   "mod_elements": [
     {
@@ -259,7 +259,8 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "vhacanderlog"
     },
     {
       "name": "Viprin",
@@ -284,7 +285,7 @@
       "type": "block",
       "sortid": 28,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
@@ -387,14 +388,6 @@
       "ids": {}
     },
     {
-      "name": "RedstoneReeds",
-      "type": "plant",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "GoldPumpkin",
       "type": "block",
       "sortid": 40,
@@ -406,14 +399,6 @@
       "name": "VicoqueRecipe",
       "type": "recipe",
       "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "GrassViprin",
-      "type": "plant",
-      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -450,7 +435,7 @@
       "type": "block",
       "sortid": 46,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
@@ -465,14 +450,6 @@
       "name": "Nagara",
       "type": "biome",
       "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "ViprinWater",
-      "type": "fluid",
-      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -600,6 +577,310 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "NitroniumSword",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NitroniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NitroniumPickaxe",
+      "type": "tool",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DevilOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vhacanderleaves",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VhacanderBiome",
+      "type": "biome",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Vhacandergrass",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VhacanderDirt",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BooklingMageEntityDies",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BooklingMageStrenght",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BooklingMage",
+      "type": "mob",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 11,
+        "1": 12
+      }
+    },
+    {
+      "name": "EderniumOre",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Edernium",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumFlower",
+      "type": "plant",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumFragment",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumFragmentRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumNugget",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumIngotRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeLingotDeGlace",
+      "type": "achievement",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronKnife",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronKnifeRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LanceGlace",
+      "type": "gun",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 13
+      }
+    },
+    {
+      "name": "IceBullet",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LanceGlaceRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IceBulletRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumSwordMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EderniumSwordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EderniumSword",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BooklinSorcerer",
+      "type": "mob",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 14,
+        "1": 15
+      }
     }
   ],
   "variable_elements": [],
@@ -608,29 +889,43 @@
     "en_us": {
       "item.folderstick.name": "Folder Stick",
       "tile.viprinlog.name": "Viprin Log",
+      "item.edernium.name": "Edernium",
       "entity.foldercow.name": "Folder Cow",
+      "item.icebullet.name": "Ice Bullet",
       "item.nitronium.name": "Nitronium",
       "item.amethistepickaxe.name": "Amethiste Pickaxe",
       "tile.viprindirt.name": "Viprin Dirt",
+      "tile.ederniumflower.name": "Edernium Flower",
+      "item.ederniumsword.name": "Edernium Sword",
+      "tile.vhacanderleaves.name": "Vhacander leaves",
+      "tile.ederniumore.name": "Edernium Ore",
+      "item.ederniumfragment.name": "Edernium Fragment",
+      "entity.booklingmage.name": "Bookling Mage",
       "itemGroup.tabblocksofsurge": "Mythics Blocks",
+      "tile.vhacandergrass.name": "Vhacander grass",
       "tile.amethisteore.name": "Amethiste ore",
       "item.amethistearmorlegs.name": "Amethiste Leggings",
-      "tile.grassviprin.name": "Grass Viprin",
+      "tile.vhacanderlog.name": "Vhacander log",
       "advancements.installmod.descr": "Surge of War have been installed !",
       "tile.witherinice.name": "Wither In Ice",
       "tile.viprinleaves.name": "Viprin Leaves",
       "item.vitrome.name": "Vitrome",
       "item.amethisteapple.name": "Amethiste Apple",
       "item.nitroniumarmorbody.name": "Nitronium Body",
-      "tile.redstonereeds.name": "Redstone Reeds",
+      "tile.vhacanderdirt.name": "Vhacander Dirt",
+      "item.lanceglace.name": "Lance Glace",
+      "item.nitroniumsword.name": "Nitronium Sword",
       "itemGroup.tabitemofwar": "Item Of War",
       "advancements.ageofamethiste.descr": "Your preparation to the war is fast ! ",
+      "item.ederniumnugget.name": "Edernium Nugget",
+      "advancements.lelingotdeglace.descr": "Le progret avant tout !",
       "item.amethisteshowel.name": "Amethiste Showel",
       "item.viprin.name": "Viprin Portal Igniter",
       "item.foldersteak.name": "Folder Steak",
       "advancements.firstgoblinkill.title": "First Goblin Kill",
       "tile.goldpumpkin.name": "Emerald Fruit",
       "entity.devil.name": "Devil",
+      "item.ironknife.name": "Iron Knife",
       "advancements.firstgoblinkill.descr": "Good kill ! ",
       "tile.nagaradirt.name": "Nagara Dirt",
       "entity.goblin.name": "Goblin",
@@ -641,15 +936,16 @@
       "item.amethiste.name": "Amethiste",
       "tile.nagaragrass.name": "Nagara Grass",
       "tile.vicoque.name": "Vicoque",
-      "fluid.viprinwater": "ViprinWater",
       "entity.kayn.name": "Kayn",
-      "tile.viprinblockportal.name": "Viprin Block Portal",
       "item.nitroniumarmorhelmet.name": "Nitronium Helmet",
       "item.nitroniumarmorboots.name": "Nitronium Boots",
       "item.amethistearmorhelmet.name": "Amethiste Helmet",
       "item.amethistesword.name": "Amethiste Sword",
+      "entity.booklinsorcerer.name": "Booklin Sorcerer",
       "item.vitromesword.name": "Vitrome Sword",
       "tile.nitroniumore.name": "Nitronium ore",
+      "advancements.lelingotdeglace.title": "Le Lingot De Glace",
+      "item.nitroniumpickaxe.name": "Nitronium Pickaxe",
       "advancements.ageofamethiste.title": "Age Of Amethiste",
       "tile.nagarawoods.name": "Nagara Log",
       "advancements.installmod.title": "Surge of War",
@@ -660,29 +956,43 @@
     "fr_fr": {
       "item.folderstick.name": "Folder Stick",
       "tile.viprinlog.name": "Viprin Log",
+      "item.edernium.name": "Edernium",
       "entity.foldercow.name": "Folder Cow",
+      "item.icebullet.name": "Ice Bullet",
       "item.nitronium.name": "Nitronium",
       "item.amethistepickaxe.name": "Amethiste Pickaxe",
       "tile.viprindirt.name": "Viprin Dirt",
+      "tile.ederniumflower.name": "Edernium Flower",
+      "item.ederniumsword.name": "Edernium Sword",
+      "tile.vhacanderleaves.name": "Vhacander leaves",
+      "tile.ederniumore.name": "Edernium Ore",
+      "item.ederniumfragment.name": "Edernium Fragment",
+      "entity.booklingmage.name": "Bookling Mage",
       "itemGroup.tabblocksofsurge": "Blocks Of Surge",
+      "tile.vhacandergrass.name": "Vhacander grass",
       "tile.amethisteore.name": "Amethiste ore",
       "item.amethistearmorlegs.name": "Amethiste Leggings",
-      "tile.grassviprin.name": "Grass Viprin",
+      "tile.vhacanderlog.name": "Vhacander log",
       "advancements.installmod.descr": "Surge of War have been installed !",
       "tile.witherinice.name": "Wither In Ice",
       "tile.viprinleaves.name": "Viprin Leaves",
       "item.vitrome.name": "Vitrome",
       "item.amethisteapple.name": "Pomme d\u0027Amethiste",
       "item.nitroniumarmorbody.name": "Nitronium Body",
-      "tile.redstonereeds.name": "Redstone Reeds",
+      "tile.vhacanderdirt.name": "Vhacander Dirt",
+      "item.lanceglace.name": "Lance Glace",
+      "item.nitroniumsword.name": "Nitronium Sword",
       "itemGroup.tabitemofwar": "Item Of War",
       "advancements.ageofamethiste.descr": "Your preparation to the war is fast ! ",
+      "item.ederniumnugget.name": "Edernium Nugget",
+      "advancements.lelingotdeglace.descr": "Le progret avant tout !",
       "item.amethisteshowel.name": "Amethiste Showel",
       "item.viprin.name": "Viprin Portal Igniter",
       "item.foldersteak.name": "Folder Steak",
       "advancements.firstgoblinkill.title": "First Goblin Kill",
       "tile.goldpumpkin.name": "Gold Pumpkin",
       "entity.devil.name": "Devil",
+      "item.ironknife.name": "Iron Knife",
       "advancements.firstgoblinkill.descr": "Good kill ! ",
       "tile.nagaradirt.name": "Nagara Dirt",
       "entity.goblin.name": "Goblin",
@@ -693,15 +1003,16 @@
       "item.amethiste.name": "Amethiste",
       "tile.nagaragrass.name": "Nagara Grass",
       "tile.vicoque.name": "Vicoque",
-      "fluid.viprinwater": "ViprinWater",
       "entity.kayn.name": "Kayn",
-      "tile.viprinblockportal.name": "Viprin Block Portal",
       "item.nitroniumarmorhelmet.name": "Nitronium Helmet",
       "item.nitroniumarmorboots.name": "Nitronium Boots",
       "item.amethistearmorhelmet.name": "Amethiste Helmet",
       "item.amethistesword.name": "Amethiste Sword",
+      "entity.booklinsorcerer.name": "Booklin Sorcerer",
       "item.vitromesword.name": "Vitrome Sword",
       "tile.nitroniumore.name": "Nitronium ore",
+      "advancements.lelingotdeglace.title": "Le Lingot De Glace",
+      "item.nitroniumpickaxe.name": "Nitronium Pickaxe",
       "advancements.ageofamethiste.title": "Age Of Amethiste",
       "tile.nagarawoods.name": "Nagara Log",
       "advancements.installmod.title": "Surge of War",

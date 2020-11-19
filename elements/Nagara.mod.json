@@ -26,7 +26,7 @@
     "treeFruits": {
       "value": "Blocks.VOID_AIR"
     },
-    "customColors": false,
+    "customColors": true,
     "airColor": {
       "value": -5916161,
       "falpha": 0.0
@@ -36,7 +36,7 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -14329397,
+      "value": -16724788,
       "falpha": 0.0
     },
     "treesPerChunk": 7,

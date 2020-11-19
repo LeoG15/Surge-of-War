@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 9,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EderniumFlower"
+      },
+      {
+        "value": "CUSTOM:Nitronium"
+      },
+      {
+        "value": "CUSTOM:EderniumFragment"
+      },
+      {
+        "value": "CUSTOM:Nitronium"
+      },
+      {
+        "value": "CUSTOM:EderniumNugget"
+      },
+      {
+        "value": "CUSTOM:Nitronium"
+      },
+      {
+        "value": "CUSTOM:EderniumFragment"
+      },
+      {
+        "value": "CUSTOM:Nitronium"
+      },
+      {
+        "value": "CUSTOM:EderniumFlower"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Edernium"
+    },
+    "name": "ederniumingotrecipe",
+    "namespace": "mod"
+  }
+}

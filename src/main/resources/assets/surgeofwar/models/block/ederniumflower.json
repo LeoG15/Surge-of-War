@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "surgeofwar:blocks/ederniumflower",
+    "particle": "surgeofwar:blocks/ederniumflower"
+  }
+}

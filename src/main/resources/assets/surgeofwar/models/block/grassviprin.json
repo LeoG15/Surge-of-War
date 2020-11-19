@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "surgeofwar:blocks/grassviprin",
-    "particle": "surgeofwar:blocks/grassviprin"
-  }
-}

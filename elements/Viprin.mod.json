@@ -38,7 +38,7 @@
       "value": ""
     },
     "fluidBlock": {
-      "value": "CUSTOM:ViprinWater"
+      "value": "Blocks.WATER"
     },
     "airColor": {
       "value": -1656470,

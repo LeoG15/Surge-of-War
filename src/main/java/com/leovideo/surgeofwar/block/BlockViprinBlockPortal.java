@@ -19,7 +19,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofWar;
 
 @ElementsSurgeofWar.ModElement.Tag
 public class BlockViprinBlockPortal extends ElementsSurgeofWar.ModElement {
-	@GameRegistry.ObjectHolder("surgeofwar:viprinblockportal")
+	@GameRegistry.ObjectHolder("surgeofwar:vhacanderlog")
 	public static final Block block = null;
 	public BlockViprinBlockPortal(ElementsSurgeofWar instance) {
 		super(instance, 25);
@@ -27,7 +27,7 @@ public class BlockViprinBlockPortal extends ElementsSurgeofWar.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("viprinblockportal"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("vhacanderlog"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
@@ -35,12 +35,12 @@ public class BlockViprinBlockPortal extends ElementsSurgeofWar.ModElement {
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("surgeofwar:viprinblockportal", "inventory"));
+				new ModelResourceLocation("surgeofwar:vhacanderlog", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.WOOD);
-			setUnlocalizedName("viprinblockportal");
+			setUnlocalizedName("vhacanderlog");
 			setSoundType(SoundType.WOOD);
 			setHardness(1F);
 			setResistance(10F);

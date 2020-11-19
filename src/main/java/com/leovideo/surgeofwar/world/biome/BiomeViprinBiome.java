@@ -1,6 +1,8 @@
 
 package com.leovideo.surgeofwar.world.biome;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
@@ -41,7 +43,8 @@ public class BiomeViprinBiome extends ElementsSurgeofWar.ModElement {
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("Viprin ").setRainfall(0F).setBaseHeight(0.1F).setHeightVariation(0.2F).setTemperature(1F));
+			super(new Biome.BiomeProperties("Viprin ").setRainfall(0F).setBaseHeight(0.1F).setWaterColor(-26368).setHeightVariation(0.2F)
+					.setTemperature(1F));
 			setRegistryName("viprinbiome");
 			topBlock = BlockViprinGrass.block.getDefaultState();
 			fillerBlock = BlockViprinDirt.block.getDefaultState();
@@ -60,6 +63,24 @@ public class BiomeViprinBiome extends ElementsSurgeofWar.ModElement {
 			this.spawnableCreatureList.clear();
 			this.spawnableWaterCreatureList.clear();
 			this.spawnableCaveCreatureList.clear();
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public int getGrassColorAtPos(BlockPos pos) {
+			return -13261999;
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public int getFoliageColorAtPos(BlockPos pos) {
+			return -13261999;
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public int getSkyColorByTemp(float currentTemperature) {
+			return -5916161;
 		}
 
 		@Override
