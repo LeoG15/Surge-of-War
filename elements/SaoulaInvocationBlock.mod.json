@@ -2,12 +2,12 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "inerais_dmethiste",
-    "textureTop": "inerais_dmethiste",
-    "textureLeft": "inerais_dmethiste",
-    "textureFront": "inerais_dmethiste",
-    "textureRight": "inerais_dmethiste",
-    "textureBack": "inerais_dmethiste",
+    "texture": "saoulaainvocationblock",
+    "textureTop": "saoulaainvocationblock",
+    "textureLeft": "saoulaainvocationblock",
+    "textureFront": "saoulaainvocationblockfront",
+    "textureRight": "saoulaainvocationblock",
+    "textureBack": "saoulaainvocationblock",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -24,10 +24,10 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Amethiste ore",
+    "name": "Saoula Invocation Block",
     "specialInfo": [],
     "hardness": 1.0,
-    "resistance": 12.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -45,7 +45,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -63,14 +63,14 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "luminance": 0.0,
-    "unbreakable": false,
+    "unbreakable": true,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "SPELL"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -92,17 +92,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "onRightClicked": {
+      "name": "SaoulaInvocationBlockLorsDunClicDroitSurLeBloc"
+    },
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 6,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

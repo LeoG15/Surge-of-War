@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "surgeofwar:blocks/orecuivre",
-    "up": "surgeofwar:blocks/orecuivre",
-    "north": "surgeofwar:blocks/orecuivre",
-    "east": "surgeofwar:blocks/orecuivre",
-    "south": "surgeofwar:blocks/orecuivre",
-    "west": "surgeofwar:blocks/orecuivre",
-    "particle": "surgeofwar:blocks/orecuivre"
+    "down": "surgeofwar:blocks/copperoree",
+    "up": "surgeofwar:blocks/copperoree",
+    "north": "surgeofwar:blocks/copperoree",
+    "east": "surgeofwar:blocks/copperoree",
+    "south": "surgeofwar:blocks/copperoree",
+    "west": "surgeofwar:blocks/copperoree",
+    "particle": "surgeofwar:blocks/copperoree"
   }
 }

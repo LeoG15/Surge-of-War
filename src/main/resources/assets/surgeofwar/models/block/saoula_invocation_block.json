@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/saoulaainvocationblock",
+    "up": "surgeofwar:blocks/saoulaainvocationblock",
+    "north": "surgeofwar:blocks/saoulaainvocationblockfront",
+    "east": "surgeofwar:blocks/saoulaainvocationblock",
+    "south": "surgeofwar:blocks/saoulaainvocationblock",
+    "west": "surgeofwar:blocks/saoulaainvocationblock",
+    "particle": "surgeofwar:blocks/saoulaainvocationblock"
+  }
+}

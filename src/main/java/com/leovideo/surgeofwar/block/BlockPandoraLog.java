@@ -47,5 +47,9 @@ public class BlockPandoraLog extends ElementsSurgeofwarMod.ModElement {
 			setLightOpacity(255);
 			setCreativeTab(TabBlocksOfSurge.tab);
 		}
+		
+		@Override public boolean canSustainLeaves(net.minecraft.block.state.IBlockState state, net.minecraft.world.IBlockAccess world, net.minecraft.util.math.BlockPos pos){
+			return true;
+		}
 	}
 }

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "surgeofwar:sun_sword"
+    },
+    "title": {
+      "translate": "advancements.un_grand_reveil.title"
+    },
+    "description": {
+      "translate": "advancements.un_grand_reveil.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "un_grand_reveil": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2500,
+    "recipes": [
+      "surgeofwar:frogonite_to_edernium"
+    ]
+  },
+  "parent": "surgeofwar:installmod"
+}

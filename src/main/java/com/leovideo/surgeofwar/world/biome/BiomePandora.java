@@ -42,7 +42,7 @@ public class BiomePandora extends ElementsSurgeofwarMod.ModElement {
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("Pandora").setRainfall(0.4F).setBaseHeight(0.1F).setWaterColor(-52429).setHeightVariation(0.2F)
+			super(new Biome.BiomeProperties("Pandora").setRainfall(0.4F).setBaseHeight(0.1F).setWaterColor(-16711822).setHeightVariation(0.2F)
 					.setTemperature(0.5F));
 			setRegistryName("pandora");
 			topBlock = BlockPandoraGrass.block.getDefaultState();
