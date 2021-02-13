@@ -1,0 +1,42 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:fragonite"
+    },
+    "1": {
+      "item": "surgeofwar:repairhammer"
+    },
+    "2": {
+      "item": "surgeofwar:fragonite"
+    },
+    "3": {
+      "item": "surgeofwar:repairhammer"
+    },
+    "4": {
+      "item": "surgeofwar:ederniumfragment"
+    },
+    "5": {
+      "item": "surgeofwar:repairhammer"
+    },
+    "6": {
+      "item": "surgeofwar:fragonite"
+    },
+    "7": {
+      "item": "surgeofwar:repairhammer"
+    },
+    "8": {
+      "item": "surgeofwar:fragonite"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:edernium",
+    "count": 1
+  }
+}

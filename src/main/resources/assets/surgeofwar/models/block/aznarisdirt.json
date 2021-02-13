@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/aznarisdirt",
+    "up": "surgeofwar:blocks/aznarisdirt",
+    "north": "surgeofwar:blocks/aznarisdirt",
+    "east": "surgeofwar:blocks/aznarisdirt",
+    "south": "surgeofwar:blocks/aznarisdirt",
+    "west": "surgeofwar:blocks/aznarisdirt",
+    "particle": "surgeofwar:blocks/aznarisdirt"
+  }
+}

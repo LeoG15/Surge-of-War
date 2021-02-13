@@ -1,0 +1,29 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:hellstone"
+    },
+    "1": {
+      "item": "surgeofwar:hellstone"
+    },
+    "2": {
+      "item": "surgeofwar:hellstone"
+    },
+    "3": {
+      "item": "surgeofwar:cuivreforge"
+    },
+    "5": {
+      "item": "surgeofwar:cuivreforge"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:hellstonearmorhelmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "minecraft:golden_apple",
+      "data": 32767
+    },
+    "5": {
+      "item": "minecraft:diamond"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_apple",
+    "data": 1,
+    "count": 1
+  }
+}

@@ -17,13 +17,13 @@ import java.util.Set;
 import java.util.HashMap;
 
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ItemAmethisteShowel extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ItemAmethisteShowel extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:amethisteshowel")
 	public static final Item block = null;
-	public ItemAmethisteShowel(ElementsSurgeofWar instance) {
+	public ItemAmethisteShowel(ElementsSurgeofwarMod instance) {
 		super(instance, 18);
 	}
 

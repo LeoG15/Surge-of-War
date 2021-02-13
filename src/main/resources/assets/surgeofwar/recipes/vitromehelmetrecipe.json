@@ -1,0 +1,29 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:vitrome"
+    },
+    "1": {
+      "item": "surgeofwar:vitrome"
+    },
+    "2": {
+      "item": "surgeofwar:vitrome"
+    },
+    "3": {
+      "item": "surgeofwar:vitrome"
+    },
+    "5": {
+      "item": "surgeofwar:vitrome"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:vitromearmorhelmet",
+    "count": 1
+  }
+}

@@ -15,13 +15,13 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
 import com.leovideo.surgeofwar.creativetab.TabBlocksOfSurge;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class BlockNitroniumore extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class BlockNitroniumore extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nitroniumore")
 	public static final Block block = null;
-	public BlockNitroniumore(ElementsSurgeofWar instance) {
+	public BlockNitroniumore(ElementsSurgeofwarMod instance) {
 		super(instance, 56);
 	}
 

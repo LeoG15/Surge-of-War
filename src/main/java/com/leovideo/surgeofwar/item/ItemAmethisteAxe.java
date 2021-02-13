@@ -20,13 +20,13 @@ import net.minecraft.block.Block;
 import java.util.Set;
 
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ItemAmethisteAxe extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ItemAmethisteAxe extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:amethisteaxe")
 	public static final Item block = null;
-	public ItemAmethisteAxe(ElementsSurgeofWar instance) {
+	public ItemAmethisteAxe(ElementsSurgeofwarMod instance) {
 		super(instance, 17);
 	}
 

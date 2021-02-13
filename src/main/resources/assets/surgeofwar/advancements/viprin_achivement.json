@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "surgeofwar:vipringrass"
+    },
+    "title": {
+      "translate": "advancements.viprin_achivement.title"
+    },
+    "description": {
+      "translate": "advancements.viprin_achivement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "viprin_achivement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "surgeofwar:viprin"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "surgeofwar:installmod"
+}

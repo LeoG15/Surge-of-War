@@ -17,12 +17,15 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import java.util.Map;
+import java.util.HashMap;
+
 import com.leovideo.surgeofwar.procedure.ProcedureAmethistearmorBodyTickEvent;
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ItemAmethistearmor extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ItemAmethistearmor extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:amethistearmorhelmet")
 	public static final Item helmet = null;
 	@GameRegistry.ObjectHolder("surgeofwar:amethistearmorbody")
@@ -31,13 +34,13 @@ public class ItemAmethistearmor extends ElementsSurgeofWar.ModElement {
 	public static final Item legs = null;
 	@GameRegistry.ObjectHolder("surgeofwar:amethistearmorboots")
 	public static final Item boots = null;
-	public ItemAmethistearmor(ElementsSurgeofWar instance) {
+	public ItemAmethistearmor(ElementsSurgeofwarMod instance) {
 		super(instance, 11);
 	}
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("AMETHISTEARMOR", "surgeofwar:metihiste_", 200, new int[]{3, 6, 7, 4}, 9,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("AMETHISTEARMOR", "surgeofwar:edernium__-_opy", 200, new int[]{3, 6, 7, 4}, 9,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("block.dispenser.launch")), 2f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("amethistearmorhelmet")
 				.setRegistryName("amethistearmorhelmet").setCreativeTab(TabItemOfWar.tab));
@@ -48,7 +51,7 @@ public class ItemAmethistearmor extends ElementsSurgeofWar.ModElement {
 				int y = (int) entity.posY;
 				int z = (int) entity.posZ;
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					ProcedureAmethistearmorBodyTickEvent.executeProcedure($_dependencies);
 				}

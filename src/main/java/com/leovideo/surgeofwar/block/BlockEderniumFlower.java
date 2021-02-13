@@ -33,13 +33,13 @@ import java.util.Random;
 
 import com.leovideo.surgeofwar.world.WorldViprin;
 import com.leovideo.surgeofwar.creativetab.TabBlocksOfSurge;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class BlockEderniumFlower extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class BlockEderniumFlower extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:ederniumflower")
 	public static final Block block = null;
-	public BlockEderniumFlower(ElementsSurgeofWar instance) {
+	public BlockEderniumFlower(ElementsSurgeofwarMod instance) {
 		super(instance, 75);
 	}
 

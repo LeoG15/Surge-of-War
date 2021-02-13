@@ -35,13 +35,13 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class EntityKayn extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class EntityKayn extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 7;
 	public static final int ENTITYID_RANGED = 8;
-	public EntityKayn(ElementsSurgeofWar instance) {
+	public EntityKayn(ElementsSurgeofwarMod instance) {
 		super(instance, 50);
 	}
 

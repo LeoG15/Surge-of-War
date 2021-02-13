@@ -14,15 +14,18 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import java.util.Map;
+import java.util.HashMap;
+
 import com.leovideo.surgeofwar.procedure.ProcedureAmethisteItemIsCraftedsmelted;
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ItemAmethiste extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ItemAmethiste extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:amethiste")
 	public static final Item block = null;
-	public ItemAmethiste(ElementsSurgeofWar instance) {
+	public ItemAmethiste(ElementsSurgeofwarMod instance) {
 		super(instance, 2);
 	}
 
@@ -67,7 +70,7 @@ public class ItemAmethiste extends ElementsSurgeofWar.ModElement {
 			int y = (int) entity.posY;
 			int z = (int) entity.posZ;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				ProcedureAmethisteItemIsCraftedsmelted.executeProcedure($_dependencies);
 			}

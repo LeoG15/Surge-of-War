@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/obratumore",
+    "up": "surgeofwar:blocks/obratumore",
+    "north": "surgeofwar:blocks/obratumore",
+    "east": "surgeofwar:blocks/obratumore",
+    "south": "surgeofwar:blocks/obratumore",
+    "west": "surgeofwar:blocks/obratumore",
+    "particle": "surgeofwar:blocks/obratumore"
+  }
+}

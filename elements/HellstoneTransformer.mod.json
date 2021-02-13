@@ -1,0 +1,36 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hellstonetransformer",
+    "customModelName": "Normal",
+    "name": "Hellstone Transformer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 10,
+    "blocksAffected": [
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "HellstoneTransformerBlockDestroyedWithTool"
+    }
+  }
+}

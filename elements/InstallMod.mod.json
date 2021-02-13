@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 13,
   "_type": "achievement",
   "definition": {
     "achievementName": "Surge of War",
@@ -7,7 +7,7 @@
     "achievementIcon": {
       "value": "CUSTOM:ViprinGrass"
     },
-    "background": "2.png",
+    "background": "Default",
     "disableDisplay": false,
     "showPopup": false,
     "announceToChat": false,

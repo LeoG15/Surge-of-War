@@ -11,7 +11,6 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
-import net.minecraftforge.client.EnumHelperClient;
 
 import net.minecraft.world.gen.layer.IntCache;
 import net.minecraft.world.gen.layer.GenLayerZoom;
@@ -70,21 +69,20 @@ import java.util.Random;
 import java.util.List;
 
 import com.leovideo.surgeofwar.item.ItemViprin;
-import com.leovideo.surgeofwar.block.BlockViprinGrass;
 import com.leovideo.surgeofwar.block.BlockViprinDirt;
 import com.leovideo.surgeofwar.block.BlockViprinBlockPortal;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
 import com.google.common.cache.LoadingCache;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class WorldViprin extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class WorldViprin extends ElementsSurgeofwarMod.ModElement {
 	public static int DIMID = 3;
 	public static final boolean NETHER_TYPE = false;
 	@GameRegistry.ObjectHolder("surgeofwar:viprin_portal")
 	public static final BlockCustomPortal portal = null;
 	public static DimensionType dtype;
-	public WorldViprin(ElementsSurgeofWar instance) {
+	public WorldViprin(ElementsSurgeofwarMod instance) {
 		super(instance, 26);
 	}
 
@@ -133,14 +131,6 @@ public class WorldViprin extends ElementsSurgeofWar.ModElement {
 		@Override
 		public boolean canDoRainSnowIce(net.minecraft.world.chunk.Chunk chunk) {
 			return false;
-		}
-
-		@Override
-		@SideOnly(Side.CLIENT)
-		public net.minecraft.client.audio.MusicTicker.MusicType getMusicType() {
-			return EnumHelperClient.addMusicType("block.lava.ambient",
-					(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation(("block.lava.ambient"))),
-					6000, 24000);
 		}
 
 		@Override
@@ -749,7 +739,7 @@ public class WorldViprin extends ElementsSurgeofWar.ModElement {
 
 	public static class ChunkProviderModded implements IChunkGenerator {
 		private static final IBlockState STONE = BlockViprinDirt.block.getDefaultState();
-		private static final IBlockState STONE2 = BlockViprinGrass.block.getDefaultState();
+		private static final IBlockState STONE2 = BlockViprinDirt.block.getDefaultState();
 		private static final IBlockState FLUID = Blocks.WATER.getDefaultState();
 		private static final IBlockState AIR = Blocks.AIR.getDefaultState();
 		private static final IBlockState BEDROCK = Blocks.BEDROCK.getDefaultState();

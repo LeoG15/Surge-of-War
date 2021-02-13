@@ -1,15 +1,15 @@
 {
-  "_fv": 6,
+  "_fv": 13,
   "_type": "mob",
   "definition": {
     "mobName": "Kayn",
     "mobLabel": "",
-    "mobModelTexture": "ayn.png",
     "mobModelName": "Biped",
+    "mobModelTexture": "ayn.png",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
-    "armorBaseValue": 0.0,
+    "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -9248713,
@@ -20,7 +20,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MobOfChaos"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -46,12 +46,17 @@
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 2,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
     "trackingRange": 64,
     "health": 15,
     "xpAmount": 5,
     "waterMob": false,
     "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
@@ -83,16 +88,17 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><next><block type=\"avoid_entity\"><field name=\"radius\">8</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1.2</field><field name=\"entity\">EntityPlayer</field><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
+    "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {
       "value": ""
     },
+    "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 2,

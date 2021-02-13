@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 
 import com.leovideo.surgeofwar.item.ItemAmethiste;
 import com.leovideo.surgeofwar.block.BlockAmethisteore;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class RecipeAmethisteRecipe extends ElementsSurgeofWar.ModElement {
-	public RecipeAmethisteRecipe(ElementsSurgeofWar instance) {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class RecipeAmethisteRecipe extends ElementsSurgeofwarMod.ModElement {
+	public RecipeAmethisteRecipe(ElementsSurgeofwarMod instance) {
 		super(instance, 8);
 	}
 

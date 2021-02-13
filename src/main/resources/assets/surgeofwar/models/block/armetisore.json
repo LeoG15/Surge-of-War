@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/armetisore",
+    "up": "surgeofwar:blocks/armetisore",
+    "north": "surgeofwar:blocks/armetisore",
+    "east": "surgeofwar:blocks/armetisore",
+    "south": "surgeofwar:blocks/armetisore",
+    "west": "surgeofwar:blocks/armetisore",
+    "particle": "surgeofwar:blocks/armetisore"
+  }
+}

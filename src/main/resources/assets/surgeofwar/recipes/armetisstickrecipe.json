@@ -1,0 +1,30 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "surgeofwar:chaosshard"
+    },
+    "2": {
+      "item": "surgeofwar:armetis"
+    },
+    "4": {
+      "item": "surgeofwar:folderstick"
+    },
+    "5": {
+      "item": "surgeofwar:chaosshard"
+    },
+    "6": {
+      "item": "surgeofwar:folderstick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:armetisstick",
+    "count": 2
+  }
+}

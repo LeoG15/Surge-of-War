@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/aznarislogtop",
+    "up": "surgeofwar:blocks/aznarislogtop",
+    "north": "surgeofwar:blocks/aznarislog",
+    "east": "surgeofwar:blocks/aznarislog",
+    "south": "surgeofwar:blocks/aznarislog",
+    "west": "surgeofwar:blocks/aznarislog",
+    "particle": "surgeofwar:blocks/aznarislogtop"
+  }
+}

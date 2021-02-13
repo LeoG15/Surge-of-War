@@ -1,0 +1,29 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "amethistestick",
+    "customModelName": "Normal",
+    "name": "Amethiste Stick",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 0.0,
+    "usageCount": 20,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AmethisteStickRightClickedInAir"
+    }
+  }
+}

@@ -1,7 +1,8 @@
 {
   "id_map": {
-    "DIMENSION": 1,
-    "ENTITY": 15
+    "GUI": 1,
+    "ENTITY": 29,
+    "DIMENSION": 3
   },
   "mod_elements": [
     {
@@ -24,14 +25,6 @@
       "name": "ItemOfWar",
       "type": "tab",
       "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "WitherInIce",
-      "type": "block",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -258,7 +251,7 @@
       "type": "block",
       "sortid": 25,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vhacanderlog"
     },
@@ -332,14 +325,6 @@
       }
     },
     {
-      "name": "ViprinBlockPortalrecipe",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "AmethisteArmorRecipe",
       "type": "recipe",
       "sortid": 33,
@@ -383,14 +368,6 @@
       "name": "Vicoque",
       "type": "block",
       "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "GoldPumpkin",
-      "type": "block",
-      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -617,15 +594,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -881,50 +858,1823 @@
         "0": 14,
         "1": 15
       }
+    },
+    {
+      "name": "EderniumApple",
+      "type": "food",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VitromeArmor",
+      "type": "armor",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "VitromeArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EderniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumAppleRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NotchAppleRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmethistePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmethisteAxeRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmethisteShowelRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AznarisGrass",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AznarisDirt",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AznarisStone",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObratumOre",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Obratum",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObratumRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NitroniumarmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldArmor",
+      "type": "armor",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EmeraldRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldStickRightClickedInAir",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldStick",
+      "type": "tool",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldSword",
+      "type": "tool",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VitromeHelmetRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VitromeBodyRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VitromeLegsRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VitromeBootsRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldStickRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldSwordRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldHelmetRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldBodyRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldLegsRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldBootsRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumAppleFoodEaten",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EderniumStickRightClickedInAir",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EderniumStick",
+      "type": "tool",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmethisteStickRightClickedInAir",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmethisteStick",
+      "type": "tool",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AznarisOmam",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AznarisLog",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "AznarisLeaves",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AznarisFlower",
+      "type": "plant",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObratumStickRightClickedInAir",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObratumStick",
+      "type": "tool",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumStickRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AmethisteStickRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ObratumStickRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Aznaris",
+      "type": "dimension",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 2
+      }
+    },
+    {
+      "name": "AznarisBiome",
+      "type": "biome",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AznarisOmamRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AznarTheChaos4thPhase",
+      "type": "mob",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 16,
+        "1": 17
+      }
+    },
+    {
+      "name": "AznarTheChaos4thPhaseEntityDies",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AznarTheChaos3thPhase",
+      "type": "mob",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 20,
+        "1": 21
+      }
+    },
+    {
+      "name": "AznarTheChaos3thPhaseEntityDies",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AznarTheChaos2ndPhaseEntityIsHurt",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AznarTheChaos2ndPhaseEntityDies",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AznarTheChaos2ndPhase",
+      "type": "mob",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 22,
+        "1": 23
+      }
+    },
+    {
+      "name": "AznarTheChaos4thPhaseEntityIsHurt",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AznarTheChaosEntityIsHurt",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AznarTheChaosEntityDies",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AznarTheChaos",
+      "type": "mob",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 24,
+        "1": 25
+      }
+    },
+    {
+      "name": "AznarTheChaos3thPhaseEntityIsHurt",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChaoticPowerRightClickedInAir",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ChaoticPower",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChaoticPowerRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChaosShard",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CreationShard",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DoomOrb",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CreationOrb",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ArmetisArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArmetisArmor",
+      "type": "armor",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Armetis",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ArmetisOre",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ArmetisBoots",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BienEquipe",
+      "type": "achievement",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ArmetisLegs",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ArmetisBody",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ArmetisHelmet",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ArmetisStickRightClickedInAir",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArmetisStick",
+      "type": "tool",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ArmetisStickRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldBroadsword",
+      "type": "tool",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumBroadsword",
+      "type": "tool",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RenforcedEderniumIngot",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RenforcedEderniumIngotRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumBroadswordRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmeraldBroadswordRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Cuivre",
+      "type": "item",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CuivreOre",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CuivreRappier",
+      "type": "tool",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumRappier",
+      "type": "tool",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ViprinIgniter",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CuivreRappierRecipe",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumRappierRecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CuivreForge",
+      "type": "item",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EderniumArmor",
+      "type": "armor",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EderniumArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hellstone",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HellstoneTransformer",
+      "type": "tool",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HellstoneTransformerBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HellstoneArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HellstoneArmor",
+      "type": "armor",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Hellstonebootsrecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HellstoneLegsRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HellstoneBodyRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HellstoneHelmetRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HellstoneTransformerRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Copperseed",
+      "type": "plant",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperSeedFinish",
+      "type": "plant",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperseedNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperSeedFinishPlantRightClicked",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RepairHammer",
+      "type": "item",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HellstoneSword",
+      "type": "tool",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperStick",
+      "type": "item",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HellstoneSwordRecipe",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperStickRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GodSlayer",
+      "type": "achievement",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FerForgeRecipe",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DirtGolem",
+      "type": "mob",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 26,
+        "1": 27
+      }
+    },
+    {
+      "name": "CopperseedMiseAJourDuTick",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperseed_mise_a_jour_du_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Copperhang",
+      "type": "biome",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperhang"
+    },
+    {
+      "name": "CopperhandFlower",
+      "type": "plant",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copperhand_flower"
+    },
+    {
+      "name": "CopperHandReed",
+      "type": "plant",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_hand_reed"
+    },
+    {
+      "name": "GalzanDirt",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galzan_dirt"
+    },
+    {
+      "name": "GalzanGrass",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galzan_grass"
+    },
+    {
+      "name": "GalzanLog",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "galzan_log"
+    },
+    {
+      "name": "GalzanLeaves",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galzan_leaves"
+    },
+    {
+      "name": "GalzanMushroomBlock",
+      "type": "plant",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galzan_mushroom_block"
+    },
+    {
+      "name": "PinkGalzanMushroom",
+      "type": "plant",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_galzan_mushroom"
+    },
+    {
+      "name": "RedGalzanMushroom",
+      "type": "plant",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_galzan_mushroom"
+    },
+    {
+      "name": "GalzanBiome",
+      "type": "biome",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galzan_biome"
+    },
+    {
+      "name": "GalzanCandyBlock",
+      "type": "block",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galzan_candy_block"
+    },
+    {
+      "name": "Galzan",
+      "type": "dimension",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 3
+      },
+      "registry_name": "galzan"
+    },
+    {
+      "name": "FragonitePlant",
+      "type": "plant",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fragonite_plant"
+    },
+    {
+      "name": "Fragonite",
+      "type": "item",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fragonite"
+    },
+    {
+      "name": "Revery",
+      "type": "achievement",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "revery"
+    },
+    {
+      "name": "ViprinAchivement",
+      "type": "achievement",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viprin_achivement"
+    },
+    {
+      "name": "AznarisAchivement",
+      "type": "achievement",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aznaris_achivement"
+    },
+    {
+      "name": "ViprinIgniterRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viprin_igniter_recipe"
+    },
+    {
+      "name": "AznarisIgniterRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aznaris_igniter_recipe"
+    },
+    {
+      "name": "ArmetisUnlockChest",
+      "type": "gui",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "armetis_unlock_chest"
+    },
+    {
+      "name": "SlotUnlock",
+      "type": "item",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slot_unlock"
+    },
+    {
+      "name": "RedemptionQuandLentiteMeurt",
+      "type": "procedure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redemption_quand_lentite_meurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Redemption",
+      "type": "mob",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 28,
+        "1": 29
+      },
+      "registry_name": "redemption"
+    },
+    {
+      "name": "FrogoniteToEdernium",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frogonite_to_edernium"
+    },
+    {
+      "name": "PandoraBricks",
+      "type": "block",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandora_bricks"
+    },
+    {
+      "name": "RedPandoraBricks",
+      "type": "block",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_pandora_bricks"
+    },
+    {
+      "name": "GoldReed",
+      "type": "plant",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_reed"
+    },
+    {
+      "name": "BigBottle",
+      "type": "item",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_bottle"
+    },
+    {
+      "name": "PandoraBottleQuandLaNourritureEstMangee",
+      "type": "procedure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandora_bottle_quand_la_nourriture_est_mangee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PandoraBottle",
+      "type": "food",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandora_bottle"
+    },
+    {
+      "name": "PandoraLog",
+      "type": "block",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandora_log"
+    },
+    {
+      "name": "PandoraLeaves",
+      "type": "block",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandora_leaves"
+    },
+    {
+      "name": "PandoraDirt",
+      "type": "block",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandora_dirt"
+    },
+    {
+      "name": "PandoraGrass",
+      "type": "block",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandora_grass"
+    },
+    {
+      "name": "Pandora",
+      "type": "biome",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pandora"
+    },
+    {
+      "name": "AznarisSword",
+      "type": "tool",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aznaris_sword"
+    },
+    {
+      "name": "SunPower",
+      "type": "item",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sun_power"
+    },
+    {
+      "name": "SunSwordQuandUneEntiteVivanteEstFrappeeAvecLoutil",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sun_sword_quand_une_entite_vivante_est_frappee_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.folderstick.name": "Folder Stick",
-      "tile.viprinlog.name": "Viprin Log",
+      "advancements.godslayer.title": "God Slayer",
       "item.edernium.name": "Edernium",
+      "tile.viprinlog.name": "Viprin Log",
+      "item.folderstick.name": "Folder Stick",
+      "item.aznaris.name": "Aznaris Massar",
+      "item.cuivreforge.name": "Cuivre Forge",
+      "item.vitromearmorboots.name": "Vitrome Armor Boots",
+      "item.copperstick.name": "Copper Stick",
+      "item.emeraldbroadsword.name": "Emerald Broadsword",
       "entity.foldercow.name": "Folder Cow",
       "item.icebullet.name": "Ice Bullet",
-      "item.nitronium.name": "Nitronium",
+      "item.ederniumstick.name": "Edernium Stick",
+      "tile.galzan_leaves.name": "Galzan Leaves",
+      "item.chaoticpower.name": "Chaotic Power",
+      "tile.red_pandora_bricks.name": "Red Pandora Bricks",
       "item.amethistepickaxe.name": "Amethiste Pickaxe",
-      "tile.viprindirt.name": "Viprin Dirt",
+      "item.amethistestick.name": "Amethiste Stick",
+      "item.vitromearmorbody.name": "Vitrome Armor Body",
+      "item.armetisarmorlegs.name": "Armetis Armor Leggings",
+      "entity.dirtgolem.name": "Dirt Golem",
+      "tile.pandora_leaves.name": "Pandora Leaves",
+      "item.ederniumarmorhelmet.name": "Edernium Armor Helmet",
+      "item.hellstonesword.name": "Hellstone Sword",
       "tile.ederniumflower.name": "Edernium Flower",
+      "item.aznaris_sword.name": "Aznaris Sword",
       "item.ederniumsword.name": "Edernium Sword",
-      "tile.vhacanderleaves.name": "Vhacander leaves",
-      "tile.ederniumore.name": "Edernium Ore",
+      "tile.pandora_log.name": "Pandora Log",
+      "tile.obratumore.name": "Obratum Ore",
       "item.ederniumfragment.name": "Edernium Fragment",
+      "item.doomorb.name": "Doom Orb",
       "entity.booklingmage.name": "Bookling Mage",
       "itemGroup.tabblocksofsurge": "Mythics Blocks",
-      "tile.vhacandergrass.name": "Vhacander grass",
-      "tile.amethisteore.name": "Amethiste ore",
-      "item.amethistearmorlegs.name": "Amethiste Leggings",
+      "item.vitromearmorlegs.name": "Vitrome Armor Leggings",
+      "advancements.viprin_achivement.title": "Viprin",
+      "item.sun_power.name": "Sun Power",
+      "item.emeraldarmorbody.name": "Emerald Armor Body",
+      "advancements.revery.title": "Galzan",
       "tile.vhacanderlog.name": "Vhacander log",
-      "advancements.installmod.descr": "Surge of War have been installed !",
-      "tile.witherinice.name": "Wither In Ice",
-      "tile.viprinleaves.name": "Viprin Leaves",
+      "item.armetisarmorbody.name": "Armetis Armor Body",
+      "item.renforcedederniumingot.name": "Renforced Edernium Ingot",
+      "item.hellstonearmorlegs.name": "Hellstone Armor Leggings",
       "item.vitrome.name": "Vitrome",
-      "item.amethisteapple.name": "Amethiste Apple",
-      "item.nitroniumarmorbody.name": "Nitronium Body",
+      "entity.aznarthechaos4thphase.name": "Aznar The Chaos4th Phase",
+      "item.galzan.name": "Galzan Portal Igniter",
+      "item.hellstonearmorhelmet.name": "Hellstone Armor Helmet",
+      "entity.aznarthechaos3thphase.name": "Aznar The Chaos 3th Phase",
+      "entity.aznarthechaos2ndphase.name": "Aznar The Chaos 2nd Phase",
       "tile.vhacanderdirt.name": "Vhacander Dirt",
       "item.lanceglace.name": "Lance Glace",
-      "item.nitroniumsword.name": "Nitronium Sword",
       "itemGroup.tabitemofwar": "Item Of War",
+      "item.creationorb.name": "Creation Orb",
+      "item.hellstonearmorbody.name": "Hellstone Armor Body",
       "advancements.ageofamethiste.descr": "Your preparation to the war is fast ! ",
+      "tile.aznarisleaves.name": "Aznaris Leaves",
       "item.ederniumnugget.name": "Edernium Nugget",
-      "advancements.lelingotdeglace.descr": "Le progret avant tout !",
+      "item.chaosshard.name": "Chaos Shard",
       "item.amethisteshowel.name": "Amethiste Showel",
-      "item.viprin.name": "Viprin Portal Igniter",
-      "item.foldersteak.name": "Folder Steak",
+      "advancements.bienequipe.descr": "Ca fait quoi d\u0027avoir du loot ?",
+      "item.ederniumarmorlegs.name": "Edernium Armor Leggings",
+      "item.armetisarmorhelmet.name": "Armetis Armor Helmet",
       "advancements.firstgoblinkill.title": "First Goblin Kill",
-      "tile.goldpumpkin.name": "Emerald Fruit",
-      "entity.devil.name": "Devil",
+      "item.repairhammer.name": "Repair Hammer",
       "item.ironknife.name": "Iron Knife",
       "advancements.firstgoblinkill.descr": "Good kill ! ",
       "tile.nagaradirt.name": "Nagara Dirt",
@@ -932,66 +2682,164 @@
       "item.amethistearmorboots.name": "Amethiste Boots",
       "tile.nagaraleaves.name": "Nagara Leaves",
       "item.amethisteaxe.name": "Amethiste Axe",
-      "entity.kayno.name": "Kayno",
-      "item.amethiste.name": "Amethiste",
+      "tile.cuivreore.name": "Cuivre Ore",
       "tile.nagaragrass.name": "Nagara Grass",
-      "tile.vicoque.name": "Vicoque",
+      "tile.aznarisomam.name": "Aznaris Omam",
       "entity.kayn.name": "Kayn",
-      "item.nitroniumarmorhelmet.name": "Nitronium Helmet",
       "item.nitroniumarmorboots.name": "Nitronium Boots",
-      "item.amethistearmorhelmet.name": "Amethiste Helmet",
-      "item.amethistesword.name": "Amethiste Sword",
+      "item.ederniumarmorboots.name": "Edernium Armor Boots",
+      "tile.copperseed.name": "Copper seed",
+      "tile.copper_hand_reed.name": "Copper Hand Reed",
+      "tile.galzan_grass.name": "Galzan Grass",
       "entity.booklinsorcerer.name": "Booklin Sorcerer",
       "item.vitromesword.name": "Vitrome Sword",
+      "item.creationshard.name": "Creation Shard",
       "tile.nitroniumore.name": "Nitronium ore",
-      "advancements.lelingotdeglace.title": "Le Lingot De Glace",
+      "tile.galzan_candy_block.name": "Galzan Candy Block",
+      "tile.copperhand_flower.name": "Copperhand Flower",
+      "item.armetis.name": "Armetis",
       "item.nitroniumpickaxe.name": "Nitronium Pickaxe",
+      "tile.pandora_grass.name": "Pandora Grass",
       "advancements.ageofamethiste.title": "Age Of Amethiste",
       "tile.nagarawoods.name": "Nagara Log",
       "advancements.installmod.title": "Surge of War",
+      "item.fragonite.name": "Fragonite",
+      "advancements.viprin_achivement.descr": "It is sauvage ?",
       "tile.vipringrass.name": "Viprin Grass",
       "item.nitroniumarmorlegs.name": "Nitronium Leggings",
+      "tile.aznarisdirt.name": "Aznaris Dirt",
+      "tile.pandora_dirt.name": "Pandora Dirt",
+      "tile.copperseedfinish.name": "Copper Seed 2",
+      "item.emeraldarmorboots.name": "Emerald Armor Boots",
+      "item.hellstonearmorboots.name": "Hellstone Armor Boots",
+      "item.vitromearmorhelmet.name": "Vitrome Armor Helmet",
+      "entity.redemption.name": "Redemption",
+      "item.nitronium.name": "Nitronium",
+      "entity.aznarthechaos.name": "Aznar The Chaos",
+      "tile.viprindirt.name": "Viprin Dirt",
+      "tile.pink_galzan_mushroom.name": "Pink Galzan Mushroom",
+      "item.ederniumrappier.name": "Renforced Edernium Rappier",
+      "advancements.godslayer.descr": "You look than a god slayer !",
+      "item.emeraldsword.name": "Emerald Sword",
+      "item.ederniumbroadsword.name": "Edernium Broadsword",
+      "tile.aznarisgrass.name": "Aznaris Grass",
+      "tile.vhacanderleaves.name": "Vhacander leaves",
+      "tile.ederniumore.name": "Edernium Ore",
+      "item.ederniumapple.name": "Edernium Apple",
+      "tile.fragonite_plant.name": "Fragonite Plant",
+      "tile.vhacandergrass.name": "Vhacander grass",
+      "item.amethistearmorlegs.name": "Amethiste Leggings",
+      "tile.amethisteore.name": "Amethiste ore",
+      "tile.galzan_dirt.name": "Galzan Dirt",
+      "tile.galzan_log.name": "Galzan Log",
+      "advancements.installmod.descr": "Surge of War have been installed !",
+      "tile.aznarisflower.name": "Aznaris Flower",
+      "advancements.aznaris_achivement.title": "Aznaris",
+      "tile.viprinleaves.name": "Viprin Leaves",
+      "item.obratumstick.name": "Obratum Stick",
+      "item.amethisteapple.name": "Amethiste Apple",
+      "item.nitroniumarmorbody.name": "Nitronium Body",
+      "item.slot_unlock.name": "Slot Unlock",
+      "item.nitroniumsword.name": "Nitronium Sword",
+      "advancements.lelingotdeglace.descr": "Le progret avant tout !",
+      "item.hellstone.name": "Hellstone",
+      "tile.armetisore.name": "Armetis Ore",
+      "item.pandora_bottle.name": "Pandora Bottle",
+      "item.cuivrerappier.name": "Cuivre Rappier",
+      "tile.gold_reed.name": "Gold Reed",
+      "tile.aznarislog.name": "Aznaris Log",
+      "item.viprin.name": "Viprin Portal Igniter",
+      "tile.galzan_mushroom_block.name": "Galzan Mushroom Block",
+      "item.foldersteak.name": "Folder Steak",
+      "advancements.bienequipe.title": "Bien Equipé",
+      "item.emeraldarmorlegs.name": "Emerald Armor Leggings",
+      "entity.devil.name": "Devil",
+      "item.cuivre.name": "Cuivre",
+      "item.armetisarmorboots.name": "Armetis Armor Boots",
+      "entity.kayno.name": "Kayno",
+      "item.amethiste.name": "Amethiste",
+      "item.obratum.name": "Obratum",
+      "tile.vicoque.name": "Vicoque",
+      "item.nitroniumarmorhelmet.name": "Nitronium Helmet",
+      "tile.red_galzan_mushroom.name": "Red Galzan Mushroom",
+      "item.amethistearmorhelmet.name": "Amethiste Helmet",
+      "item.amethistesword.name": "Amethiste Sword",
+      "advancements.revery.descr": "It is a revery ?",
+      "item.emeraldstick.name": "Emerald Stick",
+      "tile.aznarisstone.name": "Aznaris Stone",
+      "item.armetisstick.name": "Armetis Stick",
+      "item.hellstonetransformer.name": "Hellstone Transformer",
+      "item.ederniumarmorbody.name": "Edernium Armor Body",
+      "advancements.aznaris_achivement.descr": "It is chaos ?",
+      "advancements.lelingotdeglace.title": "Le Lingot De Glace",
+      "item.big_bottle.name": "Big Bottle",
+      "item.emeraldarmorhelmet.name": "Emerald Armor Helmet",
+      "tile.pandora_bricks.name": "Pandora Bricks",
       "item.amethistearmorbody.name": "Amethiste Body"
     },
     "fr_fr": {
-      "item.folderstick.name": "Folder Stick",
-      "tile.viprinlog.name": "Viprin Log",
+      "advancements.godslayer.title": "God Slayer",
       "item.edernium.name": "Edernium",
+      "tile.viprinlog.name": "Viprin Log",
+      "item.folderstick.name": "Folder Stick",
+      "item.aznaris.name": "Aznaris Massar",
+      "item.cuivreforge.name": "Cuivre Forge",
+      "item.vitromearmorboots.name": "Vitrome Armor Boots",
+      "item.copperstick.name": "Copper Stick",
+      "item.emeraldbroadsword.name": "Emerald Broadsword",
       "entity.foldercow.name": "Folder Cow",
       "item.icebullet.name": "Ice Bullet",
-      "item.nitronium.name": "Nitronium",
+      "item.ederniumstick.name": "Edernium Stick",
+      "tile.galzan_leaves.name": "Galzan Leaves",
+      "item.chaoticpower.name": "Chaotic Power",
+      "tile.red_pandora_bricks.name": "Red Pandora Bricks",
       "item.amethistepickaxe.name": "Amethiste Pickaxe",
-      "tile.viprindirt.name": "Viprin Dirt",
+      "item.amethistestick.name": "Amethiste Stick",
+      "item.vitromearmorbody.name": "Vitrome Armor Body",
+      "item.armetisarmorlegs.name": "Armetis Armor Leggings",
+      "entity.dirtgolem.name": "Dirt Golem",
+      "tile.pandora_leaves.name": "Pandora Leaves",
+      "item.ederniumarmorhelmet.name": "Edernium Armor Helmet",
+      "item.hellstonesword.name": "Hellstone Sword",
       "tile.ederniumflower.name": "Edernium Flower",
+      "item.aznaris_sword.name": "Aznaris Sword",
       "item.ederniumsword.name": "Edernium Sword",
-      "tile.vhacanderleaves.name": "Vhacander leaves",
-      "tile.ederniumore.name": "Edernium Ore",
+      "tile.pandora_log.name": "Pandora Log",
+      "tile.obratumore.name": "Obratum Ore",
       "item.ederniumfragment.name": "Edernium Fragment",
+      "item.doomorb.name": "Doom Orb",
       "entity.booklingmage.name": "Bookling Mage",
       "itemGroup.tabblocksofsurge": "Blocks Of Surge",
-      "tile.vhacandergrass.name": "Vhacander grass",
-      "tile.amethisteore.name": "Amethiste ore",
-      "item.amethistearmorlegs.name": "Amethiste Leggings",
+      "item.vitromearmorlegs.name": "Vitrome Armor Leggings",
+      "advancements.viprin_achivement.title": "Viprin",
+      "item.sun_power.name": "Sun Power",
+      "item.emeraldarmorbody.name": "Emerald Armor Body",
+      "advancements.revery.title": "Galzan",
       "tile.vhacanderlog.name": "Vhacander log",
-      "advancements.installmod.descr": "Surge of War have been installed !",
-      "tile.witherinice.name": "Wither In Ice",
-      "tile.viprinleaves.name": "Viprin Leaves",
+      "item.armetisarmorbody.name": "Armetis Armor Body",
+      "item.renforcedederniumingot.name": "Renforced Edernium Ingot",
+      "item.hellstonearmorlegs.name": "Hellstone Armor Leggings",
       "item.vitrome.name": "Vitrome",
-      "item.amethisteapple.name": "Pomme d\u0027Amethiste",
-      "item.nitroniumarmorbody.name": "Nitronium Body",
+      "entity.aznarthechaos4thphase.name": "Aznar The Chaos4th Phase",
+      "item.galzan.name": "Galzan Portal Igniter",
+      "item.hellstonearmorhelmet.name": "Hellstone Armor Helmet",
+      "entity.aznarthechaos3thphase.name": "Aznar The Chaos 3th Phase",
+      "entity.aznarthechaos2ndphase.name": "Aznar The Chaos 2nd Phase",
       "tile.vhacanderdirt.name": "Vhacander Dirt",
       "item.lanceglace.name": "Lance Glace",
-      "item.nitroniumsword.name": "Nitronium Sword",
       "itemGroup.tabitemofwar": "Item Of War",
+      "item.creationorb.name": "Creation Orb",
+      "item.hellstonearmorbody.name": "Hellstone Armor Body",
       "advancements.ageofamethiste.descr": "Your preparation to the war is fast ! ",
+      "tile.aznarisleaves.name": "Aznaris Leaves",
       "item.ederniumnugget.name": "Edernium Nugget",
-      "advancements.lelingotdeglace.descr": "Le progret avant tout !",
+      "item.chaosshard.name": "Chaos Shard",
       "item.amethisteshowel.name": "Amethiste Showel",
-      "item.viprin.name": "Viprin Portal Igniter",
-      "item.foldersteak.name": "Folder Steak",
+      "advancements.bienequipe.descr": "Ca fait quoi d\u0027avoir du loot ?",
+      "item.ederniumarmorlegs.name": "Edernium Armor Leggings",
+      "item.armetisarmorhelmet.name": "Armetis Armor Helmet",
       "advancements.firstgoblinkill.title": "First Goblin Kill",
-      "tile.goldpumpkin.name": "Gold Pumpkin",
-      "entity.devil.name": "Devil",
+      "item.repairhammer.name": "Repair Hammer",
       "item.ironknife.name": "Iron Knife",
       "advancements.firstgoblinkill.descr": "Good kill ! ",
       "tile.nagaradirt.name": "Nagara Dirt",
@@ -999,25 +2847,99 @@
       "item.amethistearmorboots.name": "Amethiste Boots",
       "tile.nagaraleaves.name": "Nagara Leaves",
       "item.amethisteaxe.name": "Amethiste Axe",
-      "entity.kayno.name": "Kayno",
-      "item.amethiste.name": "Amethiste",
+      "tile.cuivreore.name": "Cuivre Ore",
       "tile.nagaragrass.name": "Nagara Grass",
-      "tile.vicoque.name": "Vicoque",
+      "tile.aznarisomam.name": "Aznaris Omam",
       "entity.kayn.name": "Kayn",
-      "item.nitroniumarmorhelmet.name": "Nitronium Helmet",
       "item.nitroniumarmorboots.name": "Nitronium Boots",
-      "item.amethistearmorhelmet.name": "Amethiste Helmet",
-      "item.amethistesword.name": "Amethiste Sword",
+      "item.ederniumarmorboots.name": "Edernium Armor Boots",
+      "tile.copperseed.name": "Copper seed",
+      "tile.copper_hand_reed.name": "Copper Hand Reed",
+      "tile.galzan_grass.name": "Galzan Grass",
       "entity.booklinsorcerer.name": "Booklin Sorcerer",
       "item.vitromesword.name": "Vitrome Sword",
+      "item.creationshard.name": "Creation Shard",
       "tile.nitroniumore.name": "Nitronium ore",
-      "advancements.lelingotdeglace.title": "Le Lingot De Glace",
+      "tile.galzan_candy_block.name": "Galzan Candy Block",
+      "tile.copperhand_flower.name": "Copperhand Flower",
+      "item.armetis.name": "Armetis",
       "item.nitroniumpickaxe.name": "Nitronium Pickaxe",
+      "tile.pandora_grass.name": "Pandora Grass",
       "advancements.ageofamethiste.title": "Age Of Amethiste",
       "tile.nagarawoods.name": "Nagara Log",
       "advancements.installmod.title": "Surge of War",
+      "item.fragonite.name": "Fragonite",
+      "advancements.viprin_achivement.descr": "It is sauvage ?",
       "tile.vipringrass.name": "Viprin Grass",
       "item.nitroniumarmorlegs.name": "Nitronium Leggings",
+      "tile.aznarisdirt.name": "Aznaris Dirt",
+      "tile.pandora_dirt.name": "Pandora Dirt",
+      "tile.copperseedfinish.name": "Copper Seed 2",
+      "item.emeraldarmorboots.name": "Emerald Armor Boots",
+      "item.hellstonearmorboots.name": "Hellstone Armor Boots",
+      "item.vitromearmorhelmet.name": "Vitrome Armor Helmet",
+      "entity.redemption.name": "Redemption",
+      "item.nitronium.name": "Nitronium",
+      "entity.aznarthechaos.name": "Aznar The Chaos",
+      "tile.viprindirt.name": "Viprin Dirt",
+      "tile.pink_galzan_mushroom.name": "Pink Galzan Mushroom",
+      "item.ederniumrappier.name": "Renforced Edernium Rappier",
+      "advancements.godslayer.descr": "You look than a god slayer !",
+      "item.emeraldsword.name": "Emerald Sword",
+      "item.ederniumbroadsword.name": "Edernium Broadsword",
+      "tile.aznarisgrass.name": "Aznaris Grass",
+      "tile.vhacanderleaves.name": "Vhacander leaves",
+      "tile.ederniumore.name": "Edernium Ore",
+      "item.ederniumapple.name": "Edernium Apple",
+      "tile.fragonite_plant.name": "Fragonite Plant",
+      "tile.vhacandergrass.name": "Vhacander grass",
+      "item.amethistearmorlegs.name": "Amethiste Leggings",
+      "tile.amethisteore.name": "Amethiste ore",
+      "tile.galzan_dirt.name": "Galzan Dirt",
+      "tile.galzan_log.name": "Galzan Log",
+      "advancements.installmod.descr": "Surge of War have been installed !",
+      "tile.aznarisflower.name": "Aznaris Flower",
+      "advancements.aznaris_achivement.title": "Aznaris",
+      "tile.viprinleaves.name": "Viprin Leaves",
+      "item.obratumstick.name": "Obratum Stick",
+      "item.amethisteapple.name": "Pomme d\u0027Amethiste",
+      "item.nitroniumarmorbody.name": "Nitronium Body",
+      "item.slot_unlock.name": "Slot Unlock",
+      "item.nitroniumsword.name": "Nitronium Sword",
+      "advancements.lelingotdeglace.descr": "Le progret avant tout !",
+      "item.hellstone.name": "Hellstone",
+      "tile.armetisore.name": "Armetis Ore",
+      "item.pandora_bottle.name": "Pandora Bottle",
+      "item.cuivrerappier.name": "Cuivre Rappier",
+      "tile.gold_reed.name": "Gold Reed",
+      "tile.aznarislog.name": "Aznaris Log",
+      "item.viprin.name": "Viprin Portal Igniter",
+      "tile.galzan_mushroom_block.name": "Galzan Mushroom Block",
+      "item.foldersteak.name": "Folder Steak",
+      "advancements.bienequipe.title": "Bien Equipé",
+      "item.emeraldarmorlegs.name": "Emerald Armor Leggings",
+      "entity.devil.name": "Devil",
+      "item.cuivre.name": "Cuivre",
+      "item.armetisarmorboots.name": "Armetis Armor Boots",
+      "entity.kayno.name": "Kayno",
+      "item.amethiste.name": "Amethiste",
+      "item.obratum.name": "Obratum",
+      "tile.vicoque.name": "Vicoque",
+      "item.nitroniumarmorhelmet.name": "Nitronium Helmet",
+      "tile.red_galzan_mushroom.name": "Red Galzan Mushroom",
+      "item.amethistearmorhelmet.name": "Amethiste Helmet",
+      "item.amethistesword.name": "Amethiste Sword",
+      "advancements.revery.descr": "It is a revery ?",
+      "item.emeraldstick.name": "Emerald Stick",
+      "tile.aznarisstone.name": "Aznaris Stone",
+      "item.armetisstick.name": "Armetis Stick",
+      "item.hellstonetransformer.name": "Hellstone Transformer",
+      "item.ederniumarmorbody.name": "Edernium Armor Body",
+      "advancements.aznaris_achivement.descr": "It is chaos ?",
+      "advancements.lelingotdeglace.title": "Le Lingot De Glace",
+      "item.big_bottle.name": "Big Bottle",
+      "item.emeraldarmorhelmet.name": "Emerald Armor Helmet",
+      "tile.pandora_bricks.name": "Pandora Bricks",
       "item.amethistearmorbody.name": "Amethiste Body"
     }
   },
@@ -1037,5 +2959,5 @@
     "modElementsPackage": "com.leovideo.surgeofwar",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000214217
+  "mcreatorVersion": 202000547520
 }

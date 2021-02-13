@@ -20,15 +20,15 @@ import java.util.Set;
 import java.util.HashMap;
 
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
 import com.google.common.collect.Multimap;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ItemNitroniumSword extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ItemNitroniumSword extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nitroniumsword")
 	public static final Item block = null;
-	public ItemNitroniumSword(ElementsSurgeofWar instance) {
+	public ItemNitroniumSword(ElementsSurgeofwarMod instance) {
 		super(instance, 63);
 	}
 

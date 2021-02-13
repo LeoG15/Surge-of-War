@@ -38,18 +38,20 @@ import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.Minecraft;
 
+import java.util.Map;
 import java.util.Iterator;
+import java.util.HashMap;
 import java.util.ArrayList;
 
 import com.leovideo.surgeofwar.procedure.ProcedureBooklingMageStrenght;
 import com.leovideo.surgeofwar.procedure.ProcedureBooklingMageEntityDies;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class EntityBooklingMage extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class EntityBooklingMage extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 11;
 	public static final int ENTITYID_RANGED = 12;
-	public EntityBooklingMage(ElementsSurgeofWar instance) {
+	public EntityBooklingMage(ElementsSurgeofwarMod instance) {
 		super(instance, 71);
 	}
 
@@ -156,7 +158,7 @@ public class EntityBooklingMage extends ElementsSurgeofWar.ModElement {
 			int z = (int) this.posZ;
 			Entity entity = this;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("world", world);
 				ProcedureBooklingMageEntityDies.executeProcedure($_dependencies);
 			}
@@ -169,7 +171,7 @@ public class EntityBooklingMage extends ElementsSurgeofWar.ModElement {
 			int y = (int) this.posY;
 			int z = (int) this.posZ;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				ProcedureBooklingMageStrenght.executeProcedure($_dependencies);
 			}

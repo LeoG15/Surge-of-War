@@ -1,0 +1,25 @@
+{
+  "_fv": 13,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "God Slayer",
+    "achievementDescription": "You look than a god slayer !",
+    "achievementIcon": {
+      "value": "CUSTOM:Hellstone"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:InstallMod"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"43\" y=\"51\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

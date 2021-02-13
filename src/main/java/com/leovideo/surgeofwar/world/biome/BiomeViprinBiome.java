@@ -23,13 +23,13 @@ import com.leovideo.surgeofwar.block.BlockViprinLeaves;
 import com.leovideo.surgeofwar.block.BlockViprinGrass;
 import com.leovideo.surgeofwar.block.BlockViprinDirt;
 import com.leovideo.surgeofwar.block.BlockVicoque;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class BiomeViprinBiome extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class BiomeViprinBiome extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:viprinbiome")
 	public static final BiomeGenCustom biome = null;
-	public BiomeViprinBiome(ElementsSurgeofWar instance) {
+	public BiomeViprinBiome(ElementsSurgeofwarMod instance) {
 		super(instance, 27);
 	}
 
@@ -43,16 +43,14 @@ public class BiomeViprinBiome extends ElementsSurgeofWar.ModElement {
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("Viprin ").setRainfall(0F).setBaseHeight(0.1F).setWaterColor(-26368).setHeightVariation(0.2F)
+			super(new Biome.BiomeProperties("Viprin Biome").setRainfall(0F).setBaseHeight(0.1F).setWaterColor(-2384).setHeightVariation(0.2F)
 					.setTemperature(1F));
 			setRegistryName("viprinbiome");
 			topBlock = BlockViprinGrass.block.getDefaultState();
 			fillerBlock = BlockViprinDirt.block.getDefaultState();
-			decorator.generateFalls = false;
 			decorator.treesPerChunk = 5;
 			decorator.flowersPerChunk = 6;
 			decorator.grassPerChunk = 0;
-			decorator.deadBushPerChunk = 0;
 			decorator.mushroomsPerChunk = 0;
 			decorator.bigMushroomsPerChunk = 0;
 			decorator.reedsPerChunk = 0;

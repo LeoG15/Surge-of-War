@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "surgeofwar:textures/2.png",
+    "background": "minecraft:textures/blocks/stone.png",
     "icon": {
       "item": "surgeofwar:vipringrass"
     },

@@ -37,15 +37,18 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 
+import java.util.Map;
+import java.util.HashMap;
+
 import com.leovideo.surgeofwar.procedure.ProcedureGoblinThisEntityKillsAnotherOne;
 import com.leovideo.surgeofwar.procedure.ProcedureGoblinEntityDies;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class EntityGoblin extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class EntityGoblin extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 1;
 	public static final int ENTITYID_RANGED = 2;
-	public EntityGoblin(ElementsSurgeofWar instance) {
+	public EntityGoblin(ElementsSurgeofwarMod instance) {
 		super(instance, 19);
 	}
 
@@ -155,7 +158,7 @@ public class EntityGoblin extends ElementsSurgeofWar.ModElement {
 			int z = (int) this.posZ;
 			Entity entity = this;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				ProcedureGoblinEntityDies.executeProcedure($_dependencies);
 			}
@@ -168,7 +171,7 @@ public class EntityGoblin extends ElementsSurgeofWar.ModElement {
 			int y = (int) this.posY;
 			int z = (int) this.posZ;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				ProcedureGoblinThisEntityKillsAnotherOne.executeProcedure($_dependencies);
 			}

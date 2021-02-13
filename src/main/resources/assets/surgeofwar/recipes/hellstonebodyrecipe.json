@@ -1,0 +1,39 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:hellstone"
+    },
+    "2": {
+      "item": "surgeofwar:hellstone"
+    },
+    "3": {
+      "item": "surgeofwar:hellstone"
+    },
+    "4": {
+      "item": "surgeofwar:sun_power"
+    },
+    "5": {
+      "item": "surgeofwar:hellstone"
+    },
+    "6": {
+      "item": "surgeofwar:hellstone"
+    },
+    "7": {
+      "item": "surgeofwar:hellstone"
+    },
+    "8": {
+      "item": "surgeofwar:hellstone"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:hellstonearmorbody",
+    "count": 1
+  }
+}

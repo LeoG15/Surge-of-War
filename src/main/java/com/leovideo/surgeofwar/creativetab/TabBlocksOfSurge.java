@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
 import com.leovideo.surgeofwar.block.BlockViprinBlockPortal;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class TabBlocksOfSurge extends ElementsSurgeofWar.ModElement {
-	public TabBlocksOfSurge(ElementsSurgeofWar instance) {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class TabBlocksOfSurge extends ElementsSurgeofwarMod.ModElement {
+	public TabBlocksOfSurge(ElementsSurgeofwarMod instance) {
 		super(instance, 4);
 	}
 

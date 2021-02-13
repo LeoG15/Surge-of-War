@@ -34,15 +34,18 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 
+import java.util.Map;
+import java.util.HashMap;
+
 import com.leovideo.surgeofwar.procedure.ProcedureDevilOnEntityTickUpdate;
 import com.leovideo.surgeofwar.item.ItemVitrome;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class EntityDevil extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class EntityDevil extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 5;
 	public static final int ENTITYID_RANGED = 6;
-	public EntityDevil(ElementsSurgeofWar instance) {
+	public EntityDevil(ElementsSurgeofwarMod instance) {
 		super(instance, 43);
 	}
 
@@ -150,7 +153,7 @@ public class EntityDevil extends ElementsSurgeofWar.ModElement {
 			int z = (int) this.posZ;
 			Entity entity = this;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);

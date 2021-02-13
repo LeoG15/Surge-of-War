@@ -22,20 +22,21 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import java.util.Set;
+import java.util.Map;
 import java.util.HashMap;
 
 import com.leovideo.surgeofwar.procedure.ProcedureEderniumSwordRightClickedInAir;
 import com.leovideo.surgeofwar.procedure.ProcedureEderniumSwordMobIsHitWithTool;
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
 import com.google.common.collect.Multimap;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ItemEderniumSword extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ItemEderniumSword extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:ederniumsword")
 	public static final Item block = null;
-	public ItemEderniumSword(ElementsSurgeofWar instance) {
+	public ItemEderniumSword(ElementsSurgeofwarMod instance) {
 		super(instance, 88);
 	}
 
@@ -68,7 +69,7 @@ public class ItemEderniumSword extends ElementsSurgeofWar.ModElement {
 				int y = (int) entity.posY;
 				int z = (int) entity.posZ;
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("itemstack", itemstack);
 					ProcedureEderniumSwordRightClickedInAir.executeProcedure($_dependencies);
 				}
@@ -83,7 +84,7 @@ public class ItemEderniumSword extends ElementsSurgeofWar.ModElement {
 				int z = (int) entity.posZ;
 				World world = entity.world;
 				{
-					java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					ProcedureEderniumSwordMobIsHitWithTool.executeProcedure($_dependencies);
 				}

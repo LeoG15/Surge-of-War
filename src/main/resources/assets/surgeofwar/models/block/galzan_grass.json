@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/galzandirt",
+    "up": "surgeofwar:blocks/galzangrasstop",
+    "north": "surgeofwar:blocks/galzangrass",
+    "east": "surgeofwar:blocks/galzangrass",
+    "south": "surgeofwar:blocks/galzangrass",
+    "west": "surgeofwar:blocks/galzangrass",
+    "particle": "surgeofwar:blocks/galzandirt"
+  }
+}

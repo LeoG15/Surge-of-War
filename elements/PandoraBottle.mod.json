@@ -1,0 +1,29 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "liquidpandorabottle",
+    "customModelName": "Normal",
+    "name": "Pandora Bottle",
+    "rarity": "RARE",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 2,
+    "saturation": 0.3,
+    "eatingSpeed": 16,
+    "resultItem": {
+      "value": "CUSTOM:BigBottle"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "PandoraBottleQuandLaNourritureEstMangee"
+    }
+  }
+}

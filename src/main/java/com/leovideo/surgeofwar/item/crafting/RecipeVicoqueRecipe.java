@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 
 import com.leovideo.surgeofwar.item.ItemVitrome;
 import com.leovideo.surgeofwar.block.BlockVicoque;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class RecipeVicoqueRecipe extends ElementsSurgeofWar.ModElement {
-	public RecipeVicoqueRecipe(ElementsSurgeofWar instance) {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class RecipeVicoqueRecipe extends ElementsSurgeofwarMod.ModElement {
+	public RecipeVicoqueRecipe(ElementsSurgeofwarMod instance) {
 		super(instance, 41);
 	}
 

@@ -1,0 +1,123 @@
+{
+  "_fv": 13,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Redemption",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "redemption.png",
+    "mobModelGlowTexture": "",
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -9677,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "CUSTOM:VitromeSword"
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 12,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.5,
+    "movementSpeed": 0.19999999999999998,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "health": 35,
+    "xpAmount": 5,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": true,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": true,
+    "immuneToPlayer": true,
+    "mobDrop": {
+      "value": "Blocks.GOLD_BLOCK"
+    },
+    "livingSound": {
+      "value": "entity.evocation_illager.prepare_attack"
+    },
+    "hurtSound": {
+      "value": "entity.generic.hurt"
+    },
+    "deathSound": {
+      "value": "entity.donkey.angry"
+    },
+    "stepSound": {
+      "value": "ambient.cave"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "whenMobDies": {
+      "name": "RedemptionQuandLentiteMeurt"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander_avoid_water\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block><block type=\"attack_action\" x=\"755\" y=\"327\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field></block><block type=\"swim_in_water\" x=\"536\" y=\"437\"><field name=\"condition\">null,null</field></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 2,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 2,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:GalzanBiome"
+      }
+    ],
+    "spawnInDungeons": true
+  }
+}

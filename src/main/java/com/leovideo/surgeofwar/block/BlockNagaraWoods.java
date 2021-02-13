@@ -15,13 +15,13 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
 import com.leovideo.surgeofwar.creativetab.TabBlocksOfSurge;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class BlockNagaraWoods extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class BlockNagaraWoods extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nagarawoods")
 	public static final Block block = null;
-	public BlockNagaraWoods(ElementsSurgeofWar instance) {
+	public BlockNagaraWoods(ElementsSurgeofwarMod instance) {
 		super(instance, 46);
 	}
 

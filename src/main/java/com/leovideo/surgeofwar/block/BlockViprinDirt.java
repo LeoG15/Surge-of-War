@@ -15,13 +15,13 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
 import com.leovideo.surgeofwar.creativetab.TabBlocksOfSurge;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class BlockViprinDirt extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class BlockViprinDirt extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:viprindirt")
 	public static final Block block = null;
-	public BlockViprinDirt(ElementsSurgeofWar instance) {
+	public BlockViprinDirt(ElementsSurgeofwarMod instance) {
 		super(instance, 24);
 	}
 

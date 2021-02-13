@@ -1,0 +1,19 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:cuivre"
+    },
+    "1": {
+      "item": "surgeofwar:repairhammer"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:cuivreforge",
+    "count": 5
+  }
+}

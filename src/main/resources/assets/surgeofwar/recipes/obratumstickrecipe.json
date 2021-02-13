@@ -1,0 +1,30 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "surgeofwar:vitrome"
+    },
+    "2": {
+      "item": "surgeofwar:obratum"
+    },
+    "4": {
+      "item": "surgeofwar:folderstick"
+    },
+    "5": {
+      "item": "surgeofwar:vitrome"
+    },
+    "6": {
+      "item": "surgeofwar:folderstick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:obratumstick",
+    "count": 1
+  }
+}

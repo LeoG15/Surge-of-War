@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=1": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=2": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=3": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=4": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=5": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=6": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=7": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=8": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=9": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=10": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=11": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=12": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=13": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=14": {
+      "model": "surgeofwar:fragonite_plant"
+    },
+    "age=15": {
+      "model": "surgeofwar:fragonite_plant"
+    }
+  }
+}

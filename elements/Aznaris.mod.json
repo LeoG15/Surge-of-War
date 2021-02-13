@@ -1,0 +1,47 @@
+{
+  "_fv": 13,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:AznarisOmam"
+    },
+    "portalParticles": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Aznaris Massar",
+    "igniterTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "texture": "aznarmassar",
+    "portalTexture": "aznarisportalframe",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:AznarisBiome"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:AznarisDirt"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "airColor": {
+      "value": -3355444,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}

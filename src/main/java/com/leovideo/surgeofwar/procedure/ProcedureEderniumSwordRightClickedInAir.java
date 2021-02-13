@@ -3,20 +3,22 @@ package com.leovideo.surgeofwar.procedure;
 import net.minecraft.item.ItemStack;
 import net.minecraft.init.Enchantments;
 
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import java.util.Map;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ProcedureEderniumSwordRightClickedInAir extends ElementsSurgeofWar.ModElement {
-	public ProcedureEderniumSwordRightClickedInAir(ElementsSurgeofWar instance) {
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
+
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ProcedureEderniumSwordRightClickedInAir extends ElementsSurgeofwarMod.ModElement {
+	public ProcedureEderniumSwordRightClickedInAir(ElementsSurgeofwarMod instance) {
 		super(instance, 89);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("itemstack") == null) {
 			System.err.println("Failed to load dependency itemstack for procedure EderniumSwordRightClickedInAir!");
 			return;
 		}
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
-		itemstack.addEnchantment(Enchantments.SHARPNESS, (int) 1);
+		((itemstack)).addEnchantment(Enchantments.SHARPNESS, (int) 1);
 	}
 }

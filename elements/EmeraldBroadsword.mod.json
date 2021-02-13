@@ -1,0 +1,26 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "emeraldbroadsword",
+    "customModelName": "Normal",
+    "name": "Emerald Broadsword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.0,
+    "enchantability": 2,
+    "damageVsEntity": 10.0,
+    "usageCount": 5000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

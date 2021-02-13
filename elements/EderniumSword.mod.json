@@ -1,11 +1,12 @@
 {
-  "_fv": 6,
+  "_fv": 13,
   "_type": "tool",
   "definition": {
     "renderType": 0,
     "texture": "ederniumsword",
     "customModelName": "Normal",
     "name": "Edernium Sword",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ItemOfWar"
     },
@@ -19,6 +20,8 @@
     "blocksAffected": [],
     "hasGlow": true,
     "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
     "onRightClickedInAir": {
       "name": "EderniumSwordRightClickedInAir"
     },

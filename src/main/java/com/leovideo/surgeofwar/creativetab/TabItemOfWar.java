@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
 import com.leovideo.surgeofwar.item.ItemAmethisteAxe;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class TabItemOfWar extends ElementsSurgeofWar.ModElement {
-	public TabItemOfWar(ElementsSurgeofWar instance) {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class TabItemOfWar extends ElementsSurgeofwarMod.ModElement {
+	public TabItemOfWar(ElementsSurgeofwarMod instance) {
 		super(instance, 3);
 	}
 

@@ -1,0 +1,50 @@
+{
+  "_fv": 13,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:GalzanCandyBlock"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0.3,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Galzan Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "texture": "galzanigniter",
+    "portalTexture": "galzanmushroomblock",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:GalzanBiome"
+      },
+      {
+        "value": "CUSTOM:Pandora"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:GalzanDirt"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -9032,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false
+  }
+}

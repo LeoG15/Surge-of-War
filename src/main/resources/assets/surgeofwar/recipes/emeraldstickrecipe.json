@@ -1,0 +1,30 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "surgeofwar:ederniumfragment"
+    },
+    "2": {
+      "item": "minecraft:emerald"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "surgeofwar:ederniumfragment"
+    },
+    "6": {
+      "item": "surgeofwar:folderstick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:emeraldstick",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ederniumrappier",
+    "customModelName": "Normal",
+    "name": "Renforced Edernium Rappier",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 1,
+    "efficiency": 10.0,
+    "attackSpeed": 3.0,
+    "enchantability": 2,
+    "damageVsEntity": 16.0,
+    "usageCount": 20000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

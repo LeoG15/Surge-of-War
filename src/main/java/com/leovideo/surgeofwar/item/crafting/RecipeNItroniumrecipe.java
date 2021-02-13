@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 
 import com.leovideo.surgeofwar.item.ItemNitronium;
 import com.leovideo.surgeofwar.block.BlockNitroniumore;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class RecipeNItroniumrecipe extends ElementsSurgeofWar.ModElement {
-	public RecipeNItroniumrecipe(ElementsSurgeofWar instance) {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class RecipeNItroniumrecipe extends ElementsSurgeofwarMod.ModElement {
+	public RecipeNItroniumrecipe(ElementsSurgeofwarMod instance) {
 		super(instance, 58);
 	}
 

@@ -5,15 +5,17 @@ import net.minecraft.init.MobEffects;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import java.util.Map;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ProcedureGoblinThisEntityKillsAnotherOne extends ElementsSurgeofWar.ModElement {
-	public ProcedureGoblinThisEntityKillsAnotherOne(ElementsSurgeofWar instance) {
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
+
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ProcedureGoblinThisEntityKillsAnotherOne extends ElementsSurgeofwarMod.ModElement {
+	public ProcedureGoblinThisEntityKillsAnotherOne(ElementsSurgeofwarMod instance) {
 		super(instance, 19);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure GoblinThisEntityKillsAnotherOne!");
 			return;

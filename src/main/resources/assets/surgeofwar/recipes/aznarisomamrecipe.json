@@ -1,0 +1,42 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:ederniumfragment"
+    },
+    "1": {
+      "item": "minecraft:obsidian"
+    },
+    "2": {
+      "item": "minecraft:coal_block"
+    },
+    "3": {
+      "item": "surgeofwar:ederniumnugget"
+    },
+    "4": {
+      "item": "minecraft:obsidian"
+    },
+    "5": {
+      "item": "surgeofwar:obratum"
+    },
+    "6": {
+      "item": "surgeofwar:ederniumfragment"
+    },
+    "7": {
+      "item": "minecraft:obsidian"
+    },
+    "8": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:aznarisomam",
+    "count": 3
+  }
+}

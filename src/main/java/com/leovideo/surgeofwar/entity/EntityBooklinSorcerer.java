@@ -38,13 +38,13 @@ import net.minecraft.client.Minecraft;
 import java.util.Iterator;
 import java.util.ArrayList;
 
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class EntityBooklinSorcerer extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class EntityBooklinSorcerer extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 14;
 	public static final int ENTITYID_RANGED = 15;
-	public EntityBooklinSorcerer(ElementsSurgeofWar instance) {
+	public EntityBooklinSorcerer(ElementsSurgeofwarMod instance) {
 		super(instance, 90);
 	}
 

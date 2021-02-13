@@ -1,11 +1,13 @@
 {
-  "_fv": 6,
+  "_fv": 13,
   "_type": "food",
   "definition": {
     "renderType": 0,
     "texture": "methiste_pple",
     "customModelName": "Normal",
     "name": "Amethiste Apple",
+    "rarity": "COMMON",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ItemOfWar"
     },

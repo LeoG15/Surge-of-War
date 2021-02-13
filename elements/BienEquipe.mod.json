@@ -1,0 +1,25 @@
+{
+  "_fv": 13,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Bien Equipé",
+    "achievementDescription": "Ca fait quoi d'avoir du loot ?",
+    "achievementIcon": {
+      "value": "CUSTOM:Armetis"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1500,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:InstallMod"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"-30\" y=\"45\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

@@ -15,13 +15,13 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
 import com.leovideo.surgeofwar.creativetab.TabBlocksOfSurge;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class BlockViprinBlockPortal extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class BlockViprinBlockPortal extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vhacanderlog")
 	public static final Block block = null;
-	public BlockViprinBlockPortal(ElementsSurgeofWar instance) {
+	public BlockViprinBlockPortal(ElementsSurgeofwarMod instance) {
 		super(instance, 25);
 	}
 
@@ -47,6 +47,10 @@ public class BlockViprinBlockPortal extends ElementsSurgeofWar.ModElement {
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabBlocksOfSurge.tab);
+		}
+	
+		@Override public boolean canSustainLeaves(net.minecraft.block.state.IBlockState state, net.minecraft.world.IBlockAccess world, net.minecraft.util.math.BlockPos pos){
+			return true;
 		}
 	}
 }

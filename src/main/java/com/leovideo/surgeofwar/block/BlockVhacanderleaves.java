@@ -23,13 +23,13 @@ import net.minecraft.block.BlockLeaves;
 import net.minecraft.block.Block;
 
 import com.leovideo.surgeofwar.creativetab.TabBlocksOfSurge;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class BlockVhacanderleaves extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class BlockVhacanderleaves extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vhacanderleaves")
 	public static final Block block = null;
-	public BlockVhacanderleaves(ElementsSurgeofWar instance) {
+	public BlockVhacanderleaves(ElementsSurgeofwarMod instance) {
 		super(instance, 67);
 	}
 

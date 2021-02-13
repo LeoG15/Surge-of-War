@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/pandoradirt",
+    "up": "surgeofwar:blocks/pandoragrasstop",
+    "north": "surgeofwar:blocks/pandoragrass",
+    "east": "surgeofwar:blocks/pandoragrass",
+    "south": "surgeofwar:blocks/pandoragrass",
+    "west": "surgeofwar:blocks/pandoragrass",
+    "particle": "surgeofwar:blocks/pandoradirt"
+  }
+}

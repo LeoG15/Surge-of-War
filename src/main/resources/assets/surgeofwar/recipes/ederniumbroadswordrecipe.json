@@ -1,0 +1,30 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "1": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "2": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "3": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "4": {
+      "item": "surgeofwar:folderstick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:ederniumbroadsword",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 13,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "slotunlock",
+    "customModelName": "Normal",
+    "name": "Slot Unlock",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "ArmetisUnlockChest",
+    "inventorySize": 17,
+    "inventoryStackSize": 64
+  }
+}

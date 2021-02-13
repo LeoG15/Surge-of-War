@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 
 import com.leovideo.surgeofwar.item.ItemEderniumFragment;
 import com.leovideo.surgeofwar.block.BlockEderniumOre;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class RecipeEderniumFragmentRecipe extends ElementsSurgeofWar.ModElement {
-	public RecipeEderniumFragmentRecipe(ElementsSurgeofWar instance) {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class RecipeEderniumFragmentRecipe extends ElementsSurgeofwarMod.ModElement {
+	public RecipeEderniumFragmentRecipe(ElementsSurgeofwarMod instance) {
 		super(instance, 77);
 	}
 

@@ -1,15 +1,15 @@
 {
-  "_fv": 6,
+  "_fv": 13,
   "_type": "mob",
   "definition": {
     "mobName": "Folder Cow",
     "mobLabel": "",
-    "mobModelTexture": "folder_cow.png",
     "mobModelName": "Cow",
+    "mobModelTexture": "folder_cow.png",
     "modelWidth": 0.9,
     "modelHeight": 1.4,
     "modelShadowSize": 0.5,
-    "armorBaseValue": 0.0,
+    "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
       "value": -5042160,
@@ -20,7 +20,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MobOfChaos"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -46,12 +46,17 @@
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 0,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
     "trackingRange": 64,
     "health": 20,
     "xpAmount": 5,
     "waterMob": false,
     "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": true,
     "canControlForward": true,
@@ -83,7 +88,6 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "particleSpawningCondition": "ALWAYS",
     "whenMobDies": {
       "name": "FolderCowEntityDies"
     },
@@ -91,11 +95,13 @@
     "aiBase": "Cow",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"eat_grass\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": true,
+    "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
     "rangedAttackItem": {
       "value": ""
     },
+    "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,

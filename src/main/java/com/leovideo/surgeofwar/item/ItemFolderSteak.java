@@ -14,13 +14,13 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ItemFolderSteak extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ItemFolderSteak extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:foldersteak")
 	public static final Item block = null;
-	public ItemFolderSteak(ElementsSurgeofWar instance) {
+	public ItemFolderSteak(ElementsSurgeofwarMod instance) {
 		super(instance, 30);
 	}
 

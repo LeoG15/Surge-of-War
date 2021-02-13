@@ -23,13 +23,13 @@ import net.minecraft.block.BlockLeaves;
 import net.minecraft.block.Block;
 
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class BlockNagaraLeaves extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class BlockNagaraLeaves extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nagaraleaves")
 	public static final Block block = null;
-	public BlockNagaraLeaves(ElementsSurgeofWar instance) {
+	public BlockNagaraLeaves(ElementsSurgeofwarMod instance) {
 		super(instance, 47);
 	}
 

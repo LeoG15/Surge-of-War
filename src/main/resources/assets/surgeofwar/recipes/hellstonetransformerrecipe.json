@@ -1,0 +1,33 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "  5",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:lava_bucket"
+    },
+    "2": {
+      "item": "surgeofwar:cuivreforge"
+    },
+    "5": {
+      "item": "surgeofwar:copperstick"
+    },
+    "6": {
+      "item": "surgeofwar:cuivreforge"
+    },
+    "7": {
+      "item": "surgeofwar:armetis"
+    },
+    "8": {
+      "item": "surgeofwar:fragonite"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:hellstonetransformer",
+    "count": 1
+  }
+}

@@ -8,15 +8,17 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.World;
 import net.minecraft.world.Explosion;
 
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import java.util.Map;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ProcedureBooklingMageEntityDies extends ElementsSurgeofWar.ModElement {
-	public ProcedureBooklingMageEntityDies(ElementsSurgeofWar instance) {
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
+
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ProcedureBooklingMageEntityDies extends ElementsSurgeofwarMod.ModElement {
+	public ProcedureBooklingMageEntityDies(ElementsSurgeofwarMod instance) {
 		super(instance, 71);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			System.err.println("Failed to load dependency world for procedure BooklingMageEntityDies!");
 			return;

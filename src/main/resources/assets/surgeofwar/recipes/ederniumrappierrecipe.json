@@ -1,0 +1,20 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "1": {
+      "item": "surgeofwar:folderstick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:ederniumrappier",
+    "count": 1
+  }
+}

@@ -27,13 +27,13 @@ import com.leovideo.surgeofwar.block.BlockViprinBlockPortal;
 import com.leovideo.surgeofwar.block.BlockVhacanderleaves;
 import com.leovideo.surgeofwar.block.BlockVhacandergrass;
 import com.leovideo.surgeofwar.block.BlockVhacanderDirt;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class BiomeVhacanderBiome extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class BiomeVhacanderBiome extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vhacanderbiome")
 	public static final BiomeGenCustom biome = null;
-	public BiomeVhacanderBiome(ElementsSurgeofWar instance) {
+	public BiomeVhacanderBiome(ElementsSurgeofwarMod instance) {
 		super(instance, 68);
 	}
 
@@ -54,11 +54,9 @@ public class BiomeVhacanderBiome extends ElementsSurgeofWar.ModElement {
 			setRegistryName("vhacanderbiome");
 			topBlock = BlockVhacandergrass.block.getDefaultState();
 			fillerBlock = BlockVhacanderDirt.block.getDefaultState();
-			decorator.generateFalls = false;
 			decorator.treesPerChunk = 5;
 			decorator.flowersPerChunk = 0;
 			decorator.grassPerChunk = 0;
-			decorator.deadBushPerChunk = 0;
 			decorator.mushroomsPerChunk = 0;
 			decorator.bigMushroomsPerChunk = 0;
 			decorator.reedsPerChunk = 0;
@@ -69,10 +67,10 @@ public class BiomeVhacanderBiome extends ElementsSurgeofWar.ModElement {
 			this.spawnableCreatureList.clear();
 			this.spawnableWaterCreatureList.clear();
 			this.spawnableCaveCreatureList.clear();
-			this.spawnableCreatureList.add(new SpawnListEntry(EntitySkeleton.class, 40, 1, 5));
-			this.spawnableCreatureList.add(new SpawnListEntry(EntitySilverfish.class, 40, 1, 5));
-			this.spawnableCreatureList.add(new SpawnListEntry(EntityWitch.class, 40, 1, 5));
-			this.spawnableCreatureList.add(new SpawnListEntry(EntityWitherSkeleton.class, 40, 1, 5));
+			this.spawnableCreatureList.add(new SpawnListEntry(EntitySkeleton.class, 15, 1, 15));
+			this.spawnableCreatureList.add(new SpawnListEntry(EntitySilverfish.class, 15, 1, 15));
+			this.spawnableCreatureList.add(new SpawnListEntry(EntityWitch.class, 15, 1, 15));
+			this.spawnableCreatureList.add(new SpawnListEntry(EntityWitherSkeleton.class, 15, 1, 15));
 		}
 
 		@SideOnly(Side.CLIENT)

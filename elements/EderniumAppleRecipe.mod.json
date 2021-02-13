@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EderniumFragment"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EderniumFlower"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "CUSTOM:EderniumFlower"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EderniumFragment"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EderniumApple"
+    },
+    "name": "ederniumapplerecipe",
+    "namespace": "mod"
+  }
+}

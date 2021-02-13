@@ -7,17 +7,18 @@ import net.minecraft.entity.Entity;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
+import java.util.Map;
 import java.util.Iterator;
 
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ProcedureGoblinEntityDies extends ElementsSurgeofWar.ModElement {
-	public ProcedureGoblinEntityDies(ElementsSurgeofWar instance) {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ProcedureGoblinEntityDies extends ElementsSurgeofwarMod.ModElement {
+	public ProcedureGoblinEntityDies(ElementsSurgeofwarMod instance) {
 		super(instance, 21);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure GoblinEntityDies!");
 			return;

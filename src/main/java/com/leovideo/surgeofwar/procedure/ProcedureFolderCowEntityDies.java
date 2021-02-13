@@ -6,16 +6,18 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.Entity;
 
-import com.leovideo.surgeofwar.item.ItemFolderSteak;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import java.util.Map;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ProcedureFolderCowEntityDies extends ElementsSurgeofWar.ModElement {
-	public ProcedureFolderCowEntityDies(ElementsSurgeofWar instance) {
+import com.leovideo.surgeofwar.item.ItemFolderSteak;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
+
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ProcedureFolderCowEntityDies extends ElementsSurgeofwarMod.ModElement {
+	public ProcedureFolderCowEntityDies(ElementsSurgeofwarMod instance) {
 		super(instance, 31);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure FolderCowEntityDies!");
 			return;

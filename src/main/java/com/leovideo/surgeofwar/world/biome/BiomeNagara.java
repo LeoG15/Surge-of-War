@@ -22,13 +22,13 @@ import com.leovideo.surgeofwar.block.BlockNagaraWoods;
 import com.leovideo.surgeofwar.block.BlockNagaraLeaves;
 import com.leovideo.surgeofwar.block.BlockNagaraGrass;
 import com.leovideo.surgeofwar.block.BlockNagaraDirt;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class BiomeNagara extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class BiomeNagara extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nagara")
 	public static final BiomeGenCustom biome = null;
-	public BiomeNagara(ElementsSurgeofWar instance) {
+	public BiomeNagara(ElementsSurgeofwarMod instance) {
 		super(instance, 48);
 	}
 
@@ -47,11 +47,9 @@ public class BiomeNagara extends ElementsSurgeofWar.ModElement {
 			setRegistryName("nagara");
 			topBlock = BlockNagaraGrass.block.getDefaultState();
 			fillerBlock = BlockNagaraDirt.block.getDefaultState();
-			decorator.generateFalls = true;
 			decorator.treesPerChunk = 7;
 			decorator.flowersPerChunk = 4;
 			decorator.grassPerChunk = 4;
-			decorator.deadBushPerChunk = 0;
 			decorator.mushroomsPerChunk = 0;
 			decorator.bigMushroomsPerChunk = 0;
 			decorator.reedsPerChunk = 0;

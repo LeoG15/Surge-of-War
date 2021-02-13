@@ -1,0 +1,22 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:amethiste"
+    },
+    "1": {
+      "item": "surgeofwar:edernium"
+    },
+    "2": {
+      "item": "surgeofwar:amethiste"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:renforcedederniumingot",
+    "count": 1
+  }
+}

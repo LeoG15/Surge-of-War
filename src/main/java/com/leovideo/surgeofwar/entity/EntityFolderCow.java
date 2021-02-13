@@ -36,15 +36,18 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.model.ModelCow;
 
+import java.util.Map;
+import java.util.HashMap;
+
 import com.leovideo.surgeofwar.procedure.ProcedureFolderCowEntityDies;
 import com.leovideo.surgeofwar.item.ItemFolderSteak;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class EntityFolderCow extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class EntityFolderCow extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 3;
 	public static final int ENTITYID_RANGED = 4;
-	public EntityFolderCow(ElementsSurgeofWar instance) {
+	public EntityFolderCow(ElementsSurgeofwarMod instance) {
 		super(instance, 29);
 	}
 
@@ -141,7 +144,7 @@ public class EntityFolderCow extends ElementsSurgeofWar.ModElement {
 			int z = (int) this.posZ;
 			Entity entity = this;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				ProcedureFolderCowEntityDies.executeProcedure($_dependencies);
 			}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "surgeofwar:galzan_portal_ew"
+    },
+    "axis=x": {
+      "model": "surgeofwar:galzan_portal_ns"
+    },
+    "inventory": {
+      "model": "surgeofwar:galzan_portal_ns"
+    }
+  }
+}

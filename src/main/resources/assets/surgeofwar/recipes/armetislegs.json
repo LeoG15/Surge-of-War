@@ -1,0 +1,36 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:armetis"
+    },
+    "1": {
+      "item": "surgeofwar:armetis"
+    },
+    "2": {
+      "item": "surgeofwar:armetis"
+    },
+    "3": {
+      "item": "surgeofwar:armetis"
+    },
+    "5": {
+      "item": "surgeofwar:armetis"
+    },
+    "6": {
+      "item": "surgeofwar:armetis"
+    },
+    "8": {
+      "item": "surgeofwar:armetis"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:armetisarmorlegs",
+    "count": 1
+  }
+}

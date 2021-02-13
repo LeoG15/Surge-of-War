@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "surgeofwar:blocks/redgalzanmushroom",
+    "particle": "surgeofwar:blocks/redgalzanmushroom"
+  }
+}

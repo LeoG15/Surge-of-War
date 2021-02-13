@@ -1,0 +1,39 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:vitrome"
+    },
+    "2": {
+      "item": "surgeofwar:vitrome"
+    },
+    "3": {
+      "item": "surgeofwar:vitrome"
+    },
+    "4": {
+      "item": "surgeofwar:vitrome"
+    },
+    "5": {
+      "item": "surgeofwar:vitrome"
+    },
+    "6": {
+      "item": "surgeofwar:vitrome"
+    },
+    "7": {
+      "item": "surgeofwar:vitrome"
+    },
+    "8": {
+      "item": "surgeofwar:vitrome"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:vitromearmorbody",
+    "count": 1
+  }
+}

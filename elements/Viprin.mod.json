@@ -1,5 +1,5 @@
 {
-  "_fv": 6,
+  "_fv": 13,
   "_type": "dimension",
   "definition": {
     "portalFrame": {
@@ -31,12 +31,6 @@
     "mainFillerBlock": {
       "value": "CUSTOM:ViprinDirt"
     },
-    "secondaryFillerBlock": {
-      "value": "CUSTOM:ViprinGrass"
-    },
-    "tertiaryFillerBlock": {
-      "value": ""
-    },
     "fluidBlock": {
       "value": "Blocks.WATER"
     },
@@ -51,9 +45,6 @@
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": true,
-    "dimensionMusic": {
-      "value": "block.lava.ambient"
-    }
+    "imitateOverworldBehaviour": true
   }
 }

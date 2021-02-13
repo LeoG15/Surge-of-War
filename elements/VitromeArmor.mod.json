@@ -1,0 +1,54 @@
+{
+  "_fv": 13,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "vitromehelmet",
+    "enableBody": true,
+    "textureBody": "viromebody",
+    "enableLeggings": true,
+    "textureLeggings": "vitromelegs",
+    "enableBoots": true,
+    "textureBoots": "vitromeboots",
+    "onBodyTick": {
+      "name": "VitromeArmorBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "armorTextureFile": "itrome__-_opy",
+    "helmetName": "Vitrome Armor Helmet",
+    "bodyName": "Vitrome Armor Body",
+    "leggingsName": "Vitrome Armor Leggings",
+    "bootsName": "Vitrome Armor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 500,
+    "damageValueHelmet": 4,
+    "damageValueBody": 8,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 3,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": "block.fire.ambient"
+    },
+    "repairItems": []
+  }
+}

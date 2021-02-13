@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "surgeofwar:hellstone"
+    },
+    "title": {
+      "translate": "advancements.godslayer.title"
+    },
+    "description": {
+      "translate": "advancements.godslayer.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "godslayer": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "surgeofwar:installmod"
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "surgeofwar:galzan"
+    },
+    "title": {
+      "translate": "advancements.revery.title"
+    },
+    "description": {
+      "translate": "advancements.revery.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "revery": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "surgeofwar:galzan"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "surgeofwar:installmod"
+}

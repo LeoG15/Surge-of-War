@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/galzanlogfront",
+    "up": "surgeofwar:blocks/galzanlogfront",
+    "north": "surgeofwar:blocks/galzanlog",
+    "east": "surgeofwar:blocks/galzanlog",
+    "south": "surgeofwar:blocks/galzanlog",
+    "west": "surgeofwar:blocks/galzanlog",
+    "particle": "surgeofwar:blocks/galzanlogfront"
+  }
+}

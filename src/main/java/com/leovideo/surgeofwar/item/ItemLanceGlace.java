@@ -32,14 +32,14 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.Minecraft;
 
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ItemLanceGlace extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ItemLanceGlace extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:lanceglace")
 	public static final Item block = null;
 	public static final int ENTITYID = 13;
-	public ItemLanceGlace(ElementsSurgeofWar instance) {
+	public ItemLanceGlace(ElementsSurgeofwarMod instance) {
 		super(instance, 84);
 	}
 
@@ -97,7 +97,7 @@ public class ItemLanceGlace extends ElementsSurgeofWar.ModElement {
 					entityarrow.setSilent(true);
 					entityarrow.setIsCritical(false);
 					entityarrow.setDamage(8);
-					entityarrow.setKnockbackStrength(4);
+					entityarrow.setKnockbackStrength(1);
 					itemstack.damageItem(1, entity);
 					int x = (int) entity.posX;
 					int y = (int) entity.posY;

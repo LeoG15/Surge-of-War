@@ -15,15 +15,18 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import java.util.Map;
+import java.util.HashMap;
+
 import com.leovideo.surgeofwar.procedure.ProcedureAmethisteAppleFoodEaten;
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
-import com.leovideo.surgeofwar.ElementsSurgeofWar;
+import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
-@ElementsSurgeofWar.ModElement.Tag
-public class ItemAmethisteApple extends ElementsSurgeofWar.ModElement {
+@ElementsSurgeofwarMod.ModElement.Tag
+public class ItemAmethisteApple extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:amethisteapple")
 	public static final Item block = null;
-	public ItemAmethisteApple(ElementsSurgeofWar instance) {
+	public ItemAmethisteApple(ElementsSurgeofwarMod instance) {
 		super(instance, 9);
 	}
 
@@ -59,7 +62,7 @@ public class ItemAmethisteApple extends ElementsSurgeofWar.ModElement {
 			int y = (int) entity.posY;
 			int z = (int) entity.posZ;
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				ProcedureAmethisteAppleFoodEaten.executeProcedure($_dependencies);
 			}
