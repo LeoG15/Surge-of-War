@@ -14,7 +14,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
-import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
+import com.leovideo.surgeofwar.creativetab.TabBlocksOfSurge;
 import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
 @ElementsSurgeofwarMod.ModElement.Tag
@@ -39,14 +39,14 @@ public class BlockGalzanCandyBlock extends ElementsSurgeofwarMod.ModElement {
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.ROCK);
+			super(Material.IRON);
 			setUnlocalizedName("galzan_candy_block");
-			setSoundType(SoundType.GROUND);
+			setSoundType(SoundType.METAL);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
-			setCreativeTab(TabItemOfWar.tab);
+			setCreativeTab(TabBlocksOfSurge.tab);
 		}
 	}
 }

@@ -57,7 +57,6 @@ public class ItemArmetisArmor extends ElementsSurgeofwarMod.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
-					$_dependencies.put("itemstack", itemstack);
 					ProcedureArmetisArmorBootsTickEvent.executeProcedure($_dependencies);
 				}
 			}

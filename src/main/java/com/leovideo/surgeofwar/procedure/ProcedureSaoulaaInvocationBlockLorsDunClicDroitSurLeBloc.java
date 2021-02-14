@@ -13,6 +13,7 @@ import java.util.Map;
 import java.util.Iterator;
 
 import com.leovideo.surgeofwar.entity.EntitySaoula;
+import com.leovideo.surgeofwar.entity.EntityRedemption;
 import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
 @ElementsSurgeofwarMod.ModElement.Tag
@@ -52,6 +53,20 @@ public class ProcedureSaoulaaInvocationBlockLorsDunClicDroitSurLeBloc extends El
 			Entity entityToSpawn = new EntitySaoula.EntityCustom(world);
 			if (entityToSpawn != null) {
 				entityToSpawn.setLocationAndAngles(x, y, z, world.rand.nextFloat() * 360F, 0.0F);
+				world.spawnEntity(entityToSpawn);
+			}
+		}
+		if (!world.isRemote) {
+			Entity entityToSpawn = new EntityRedemption.EntityCustom(world);
+			if (entityToSpawn != null) {
+				entityToSpawn.setLocationAndAngles((x + 2), y, z, world.rand.nextFloat() * 360F, 0.0F);
+				world.spawnEntity(entityToSpawn);
+			}
+		}
+		if (!world.isRemote) {
+			Entity entityToSpawn = new EntityRedemption.EntityCustom(world);
+			if (entityToSpawn != null) {
+				entityToSpawn.setLocationAndAngles((x + (-2)), y, z, world.rand.nextFloat() * 360F, 0.0F);
 				world.spawnEntity(entityToSpawn);
 			}
 		}

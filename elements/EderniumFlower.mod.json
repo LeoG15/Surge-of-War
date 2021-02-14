@@ -4,7 +4,10 @@
   "definition": {
     "renderType": 12,
     "texture": "ederniumflower",
+    "textureBottom": "",
     "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
     "growapableSpawnType": "Plains",
@@ -39,7 +42,7 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 3,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface",
       "CUSTOM:Viprin"

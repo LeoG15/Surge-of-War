@@ -40,7 +40,7 @@ public class ItemHellstoneArmor extends ElementsSurgeofwarMod.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("HELLSTONEARMOR", "surgeofwar:ellstone_rmor_", 25, new int[]{12, 17, 19, 14}, 9,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("HELLSTONEARMOR", "surgeofwar:ellstone_rmor_", 1024, new int[]{12, 17, 19, 14}, 9,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("hellstonearmorhelmet")
 				.setRegistryName("hellstonearmorhelmet").setCreativeTab(TabItemOfWar.tab));

@@ -1,0 +1,42 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:doomorb"
+    },
+    "1": {
+      "item": "surgeofwar:folderstick"
+    },
+    "2": {
+      "item": "surgeofwar:creationorb"
+    },
+    "3": {
+      "item": "surgeofwar:folderstick"
+    },
+    "4": {
+      "item": "minecraft:obsidian"
+    },
+    "5": {
+      "item": "surgeofwar:folderstick"
+    },
+    "6": {
+      "item": "surgeofwar:doomorb"
+    },
+    "7": {
+      "item": "surgeofwar:folderstick"
+    },
+    "8": {
+      "item": "surgeofwar:creationorb"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:over_pass",
+    "count": 1
+  }
+}

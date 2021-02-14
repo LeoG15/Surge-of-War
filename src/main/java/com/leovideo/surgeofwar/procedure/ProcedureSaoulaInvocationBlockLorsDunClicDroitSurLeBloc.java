@@ -1,6 +1,7 @@
 package com.leovideo.surgeofwar.procedure;
 
 import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.Entity;
 
@@ -36,6 +37,7 @@ public class ProcedureSaoulaInvocationBlockLorsDunClicDroitSurLeBloc extends Ele
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+		world.setBlockToAir(new BlockPos((int) x, (int) y, (int) z));
 		world.addWeatherEffect(new EntityLightningBolt(world, (int) x, (int) y, (int) z, false));
 		if (!world.isRemote) {
 			Entity entityToSpawn = new EntitySaoula.EntityCustom(world);

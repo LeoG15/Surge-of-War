@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "surgeofwar:blocks/galzanmushroomblock",
-    "portal": "surgeofwar:blocks/galzanmushroomblock"
+    "particle": "surgeofwar:blocks/partalframe",
+    "portal": "surgeofwar:blocks/partalframe"
   },
   "elements": [
     {

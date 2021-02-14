@@ -17,7 +17,7 @@
       "value": "CUSTOM:ItemOfWar"
     },
     "texture": "galzanigniter",
-    "portalTexture": "galzanmushroomblock",
+    "portalTexture": "partalframe",
     "enablePortal": true,
     "biomesInDimension": [
       {

@@ -19,7 +19,11 @@
     "usageCount": 40000,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:RepairHammer"
+      }
+    ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

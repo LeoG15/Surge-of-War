@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/blocks/stone.png",
     "icon": {
       "item": "surgeofwar:edernium"
     },
@@ -37,5 +36,6 @@
       "surgeofwar:icebulletrecipe",
       "surgeofwar:lanceglacerecipe"
     ]
-  }
+  },
+  "parent": "surgeofwar:le_lingot_du_chaos"
 }

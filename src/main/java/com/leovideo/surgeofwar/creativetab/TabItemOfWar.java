@@ -7,7 +7,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
-import com.leovideo.surgeofwar.item.ItemAmethisteAxe;
+import com.leovideo.surgeofwar.item.ItemHellstone;
 import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
 @ElementsSurgeofwarMod.ModElement.Tag
@@ -22,7 +22,7 @@ public class TabItemOfWar extends ElementsSurgeofwarMod.ModElement {
 			@SideOnly(Side.CLIENT)
 			@Override
 			public ItemStack getTabIconItem() {
-				return new ItemStack(ItemAmethisteAxe.block, (int) (1));
+				return new ItemStack(ItemHellstone.block, (int) (1));
 			}
 
 			@SideOnly(Side.CLIENT)

@@ -1,0 +1,32 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "utopianrasorblade",
+    "customModelName": "Normal",
+    "name": "Utopian Rasor Blade",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 48.0,
+    "usageCount": 5200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "UtopianRasorBladeQuandUneEntiteVivanteEstFrappeeAvecLoutil"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "UtopianRasorBladeQuandLeBlocEstDetruitAvecLoutil"
+    }
+  }
+}

@@ -61,7 +61,7 @@ public class EntityPandorian extends ElementsSurgeofwarMod.ModElement {
 	@Override
 	public void init(FMLInitializationEvent event) {
 		Biome[] spawnBiomes = {Biome.REGISTRY.getObject(new ResourceLocation("surgeofwar:pandora")),};
-		EntityRegistry.addSpawn(EntityCustom.class, 3, 1, 3, EnumCreatureType.MONSTER, spawnBiomes);
+		EntityRegistry.addSpawn(EntityCustom.class, 8, 3, 4, EnumCreatureType.MONSTER, spawnBiomes);
 	}
 
 	@SideOnly(Side.CLIENT)

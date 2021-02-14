@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "surgeofwar:chaoticpower"
+    },
+    "title": {
+      "translate": "advancements.the_master_of_chaos.title"
+    },
+    "description": {
+      "translate": "advancements.the_master_of_chaos.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_master_of_chaos": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "surgeofwar:le_spectre"
+}

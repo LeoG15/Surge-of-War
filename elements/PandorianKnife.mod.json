@@ -20,14 +20,14 @@
       "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
-    "animation": "spear",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 6.0,
-    "bulletPower": 1.3,
-    "bulletDamage": 7.0,
-    "bulletKnockback": 1,
+    "bulletPower": 0.9,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 0,
     "bulletParticles": false,
-    "bulletIgnitesFire": true,
+    "bulletIgnitesFire": false,
     "bulletItemTexture": {
       "value": "CUSTOM:PandorianKnife"
     },

@@ -57,7 +57,7 @@ public class EntityRedemption extends ElementsSurgeofwarMod.ModElement {
 	@Override
 	public void init(FMLInitializationEvent event) {
 		Biome[] spawnBiomes = {Biome.REGISTRY.getObject(new ResourceLocation("surgeofwar:galzan_biome")),};
-		EntityRegistry.addSpawn(EntityCustom.class, 2, 1, 2, EnumCreatureType.MONSTER, spawnBiomes);
+		EntityRegistry.addSpawn(EntityCustom.class, 3, 2, 3, EnumCreatureType.MONSTER, spawnBiomes);
 		DungeonHooks.addDungeonMob(new ResourceLocation("surgeofwar:redemption"), 180);
 	}
 

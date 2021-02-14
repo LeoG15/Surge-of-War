@@ -10,7 +10,7 @@
     "description": {
       "translate": "advancements.firstgoblinkill.descr"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

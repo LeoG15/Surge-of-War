@@ -5,7 +5,7 @@
     "enableHelmet": true,
     "textureHelmet": "ederniumhead",
     "enableBody": true,
-    "textureBody": "edernium",
+    "textureBody": "ederniumbody",
     "enableLeggings": true,
     "textureLeggings": "ederniumlegs",
     "enableBoots": true,
@@ -14,7 +14,7 @@
       "name": "EderniumArmorBodyTickEvent"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:ItemOfWar"
     },
     "armorTextureFile": "edernium__-_",
     "helmetName": "Edernium Armor Helmet",
@@ -39,7 +39,7 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 25,
+    "maxDamage": 33,
     "damageValueHelmet": 9,
     "damageValueBody": 14,
     "damageValueLeggings": 11,

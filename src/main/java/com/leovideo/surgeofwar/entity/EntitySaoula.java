@@ -38,6 +38,7 @@ import java.util.HashMap;
 import java.util.ArrayList;
 
 import com.leovideo.surgeofwar.procedure.ProcedureSaoulaQuandLeJoueurFaitUnClicDroitSurLentite;
+import com.leovideo.surgeofwar.procedure.ProcedureSaoulaQuandLeJoueurEntreEnCollisionAvecLentite;
 import com.leovideo.surgeofwar.item.ItemSunSword;
 import com.leovideo.surgeofwar.item.ItemSunPower;
 import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
@@ -53,7 +54,7 @@ public class EntitySaoula extends ElementsSurgeofwarMod.ModElement {
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> EntityEntryBuilder.create().entity(EntityCustom.class).id(new ResourceLocation("surgeofwar", "saoula"), ENTITYID)
-				.name("saoula").tracker(64, 3, true).egg(-1, -1).build());
+				.name("saoula").tracker(64, 3, true).egg(-205, -3394816).build());
 	}
 
 	private Biome[] allbiomes(net.minecraft.util.registry.RegistryNamespaced<ResourceLocation, Biome> in) {
@@ -161,6 +162,18 @@ public class EntitySaoula extends ElementsSurgeofwarMod.ModElement {
 				ProcedureSaoulaQuandLeJoueurFaitUnClicDroitSurLentite.executeProcedure($_dependencies);
 			}
 			return true;
+		}
+
+		@Override
+		public void onCollideWithPlayer(EntityPlayer entity) {
+			super.onCollideWithPlayer(entity);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				ProcedureSaoulaQuandLeJoueurEntreEnCollisionAvecLentite.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

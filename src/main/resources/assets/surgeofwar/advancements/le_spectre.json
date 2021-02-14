@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "surgeofwar:specter_sword"
+    },
+    "title": {
+      "translate": "advancements.le_spectre.title"
+    },
+    "description": {
+      "translate": "advancements.le_spectre.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "le_spectre": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000,
+    "recipes": [
+      "surgeofwar:aznaris_igniter_recipe"
+    ]
+  },
+  "parent": "surgeofwar:installmod"
+}

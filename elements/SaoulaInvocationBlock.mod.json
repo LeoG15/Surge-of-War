@@ -4,10 +4,10 @@
   "definition": {
     "texture": "saoulaainvocationblock",
     "textureTop": "saoulaainvocationblock",
-    "textureLeft": "saoulaainvocationblock",
+    "textureLeft": "saoulaainvocationblockfront",
     "textureFront": "saoulaainvocationblockfront",
-    "textureRight": "saoulaainvocationblock",
-    "textureBack": "saoulaainvocationblock",
+    "textureRight": "saoulaainvocationblockfront",
+    "textureBack": "saoulaainvocationblockfront",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,

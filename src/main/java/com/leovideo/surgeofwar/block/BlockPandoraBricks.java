@@ -47,6 +47,7 @@ public class BlockPandoraBricks extends ElementsSurgeofwarMod.ModElement {
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabBlocksOfSurge.tab);
+			setBlockUnbreakable();
 		}
 	}
 }

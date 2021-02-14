@@ -4,9 +4,9 @@
     "down": "surgeofwar:blocks/saoulaainvocationblock",
     "up": "surgeofwar:blocks/saoulaainvocationblock",
     "north": "surgeofwar:blocks/saoulaainvocationblockfront",
-    "east": "surgeofwar:blocks/saoulaainvocationblock",
-    "south": "surgeofwar:blocks/saoulaainvocationblock",
-    "west": "surgeofwar:blocks/saoulaainvocationblock",
+    "east": "surgeofwar:blocks/saoulaainvocationblockfront",
+    "south": "surgeofwar:blocks/saoulaainvocationblockfront",
+    "west": "surgeofwar:blocks/saoulaainvocationblockfront",
     "particle": "surgeofwar:blocks/saoulaainvocationblock"
   }
 }

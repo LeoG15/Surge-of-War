@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "surgeofwar:lance_pierre"
+    },
+    "title": {
+      "translate": "advancements.des_pierres.title"
+    },
+    "description": {
+      "translate": "advancements.des_pierres.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "des_pierres": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "surgeofwar:lance_pierre",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "surgeofwar:installmod"
+}

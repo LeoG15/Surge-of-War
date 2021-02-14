@@ -15,13 +15,13 @@ import net.minecraft.item.ItemArmor;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import java.util.Map;
 import java.util.HashMap;
 
 import com.leovideo.surgeofwar.procedure.ProcedureEderniumArmorBodyTickEvent;
+import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
 import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
 @ElementsSurgeofwarMod.ModElement.Tag
@@ -40,10 +40,10 @@ public class ItemEderniumArmor extends ElementsSurgeofwarMod.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("EDERNIUMARMOR", "surgeofwar:edernium__-_", 25, new int[]{7, 11, 14, 9}, 9,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("EDERNIUMARMOR", "surgeofwar:edernium__-_", 33, new int[]{7, 11, 14, 9}, 9,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("ederniumarmorhelmet")
-				.setRegistryName("ederniumarmorhelmet").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("ederniumarmorhelmet").setCreativeTab(TabItemOfWar.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST) {
 			@Override
 			public void onArmorTick(World world, EntityPlayer entity, ItemStack itemstack) {
@@ -56,11 +56,11 @@ public class ItemEderniumArmor extends ElementsSurgeofwarMod.ModElement {
 					ProcedureEderniumArmorBodyTickEvent.executeProcedure($_dependencies);
 				}
 			}
-		}.setUnlocalizedName("ederniumarmorbody").setRegistryName("ederniumarmorbody").setCreativeTab(CreativeTabs.COMBAT));
+		}.setUnlocalizedName("ederniumarmorbody").setRegistryName("ederniumarmorbody").setCreativeTab(TabItemOfWar.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.LEGS).setUnlocalizedName("ederniumarmorlegs")
-				.setRegistryName("ederniumarmorlegs").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("ederniumarmorlegs").setCreativeTab(TabItemOfWar.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.FEET).setUnlocalizedName("ederniumarmorboots")
-				.setRegistryName("ederniumarmorboots").setCreativeTab(CreativeTabs.COMBAT));
+				.setRegistryName("ederniumarmorboots").setCreativeTab(TabItemOfWar.tab));
 	}
 
 	@SideOnly(Side.CLIENT)

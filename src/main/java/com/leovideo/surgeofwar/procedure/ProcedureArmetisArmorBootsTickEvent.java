@@ -3,9 +3,7 @@ package com.leovideo.surgeofwar.procedure;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.potion.PotionEffect;
-import net.minecraft.item.ItemStack;
 import net.minecraft.init.MobEffects;
-import net.minecraft.init.Enchantments;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
@@ -28,15 +26,9 @@ public class ProcedureArmetisArmorBootsTickEvent extends ElementsSurgeofwarMod.M
 			System.err.println("Failed to load dependency entity for procedure ArmetisArmorBootsTickEvent!");
 			return;
 		}
-		if (dependencies.get("itemstack") == null) {
-			System.err.println("Failed to load dependency itemstack for procedure ArmetisArmorBootsTickEvent!");
-			return;
-		}
 		Entity entity = (Entity) dependencies.get("entity");
-		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		if (entity instanceof EntityLivingBase)
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.REGENERATION, (int) 120, (int) 3, (true), (false)));
-		((itemstack)).addEnchantment(Enchantments.PROTECTION, (int) 3);
 		if (entity instanceof EntityPlayerMP) {
 			Advancement _adv = ((MinecraftServer) ((EntityPlayerMP) entity).mcServer).getAdvancementManager()
 					.getAdvancement(new ResourceLocation("surgeofwar:bienequipe"));

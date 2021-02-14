@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/darkbricks",
+    "up": "surgeofwar:blocks/darkbricks",
+    "north": "surgeofwar:blocks/darkbricks",
+    "east": "surgeofwar:blocks/darkbricks",
+    "south": "surgeofwar:blocks/darkbricks",
+    "west": "surgeofwar:blocks/darkbricks",
+    "particle": "surgeofwar:blocks/darkbricks"
+  }
+}

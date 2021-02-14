@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/whitebricks",
+    "up": "surgeofwar:blocks/whitebricks",
+    "north": "surgeofwar:blocks/whitebricks",
+    "east": "surgeofwar:blocks/whitebricks",
+    "south": "surgeofwar:blocks/whitebricks",
+    "west": "surgeofwar:blocks/whitebricks",
+    "particle": "surgeofwar:blocks/whitebricks"
+  }
+}

@@ -39,7 +39,7 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 25,
+    "maxDamage": 1024,
     "damageValueHelmet": 14,
     "damageValueBody": 19,
     "damageValueLeggings": 17,
@@ -49,6 +49,10 @@
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:RepairHammer"
+      }
+    ]
   }
 }

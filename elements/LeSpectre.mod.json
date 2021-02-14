@@ -1,0 +1,27 @@
+{
+  "_fv": 13,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Le Spectre",
+    "achievementDescription": "Un spectre mal réveillé",
+    "achievementIcon": {
+      "value": "CUSTOM:SpecterSword"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "AznarisIgniterRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 1000,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:InstallMod"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"44\" y=\"59\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

@@ -7,7 +7,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
-import com.leovideo.surgeofwar.block.BlockViprinBlockPortal;
+import com.leovideo.surgeofwar.block.BlockViprinGrass;
 import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
 @ElementsSurgeofwarMod.ModElement.Tag
@@ -22,7 +22,7 @@ public class TabBlocksOfSurge extends ElementsSurgeofwarMod.ModElement {
 			@SideOnly(Side.CLIENT)
 			@Override
 			public ItemStack getTabIconItem() {
-				return new ItemStack(BlockViprinBlockPortal.block, (int) (1));
+				return new ItemStack(BlockViprinGrass.block, (int) (1));
 			}
 
 			@SideOnly(Side.CLIENT)

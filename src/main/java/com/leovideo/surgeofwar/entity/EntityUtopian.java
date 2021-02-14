@@ -3,65 +3,48 @@ package com.leovideo.surgeofwar.entity;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.EntityEntryBuilder;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 
-import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.init.Items;
 import net.minecraft.entity.projectile.EntityPotion;
 import net.minecraft.entity.projectile.EntityArrow;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAISwimming;
-import net.minecraft.entity.ai.EntityAIPanic;
+import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
 import net.minecraft.entity.ai.EntityAILookIdle;
-import net.minecraft.entity.ai.EntityAILeapAtTarget;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
+import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.EnumCreatureAttribute;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 
-import java.util.Iterator;
-import java.util.ArrayList;
-
+import com.leovideo.surgeofwar.item.ItemEderniumSword;
 import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
 @ElementsSurgeofwarMod.ModElement.Tag
-public class EntityDirtGolem extends ElementsSurgeofwarMod.ModElement {
-	public static final int ENTITYID = 26;
-	public static final int ENTITYID_RANGED = 27;
-	public EntityDirtGolem(ElementsSurgeofwarMod instance) {
-		super(instance, 199);
+public class EntityUtopian extends ElementsSurgeofwarMod.ModElement {
+	public static final int ENTITYID = 37;
+	public static final int ENTITYID_RANGED = 38;
+	public EntityUtopian(ElementsSurgeofwarMod instance) {
+		super(instance, 257);
 	}
 
 	@Override
 	public void initElements() {
-		elements.entities
-				.add(() -> EntityEntryBuilder.create().entity(EntityCustom.class).id(new ResourceLocation("surgeofwar", "dirtgolem"), ENTITYID)
-						.name("dirtgolem").tracker(80, 3, true).egg(-5541307, -6684826).build());
-	}
-
-	@Override
-	public void init(FMLInitializationEvent event) {
-		Biome[] spawnBiomes = allbiomes(Biome.REGISTRY);
-		EntityRegistry.addSpawn(EntityCustom.class, 20, 1, 2, EnumCreatureType.MONSTER, spawnBiomes);
-	}
-
-	private Biome[] allbiomes(net.minecraft.util.registry.RegistryNamespaced<ResourceLocation, Biome> in) {
-		Iterator<Biome> itr = in.iterator();
-		ArrayList<Biome> ls = new ArrayList<Biome>();
-		while (itr.hasNext())
-			ls.add(itr.next());
-		return ls.toArray(new Biome[ls.size()]);
+		elements.entities.add(() -> EntityEntryBuilder.create().entity(EntityCustom.class).id(new ResourceLocation("surgeofwar", "utopian"), ENTITYID)
+				.name("utopian").tracker(64, 3, true).egg(-16711681, -13421773).build());
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -70,7 +53,7 @@ public class EntityDirtGolem extends ElementsSurgeofwarMod.ModElement {
 		RenderingRegistry.registerEntityRenderingHandler(EntityCustom.class, renderManager -> {
 			RenderBiped customRender = new RenderBiped(renderManager, new ModelBiped(), 0.5f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("surgeofwar:textures/irt_golem.png");
+					return new ResourceLocation("surgeofwar:textures/utopian.png");
 				}
 			};
 			customRender.addLayer(new net.minecraft.client.renderer.entity.layers.LayerBipedArmor(customRender) {
@@ -86,20 +69,21 @@ public class EntityDirtGolem extends ElementsSurgeofwarMod.ModElement {
 		public EntityCustom(World world) {
 			super(world);
 			setSize(0.6f, 1.8f);
-			experienceValue = 100;
+			experienceValue = 0;
 			this.isImmuneToFire = false;
 			setNoAI(!true);
+			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND, new ItemStack(ItemEderniumSword.block, (int) (1)));
 		}
 
 		@Override
 		protected void initEntityAI() {
 			super.initEntityAI();
-			this.tasks.addTask(1, new EntityAIWander(this, 1));
-			this.tasks.addTask(2, new EntityAILookIdle(this));
-			this.tasks.addTask(3, new EntityAISwimming(this));
-			this.tasks.addTask(4, new EntityAILeapAtTarget(this, (float) 0.8));
-			this.tasks.addTask(5, new EntityAIPanic(this, 1.2));
-			this.targetTasks.addTask(6, new EntityAIHurtByTarget(this, false));
+			this.targetTasks.addTask(1, new EntityAINearestAttackableTarget(this, EntityPlayer.class, false, true));
+			this.tasks.addTask(2, new EntityAIAttackMelee(this, 1.2, false));
+			this.tasks.addTask(3, new EntityAIWander(this, 1));
+			this.targetTasks.addTask(4, new EntityAIHurtByTarget(this, true));
+			this.tasks.addTask(5, new EntityAILookIdle(this));
+			this.tasks.addTask(6, new EntityAISwimming(this));
 		}
 
 		@Override
@@ -109,7 +93,7 @@ public class EntityDirtGolem extends ElementsSurgeofwarMod.ModElement {
 
 		@Override
 		protected Item getDropItem() {
-			return null;
+			return new ItemStack(Items.DIAMOND, (int) (1)).getItem();
 		}
 
 		@Override
@@ -142,7 +126,7 @@ public class EntityDirtGolem extends ElementsSurgeofwarMod.ModElement {
 				return false;
 			if (source == DamageSource.CACTUS)
 				return false;
-			if (source == DamageSource.LIGHTNING_BOLT)
+			if (source == DamageSource.DROWN)
 				return false;
 			return super.attackEntityFrom(source, amount);
 		}
@@ -153,11 +137,11 @@ public class EntityDirtGolem extends ElementsSurgeofwarMod.ModElement {
 			if (this.getEntityAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.2D);
+				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(300D);
+				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(60D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3D);
+				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(6D);
 		}
 	}
 }

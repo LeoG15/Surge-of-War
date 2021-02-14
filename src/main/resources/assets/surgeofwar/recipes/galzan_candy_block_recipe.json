@@ -1,0 +1,42 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_block"
+    },
+    "1": {
+      "item": "surgeofwar:edernium"
+    },
+    "2": {
+      "item": "minecraft:gold_block"
+    },
+    "3": {
+      "item": "surgeofwar:ederniumfragment"
+    },
+    "4": {
+      "item": "surgeofwar:creationorb"
+    },
+    "5": {
+      "item": "surgeofwar:ederniumfragment"
+    },
+    "6": {
+      "item": "minecraft:gold_block"
+    },
+    "7": {
+      "item": "surgeofwar:edernium"
+    },
+    "8": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:galzan_candy_block",
+    "count": 3
+  }
+}

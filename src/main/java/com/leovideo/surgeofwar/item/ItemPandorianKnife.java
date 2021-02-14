@@ -91,14 +91,13 @@ public class ItemPandorianKnife extends ElementsSurgeofwarMod.ModElement {
 				}
 				if (entity.capabilities.isCreativeMode || EnchantmentHelper.getEnchantmentLevel(Enchantments.INFINITY, itemstack) > 0
 						|| slotID != -1) {
-					float power = 1.3f;
+					float power = 0.9f;
 					EntityArrowCustom entityarrow = new EntityArrowCustom(world, entity);
 					entityarrow.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, power * 2, 0);
 					entityarrow.setSilent(true);
 					entityarrow.setIsCritical(false);
-					entityarrow.setDamage(7);
-					entityarrow.setKnockbackStrength(1);
-					entityarrow.setFire(100);
+					entityarrow.setDamage(6);
+					entityarrow.setKnockbackStrength(0);
 					itemstack.damageItem(1, entity);
 					int x = (int) entity.posX;
 					int y = (int) entity.posY;

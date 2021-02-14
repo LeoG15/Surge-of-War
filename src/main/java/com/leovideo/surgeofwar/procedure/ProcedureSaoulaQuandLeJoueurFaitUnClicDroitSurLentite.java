@@ -2,11 +2,9 @@ package com.leovideo.surgeofwar.procedure;
 
 import net.minecraft.world.World;
 import net.minecraft.entity.effect.EntityLightningBolt;
-import net.minecraft.entity.Entity;
 
 import java.util.Map;
 
-import com.leovideo.surgeofwar.entity.EntityRedemption;
 import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
 @ElementsSurgeofwarMod.ModElement.Tag
@@ -37,12 +35,5 @@ public class ProcedureSaoulaQuandLeJoueurFaitUnClicDroitSurLentite extends Eleme
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		world.addWeatherEffect(new EntityLightningBolt(world, (int) x, (int) y, (int) z, false));
-		if (!world.isRemote) {
-			Entity entityToSpawn = new EntityRedemption.EntityCustom(world);
-			if (entityToSpawn != null) {
-				entityToSpawn.setLocationAndAngles(x, y, z, world.rand.nextFloat() * 360F, 0.0F);
-				world.spawnEntity(entityToSpawn);
-			}
-		}
 	}
 }

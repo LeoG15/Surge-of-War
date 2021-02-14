@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "surgeofwar:obratum"
+    },
+    "title": {
+      "translate": "advancements.le_lingot_du_chaos.title"
+    },
+    "description": {
+      "translate": "advancements.le_lingot_du_chaos.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "le_lingot_du_chaos": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  },
+  "parent": "surgeofwar:bienequipe"
+}

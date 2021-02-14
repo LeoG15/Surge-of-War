@@ -1,0 +1,57 @@
+{
+  "_fv": 13,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "chaoshelmet",
+    "enableBody": true,
+    "textureBody": "chaosbody",
+    "enableLeggings": true,
+    "textureLeggings": "chaoslegs",
+    "enableBoots": true,
+    "textureBoots": "chaosboots",
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "armorTextureFile": "mercure_",
+    "helmetName": "Casque en Mercure Armor",
+    "bodyName": "Plastron de Mercure Armor",
+    "leggingsName": "Jambières de Mercure Armor",
+    "bootsName": "Bottes en Mercure Armor",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 420,
+    "damageValueHelmet": 7,
+    "damageValueBody": 8,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 6,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:RepairHammer"
+      }
+    ]
+  }
+}

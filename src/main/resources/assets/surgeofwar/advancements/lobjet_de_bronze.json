@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "surgeofwar:cuivreforge"
+    },
+    "title": {
+      "translate": "advancements.lobjet_de_bronze.title"
+    },
+    "description": {
+      "translate": "advancements.lobjet_de_bronze.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lobjet_de_bronze": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "surgeofwar:installmod"
+}

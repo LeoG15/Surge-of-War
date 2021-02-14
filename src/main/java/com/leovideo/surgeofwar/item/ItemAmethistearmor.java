@@ -40,7 +40,7 @@ public class ItemAmethistearmor extends ElementsSurgeofwarMod.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("AMETHISTEARMOR", "surgeofwar:edernium__-_opy", 200, new int[]{3, 6, 7, 4}, 9,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("AMETHISTEARMOR", "surgeofwar:ametihiste_", 200, new int[]{3, 6, 7, 4}, 9,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("block.dispenser.launch")), 2f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("amethistearmorhelmet")
 				.setRegistryName("amethistearmorhelmet").setCreativeTab(TabItemOfWar.tab));
