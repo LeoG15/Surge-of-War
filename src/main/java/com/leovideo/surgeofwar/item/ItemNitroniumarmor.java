@@ -35,7 +35,7 @@ public class ItemNitroniumarmor extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nitroniumarmorboots")
 	public static final Item boots = null;
 	public ItemNitroniumarmor(ElementsSurgeofwarMod instance) {
-		super(instance, 56);
+		super(instance, 101);
 	}
 
 	@Override

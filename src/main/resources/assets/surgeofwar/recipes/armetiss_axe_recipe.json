@@ -1,0 +1,30 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:armetis"
+    },
+    "1": {
+      "item": "surgeofwar:armetis"
+    },
+    "2": {
+      "item": "surgeofwar:armetis"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:armetiss_axe",
+    "count": 1
+  }
+}

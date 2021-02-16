@@ -10,7 +10,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureSaoulaQuandLeJoueurFaitUnClicDroitSurLentite extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureSaoulaQuandLeJoueurFaitUnClicDroitSurLentite(ElementsSurgeofwarMod instance) {
-		super(instance, 238);
+		super(instance, 307);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

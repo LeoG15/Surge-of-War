@@ -83,7 +83,7 @@ public class WorldViprin extends ElementsSurgeofwarMod.ModElement {
 	public static final BlockCustomPortal portal = null;
 	public static DimensionType dtype;
 	public WorldViprin(ElementsSurgeofwarMod instance) {
-		super(instance, 26);
+		super(instance, 82);
 	}
 
 	@Override

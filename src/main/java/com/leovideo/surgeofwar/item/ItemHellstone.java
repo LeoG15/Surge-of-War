@@ -20,7 +20,7 @@ public class ItemHellstone extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:hellstone")
 	public static final Item block = null;
 	public ItemHellstone(ElementsSurgeofwarMod instance) {
-		super(instance, 180);
+		super(instance, 153);
 	}
 
 	@Override

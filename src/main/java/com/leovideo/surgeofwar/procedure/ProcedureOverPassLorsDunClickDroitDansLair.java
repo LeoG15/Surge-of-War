@@ -14,7 +14,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureOverPassLorsDunClickDroitDansLair extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureOverPassLorsDunClickDroitDansLair(ElementsSurgeofwarMod instance) {
-		super(instance, 262);
+		super(instance, 327);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

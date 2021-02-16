@@ -10,7 +10,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureEderniumSwordMobIsHitWithTool extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureEderniumSwordMobIsHitWithTool(ElementsSurgeofwarMod instance) {
-		super(instance, 88);
+		super(instance, 222);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

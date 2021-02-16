@@ -20,7 +20,7 @@ public class ItemBigBottle extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:big_bottle")
 	public static final Item block = null;
 	public ItemBigBottle(ElementsSurgeofwarMod instance) {
-		super(instance, 228);
+		super(instance, 159);
 	}
 
 	@Override

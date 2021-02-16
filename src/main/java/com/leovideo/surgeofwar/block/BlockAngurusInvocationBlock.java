@@ -32,7 +32,7 @@ public class BlockAngurusInvocationBlock extends ElementsSurgeofwarMod.ModElemen
 	@GameRegistry.ObjectHolder("surgeofwar:angurus_invocation_block")
 	public static final Block block = null;
 	public BlockAngurusInvocationBlock(ElementsSurgeofwarMod instance) {
-		super(instance, 248);
+		super(instance, 42);
 	}
 
 	@Override

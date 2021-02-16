@@ -22,7 +22,7 @@ public class BlockViprinDirt extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:viprindirt")
 	public static final Block block = null;
 	public BlockViprinDirt(ElementsSurgeofwarMod instance) {
-		super(instance, 24);
+		super(instance, 12);
 	}
 
 	@Override

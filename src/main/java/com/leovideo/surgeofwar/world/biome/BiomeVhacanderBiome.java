@@ -34,7 +34,7 @@ public class BiomeVhacanderBiome extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vhacanderbiome")
 	public static final BiomeGenCustom biome = null;
 	public BiomeVhacanderBiome(ElementsSurgeofwarMod instance) {
-		super(instance, 68);
+		super(instance, 212);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class EntityFolderCow extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 3;
 	public static final int ENTITYID_RANGED = 4;
 	public EntityFolderCow(ElementsSurgeofwarMod instance) {
-		super(instance, 29);
+		super(instance, 172);
 	}
 
 	@Override

@@ -20,7 +20,7 @@ public class ItemVitrome extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vitrome")
 	public static final Item block = null;
 	public ItemVitrome(ElementsSurgeofwarMod instance) {
-		super(instance, 37);
+		super(instance, 85);
 	}
 
 	@Override

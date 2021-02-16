@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "pee_en_methiste",
+    "texture": "methiste_sword",
     "customModelName": "Normal",
     "name": "Amethiste Sword",
     "specialInfo": [],

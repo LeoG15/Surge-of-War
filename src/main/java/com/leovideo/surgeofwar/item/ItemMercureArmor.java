@@ -28,7 +28,7 @@ public class ItemMercureArmor extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:mercure_armorboots")
 	public static final Item boots = null;
 	public ItemMercureArmor(ElementsSurgeofwarMod instance) {
-		super(instance, 270);
+		super(instance, 80);
 	}
 
 	@Override

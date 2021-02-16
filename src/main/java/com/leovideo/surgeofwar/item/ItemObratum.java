@@ -20,7 +20,7 @@ public class ItemObratum extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:obratum")
 	public static final Item block = null;
 	public ItemObratum(ElementsSurgeofwarMod instance) {
-		super(instance, 105);
+		super(instance, 122);
 	}
 
 	@Override

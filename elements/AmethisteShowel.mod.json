@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "elle_en_methiste",
+    "texture": "methiste_shovel",
     "customModelName": "Normal",
     "name": "Amethiste Showel",
     "specialInfo": [],

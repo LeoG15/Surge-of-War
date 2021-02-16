@@ -20,7 +20,7 @@ public class ItemFragonite extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:fragonite")
 	public static final Item block = null;
 	public ItemFragonite(ElementsSurgeofwarMod instance) {
-		super(instance, 214);
+		super(instance, 150);
 	}
 
 	@Override

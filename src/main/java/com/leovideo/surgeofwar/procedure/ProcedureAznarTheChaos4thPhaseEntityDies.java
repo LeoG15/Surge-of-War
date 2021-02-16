@@ -14,7 +14,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureAznarTheChaos4thPhaseEntityDies extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureAznarTheChaos4thPhaseEntityDies(ElementsSurgeofwarMod instance) {
-		super(instance, 138);
+		super(instance, 255);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

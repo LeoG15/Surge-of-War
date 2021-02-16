@@ -1,0 +1,30 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:vitrome"
+    },
+    "1": {
+      "item": "surgeofwar:vitrome"
+    },
+    "2": {
+      "item": "surgeofwar:vitrome"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:vitromee_pickaxe",
+    "count": 1
+  }
+}

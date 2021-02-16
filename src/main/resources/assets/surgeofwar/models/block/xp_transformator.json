@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "surgeofwar:blocks/xptransformator",
+    "up": "surgeofwar:blocks/xptransformator",
+    "north": "surgeofwar:blocks/xptransformator",
+    "east": "surgeofwar:blocks/xptransformator",
+    "south": "surgeofwar:blocks/xptransformator",
+    "west": "surgeofwar:blocks/xptransformator",
+    "particle": "surgeofwar:blocks/xptransformator"
+  }
+}

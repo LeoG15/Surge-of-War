@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureDevilOnEntityTickUpdate extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureDevilOnEntityTickUpdate(ElementsSurgeofwarMod instance) {
-		super(instance, 66);
+		super(instance, 211);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

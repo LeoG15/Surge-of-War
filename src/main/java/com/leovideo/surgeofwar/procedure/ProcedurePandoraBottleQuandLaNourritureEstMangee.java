@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedurePandoraBottleQuandLaNourritureEstMangee extends ElementsSurgeofwarMod.ModElement {
 	public ProcedurePandoraBottleQuandLaNourritureEstMangee(ElementsSurgeofwarMod instance) {
-		super(instance, 229);
+		super(instance, 304);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

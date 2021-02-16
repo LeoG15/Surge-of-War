@@ -38,7 +38,7 @@ public class EntityAngurusClone extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 39;
 	public static final int ENTITYID_RANGED = 40;
 	public EntityAngurusClone(ElementsSurgeofwarMod instance) {
-		super(instance, 261);
+		super(instance, 170);
 	}
 
 	@Override

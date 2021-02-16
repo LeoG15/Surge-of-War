@@ -29,7 +29,7 @@ public class BiomeGalzanBiome extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:galzan_biome")
 	public static final BiomeGenCustom biome = null;
 	public BiomeGalzanBiome(ElementsSurgeofwarMod instance) {
-		super(instance, 211);
+		super(instance, 298);
 	}
 
 	@Override

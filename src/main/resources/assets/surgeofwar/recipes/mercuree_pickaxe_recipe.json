@@ -1,0 +1,30 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:mercure"
+    },
+    "1": {
+      "item": "surgeofwar:mercure"
+    },
+    "2": {
+      "item": "surgeofwar:mercure"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:mercuree_pickaxe",
+    "count": 1
+  }
+}

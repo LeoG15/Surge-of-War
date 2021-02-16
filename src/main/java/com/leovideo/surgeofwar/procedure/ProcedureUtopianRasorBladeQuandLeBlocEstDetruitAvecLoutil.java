@@ -9,7 +9,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureUtopianRasorBladeQuandLeBlocEstDetruitAvecLoutil extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureUtopianRasorBladeQuandLeBlocEstDetruitAvecLoutil(ElementsSurgeofwarMod instance) {
-		super(instance, 269);
+		super(instance, 333);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

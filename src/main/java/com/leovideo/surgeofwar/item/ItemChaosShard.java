@@ -20,7 +20,7 @@ public class ItemChaosShard extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:chaosshard")
 	public static final Item block = null;
 	public ItemChaosShard(ElementsSurgeofwarMod instance) {
-		super(instance, 149);
+		super(instance, 127);
 	}
 
 	@Override

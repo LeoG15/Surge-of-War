@@ -15,7 +15,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureGoblinEntityDies extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureGoblinEntityDies(ElementsSurgeofwarMod instance) {
-		super(instance, 21);
+		super(instance, 194);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -22,7 +22,7 @@ public class BlockVhacanderDirt extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vhacanderdirt")
 	public static final Block block = null;
 	public BlockVhacanderDirt(ElementsSurgeofwarMod instance) {
-		super(instance, 70);
+		super(instance, 7);
 	}
 
 	@Override

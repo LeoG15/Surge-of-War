@@ -30,7 +30,7 @@ public class BiomeViprinBiome extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:viprinbiome")
 	public static final BiomeGenCustom biome = null;
 	public BiomeViprinBiome(ElementsSurgeofwarMod instance) {
-		super(instance, 27);
+		super(instance, 195);
 	}
 
 	@Override

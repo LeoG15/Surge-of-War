@@ -49,7 +49,7 @@ public class EntityGoblin extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 1;
 	public static final int ENTITYID_RANGED = 2;
 	public EntityGoblin(ElementsSurgeofwarMod instance) {
-		super(instance, 19);
+		super(instance, 164);
 	}
 
 	@Override

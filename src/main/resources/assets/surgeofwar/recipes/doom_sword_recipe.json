@@ -1,0 +1,24 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:doomorb"
+    },
+    "1": {
+      "item": "surgeofwar:doomorb"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:doom_sword",
+    "count": 1
+  }
+}

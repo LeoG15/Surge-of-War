@@ -12,7 +12,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureBooklingMageStrenght extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureBooklingMageStrenght(ElementsSurgeofwarMod instance) {
-		super(instance, 72);
+		super(instance, 214);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

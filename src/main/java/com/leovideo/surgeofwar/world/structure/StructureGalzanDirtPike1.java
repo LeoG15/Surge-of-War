@@ -24,7 +24,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class StructureGalzanDirtPike1 extends ElementsSurgeofwarMod.ModElement {
 	public StructureGalzanDirtPike1(ElementsSurgeofwarMod instance) {
-		super(instance, 250);
+		super(instance, 320);
 	}
 
 	@Override

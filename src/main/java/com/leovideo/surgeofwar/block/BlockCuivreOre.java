@@ -35,7 +35,7 @@ public class BlockCuivreOre extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:cuivreore")
 	public static final Block block = null;
 	public BlockCuivreOre(ElementsSurgeofwarMod instance) {
-		super(instance, 171);
+		super(instance, 1);
 	}
 
 	@Override

@@ -20,7 +20,7 @@ public class ItemCuivreForge extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:cuivreforge")
 	public static final Item block = null;
 	public ItemCuivreForge(ElementsSurgeofwarMod instance) {
-		super(instance, 177);
+		super(instance, 55);
 	}
 
 	@Override

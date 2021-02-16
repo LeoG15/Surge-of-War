@@ -29,7 +29,7 @@ public class ItemIronKnife extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:ironknife")
 	public static final Item block = null;
 	public ItemIronKnife(ElementsSurgeofwarMod instance) {
-		super(instance, 82);
+		super(instance, 51);
 	}
 
 	@Override

@@ -33,7 +33,7 @@ public class ItemSpecterSword extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:specter_sword")
 	public static final Item block = null;
 	public ItemSpecterSword(ElementsSurgeofwarMod instance) {
-		super(instance, 252);
+		super(instance, 102);
 	}
 
 	@Override

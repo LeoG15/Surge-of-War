@@ -22,7 +22,7 @@ public class BlockVicoque extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vicoque")
 	public static final Block block = null;
 	public BlockVicoque(ElementsSurgeofwarMod instance) {
-		super(instance, 38);
+		super(instance, 84);
 	}
 
 	@Override

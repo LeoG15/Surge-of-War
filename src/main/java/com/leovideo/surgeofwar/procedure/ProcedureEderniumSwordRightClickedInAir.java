@@ -10,7 +10,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureEderniumSwordRightClickedInAir extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureEderniumSwordRightClickedInAir(ElementsSurgeofwarMod instance) {
-		super(instance, 89);
+		super(instance, 223);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

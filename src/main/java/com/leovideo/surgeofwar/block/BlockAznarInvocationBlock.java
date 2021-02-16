@@ -32,7 +32,7 @@ public class BlockAznarInvocationBlock extends ElementsSurgeofwarMod.ModElement 
 	@GameRegistry.ObjectHolder("surgeofwar:aznar_invocation_block")
 	public static final Block block = null;
 	public BlockAznarInvocationBlock(ElementsSurgeofwarMod instance) {
-		super(instance, 262);
+		super(instance, 43);
 	}
 
 	@Override

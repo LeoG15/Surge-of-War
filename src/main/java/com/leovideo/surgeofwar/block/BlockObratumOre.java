@@ -34,7 +34,7 @@ public class BlockObratumOre extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:obratumore")
 	public static final Block block = null;
 	public BlockObratumOre(ElementsSurgeofwarMod instance) {
-		super(instance, 104);
+		super(instance, 27);
 	}
 
 	@Override

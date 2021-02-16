@@ -41,7 +41,7 @@ public class BlockFragonitePlant extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:fragonite_plant")
 	public static final Block block = null;
 	public BlockFragonitePlant(ElementsSurgeofwarMod instance) {
-		super(instance, 213);
+		super(instance, 37);
 	}
 
 	@Override

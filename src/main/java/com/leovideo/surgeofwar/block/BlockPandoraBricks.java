@@ -22,7 +22,7 @@ public class BlockPandoraBricks extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:pandora_bricks")
 	public static final Block block = null;
 	public BlockPandoraBricks(ElementsSurgeofwarMod instance) {
-		super(instance, 225);
+		super(instance, 49);
 	}
 
 	@Override

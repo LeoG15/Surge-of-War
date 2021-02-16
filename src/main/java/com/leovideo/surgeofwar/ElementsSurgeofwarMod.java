@@ -45,7 +45,9 @@ import java.util.ArrayList;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Retention;
 
+import com.leovideo.surgeofwar.gui.GuiXpTransformatorGUI;
 import com.leovideo.surgeofwar.gui.GuiArmetisUnlockChest;
+import com.leovideo.surgeofwar.gui.GuiAmeliorator;
 
 public class ElementsSurgeofwarMod implements IFuelHandler, IWorldGenerator {
 	public final List<ModElement> elements = new ArrayList<>();
@@ -128,6 +130,10 @@ public class ElementsSurgeofwarMod implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiArmetisUnlockChest.GUIID)
 				return new GuiArmetisUnlockChest.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiXpTransformatorGUI.GUIID)
+				return new GuiXpTransformatorGUI.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiAmeliorator.GUIID)
+				return new GuiAmeliorator.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -135,6 +141,10 @@ public class ElementsSurgeofwarMod implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiArmetisUnlockChest.GUIID)
 				return new GuiArmetisUnlockChest.GuiWindow(world, x, y, z, player);
+			if (id == GuiXpTransformatorGUI.GUIID)
+				return new GuiXpTransformatorGUI.GuiWindow(world, x, y, z, player);
+			if (id == GuiAmeliorator.GUIID)
+				return new GuiAmeliorator.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

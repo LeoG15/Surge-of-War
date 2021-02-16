@@ -30,7 +30,7 @@ public class BlockViprinLeaves extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:viprinleaves")
 	public static final Block block = null;
 	public BlockViprinLeaves(ElementsSurgeofwarMod instance) {
-		super(instance, 27);
+		super(instance, 14);
 	}
 
 	@Override

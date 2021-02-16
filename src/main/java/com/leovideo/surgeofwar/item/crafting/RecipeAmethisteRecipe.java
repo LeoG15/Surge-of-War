@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class RecipeAmethisteRecipe extends ElementsSurgeofwarMod.ModElement {
 	public RecipeAmethisteRecipe(ElementsSurgeofwarMod instance) {
-		super(instance, 8);
+		super(instance, 186);
 	}
 
 	@Override

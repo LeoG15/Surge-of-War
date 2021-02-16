@@ -41,7 +41,7 @@ public class BlockRedGalzanMushroom extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:red_galzan_mushroom")
 	public static final Block block = null;
 	public BlockRedGalzanMushroom(ElementsSurgeofwarMod instance) {
-		super(instance, 210);
+		super(instance, 36);
 	}
 
 	@Override

@@ -45,7 +45,7 @@ public class EntityRedemption extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 28;
 	public static final int ENTITYID_RANGED = 29;
 	public EntityRedemption(ElementsSurgeofwarMod instance) {
-		super(instance, 223);
+		super(instance, 167);
 	}
 
 	@Override

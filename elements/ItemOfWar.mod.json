@@ -6,6 +6,6 @@
     "icon": {
       "value": "CUSTOM:Hellstone"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

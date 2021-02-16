@@ -10,7 +10,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureChaoticPowerRightClickedOnBlock extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureChaoticPowerRightClickedOnBlock(ElementsSurgeofwarMod instance) {
-		super(instance, 148);
+		super(instance, 266);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

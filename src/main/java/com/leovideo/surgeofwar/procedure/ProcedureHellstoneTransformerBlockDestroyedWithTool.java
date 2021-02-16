@@ -15,7 +15,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureHellstoneTransformerBlockDestroyedWithTool extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureHellstoneTransformerBlockDestroyedWithTool(ElementsSurgeofwarMod instance) {
-		super(instance, 182);
+		super(instance, 282);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

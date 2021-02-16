@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class RecipeEderniumFragmentRecipe extends ElementsSurgeofwarMod.ModElement {
 	public RecipeEderniumFragmentRecipe(ElementsSurgeofwarMod instance) {
-		super(instance, 77);
+		super(instance, 215);
 	}
 
 	@Override

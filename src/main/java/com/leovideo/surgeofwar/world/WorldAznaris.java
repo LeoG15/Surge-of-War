@@ -79,7 +79,7 @@ public class WorldAznaris extends ElementsSurgeofwarMod.ModElement {
 	public static final BlockCustomPortal portal = null;
 	public static DimensionType dtype;
 	public WorldAznaris(ElementsSurgeofwarMod instance) {
-		super(instance, 133);
+		super(instance, 125);
 	}
 
 	@Override

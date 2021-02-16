@@ -35,7 +35,7 @@ public class ItemArmetisArmor extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:armetisarmorboots")
 	public static final Item boots = null;
 	public ItemArmetisArmor(ElementsSurgeofwarMod instance) {
-		super(instance, 153);
+		super(instance, 148);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class BlockCopperhandFlower extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:copperhand_flower")
 	public static final Block block = null;
 	public BlockCopperhandFlower(ElementsSurgeofwarMod instance) {
-		super(instance, 202);
+		super(instance, 2);
 	}
 
 	@Override

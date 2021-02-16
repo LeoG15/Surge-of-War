@@ -32,7 +32,7 @@ public class BlockSaoulaInvocationBlock extends ElementsSurgeofwarMod.ModElement
 	@GameRegistry.ObjectHolder("surgeofwar:saoula_invocation_block")
 	public static final Block block = null;
 	public BlockSaoulaInvocationBlock(ElementsSurgeofwarMod instance) {
-		super(instance, 242);
+		super(instance, 44);
 	}
 
 	@Override

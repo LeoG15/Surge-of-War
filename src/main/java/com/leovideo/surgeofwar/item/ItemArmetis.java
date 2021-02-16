@@ -20,7 +20,7 @@ public class ItemArmetis extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:armetis")
 	public static final Item block = null;
 	public ItemArmetis(ElementsSurgeofwarMod instance) {
-		super(instance, 154);
+		super(instance, 141);
 	}
 
 	@Override

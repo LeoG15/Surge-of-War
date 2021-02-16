@@ -33,7 +33,7 @@ public class ItemSunSword extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:sun_sword")
 	public static final Item block = null;
 	public ItemSunSword(ElementsSurgeofwarMod instance) {
-		super(instance, 239);
+		super(instance, 162);
 	}
 
 	@Override

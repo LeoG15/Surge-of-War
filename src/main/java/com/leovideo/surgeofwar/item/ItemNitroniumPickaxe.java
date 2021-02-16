@@ -24,7 +24,7 @@ public class ItemNitroniumPickaxe extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nitroniumpickaxe")
 	public static final Item block = null;
 	public ItemNitroniumPickaxe(ElementsSurgeofwarMod instance) {
-		super(instance, 65);
+		super(instance, 100);
 	}
 
 	@Override

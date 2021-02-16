@@ -24,7 +24,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class StructureSpecterPiece extends ElementsSurgeofwarMod.ModElement {
 	public StructureSpecterPiece(ElementsSurgeofwarMod instance) {
-		super(instance, 257);
+		super(instance, 324);
 	}
 
 	@Override

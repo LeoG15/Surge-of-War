@@ -41,7 +41,7 @@ public class BlockCopperSeedFinish extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:copperseedfinish")
 	public static final Block block = null;
 	public BlockCopperSeedFinish(ElementsSurgeofwarMod instance) {
-		super(instance, 190);
+		super(instance, 289);
 	}
 
 	@Override

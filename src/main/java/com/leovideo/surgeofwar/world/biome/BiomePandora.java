@@ -29,7 +29,7 @@ public class BiomePandora extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:pandora")
 	public static final BiomeGenCustom biome = null;
 	public BiomePandora(ElementsSurgeofwarMod instance) {
-		super(instance, 234);
+		super(instance, 305);
 	}
 
 	@Override

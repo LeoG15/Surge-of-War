@@ -35,7 +35,7 @@ public class ItemVitromeArmor extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vitromearmorboots")
 	public static final Item boots = null;
 	public ItemVitromeArmor(ElementsSurgeofwarMod instance) {
-		super(instance, 93);
+		super(instance, 91);
 	}
 
 	@Override

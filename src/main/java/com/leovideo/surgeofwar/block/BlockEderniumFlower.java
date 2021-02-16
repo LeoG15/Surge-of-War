@@ -40,7 +40,7 @@ public class BlockEderniumFlower extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:ederniumflower")
 	public static final Block block = null;
 	public BlockEderniumFlower(ElementsSurgeofwarMod instance) {
-		super(instance, 75);
+		super(instance, 21);
 	}
 
 	@Override

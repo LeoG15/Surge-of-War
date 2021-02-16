@@ -20,7 +20,7 @@ public class ItemFolderstick extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:folderstick")
 	public static final Item block = null;
 	public ItemFolderstick(ElementsSurgeofwarMod instance) {
-		super(instance, 53);
+		super(instance, 70);
 	}
 
 	@Override

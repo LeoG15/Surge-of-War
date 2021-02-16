@@ -12,7 +12,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureUtopianRasorBladeQuandUneEntiteVivanteEstFrappeeAvecLoutil extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureUtopianRasorBladeQuandUneEntiteVivanteEstFrappeeAvecLoutil(ElementsSurgeofwarMod instance) {
-		super(instance, 268);
+		super(instance, 332);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

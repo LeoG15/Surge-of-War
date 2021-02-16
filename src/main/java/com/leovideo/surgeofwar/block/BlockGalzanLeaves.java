@@ -30,7 +30,7 @@ public class BlockGalzanLeaves extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:galzan_leaves")
 	public static final Block block = null;
 	public BlockGalzanLeaves(ElementsSurgeofwarMod instance) {
-		super(instance, 207);
+		super(instance, 33);
 	}
 
 	@Override

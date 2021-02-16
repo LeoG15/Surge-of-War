@@ -45,7 +45,7 @@ public class EntityBooklinSorcerer extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 14;
 	public static final int ENTITYID_RANGED = 15;
 	public EntityBooklinSorcerer(ElementsSurgeofwarMod instance) {
-		super(instance, 90);
+		super(instance, 165);
 	}
 
 	@Override

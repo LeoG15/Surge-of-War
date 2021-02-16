@@ -20,7 +20,7 @@ public class ItemRepairHammer extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:repairhammer")
 	public static final Item block = null;
 	public ItemRepairHammer(ElementsSurgeofwarMod instance) {
-		super(instance, 193);
+		super(instance, 81);
 	}
 
 	@Override

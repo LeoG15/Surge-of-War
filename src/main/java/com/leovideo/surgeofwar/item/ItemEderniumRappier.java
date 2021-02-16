@@ -28,7 +28,7 @@ public class ItemEderniumRappier extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:ederniumrappier")
 	public static final Item block = null;
 	public ItemEderniumRappier(ElementsSurgeofwarMod instance) {
-		super(instance, 173);
+		super(instance, 108);
 	}
 
 	@Override

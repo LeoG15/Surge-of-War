@@ -46,7 +46,7 @@ public class EntityPandorian extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 33;
 	public static final int ENTITYID_RANGED = 34;
 	public EntityPandorian(ElementsSurgeofwarMod instance) {
-		super(instance, 241);
+		super(instance, 168);
 	}
 
 	@Override

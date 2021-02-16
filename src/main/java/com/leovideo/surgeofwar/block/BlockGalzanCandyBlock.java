@@ -22,7 +22,7 @@ public class BlockGalzanCandyBlock extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:galzan_candy_block")
 	public static final Block block = null;
 	public BlockGalzanCandyBlock(ElementsSurgeofwarMod instance) {
-		super(instance, 212);
+		super(instance, 30);
 	}
 
 	@Override

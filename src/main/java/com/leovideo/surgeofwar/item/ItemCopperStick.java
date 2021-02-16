@@ -20,7 +20,7 @@ public class ItemCopperStick extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:copperstick")
 	public static final Item block = null;
 	public ItemCopperStick(ElementsSurgeofwarMod instance) {
-		super(instance, 195);
+		super(instance, 60);
 	}
 
 	@Override

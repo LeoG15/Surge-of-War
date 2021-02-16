@@ -12,7 +12,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureGoblinThisEntityKillsAnotherOne extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureGoblinThisEntityKillsAnotherOne(ElementsSurgeofwarMod instance) {
-		super(instance, 19);
+		super(instance, 192);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

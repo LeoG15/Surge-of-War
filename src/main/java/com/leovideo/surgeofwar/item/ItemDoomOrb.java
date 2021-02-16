@@ -20,7 +20,7 @@ public class ItemDoomOrb extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:doomorb")
 	public static final Item block = null;
 	public ItemDoomOrb(ElementsSurgeofwarMod instance) {
-		super(instance, 151);
+		super(instance, 129);
 	}
 
 	@Override

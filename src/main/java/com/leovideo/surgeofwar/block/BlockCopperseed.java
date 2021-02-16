@@ -30,7 +30,10 @@ import net.minecraft.block.BlockFlower;
 import net.minecraft.block.Block;
 
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
 
+import com.leovideo.surgeofwar.procedure.ProcedureCopperseedMiseAJourDuTick;
 import com.leovideo.surgeofwar.creativetab.TabBlocksOfSurge;
 import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
@@ -39,7 +42,7 @@ public class BlockCopperseed extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:copperseed")
 	public static final Block block = null;
 	public BlockCopperseed(ElementsSurgeofwarMod instance) {
-		super(instance, 189);
+		super(instance, 3);
 	}
 
 	@Override
@@ -63,11 +66,11 @@ public class BlockCopperseed extends ElementsSurgeofwarMod.ModElement {
 			return;
 		boolean biomeCriteria = false;
 		Biome biome = world.getBiome(new BlockPos(chunkX, 128, chunkZ));
-		if (Biome.REGISTRY.getNameForObject(biome).equals(new ResourceLocation("forest")))
+		if (Biome.REGISTRY.getNameForObject(biome).equals(new ResourceLocation("surgeofwar:copperhang")))
 			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 7; i++) {
 			int l6 = chunkX + random.nextInt(16) + 8;
 			int i11 = random.nextInt(128);
 			int l14 = chunkZ + random.nextInt(16) + 8;
@@ -110,6 +113,21 @@ public class BlockCopperseed extends ElementsSurgeofwarMod.ModElement {
 		public void getSubBlocks(CreativeTabs tab, net.minecraft.util.NonNullList<ItemStack> list) {
 			for (BlockFlower.EnumFlowerType blockflower$enumflowertype : BlockFlower.EnumFlowerType.getTypes(this.getBlockType())) {
 				list.add(new ItemStack(this, 1, blockflower$enumflowertype.getMeta()));
+			}
+		}
+
+		@Override
+		public void updateTick(World world, BlockPos pos, IBlockState state, Random random) {
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureCopperseedMiseAJourDuTick.executeProcedure($_dependencies);
 			}
 		}
 	}

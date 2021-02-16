@@ -29,7 +29,7 @@ public class ItemEmeraldSword extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:emeraldsword")
 	public static final Item block = null;
 	public ItemEmeraldSword(ElementsSurgeofwarMod instance) {
-		super(instance, 111);
+		super(instance, 62);
 	}
 
 	@Override

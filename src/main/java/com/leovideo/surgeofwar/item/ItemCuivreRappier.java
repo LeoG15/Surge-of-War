@@ -28,7 +28,7 @@ public class ItemCuivreRappier extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:cuivrerappier")
 	public static final Item block = null;
 	public ItemCuivreRappier(ElementsSurgeofwarMod instance) {
-		super(instance, 172);
+		super(instance, 61);
 	}
 
 	@Override

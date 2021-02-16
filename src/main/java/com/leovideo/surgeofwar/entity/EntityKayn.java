@@ -42,7 +42,7 @@ public class EntityKayn extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 7;
 	public static final int ENTITYID_RANGED = 8;
 	public EntityKayn(ElementsSurgeofwarMod instance) {
-		super(instance, 50);
+		super(instance, 174);
 	}
 
 	@Override

@@ -20,7 +20,7 @@ public class ItemNitronium extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nitronium")
 	public static final Item block = null;
 	public ItemNitronium(ElementsSurgeofwarMod instance) {
-		super(instance, 57);
+		super(instance, 93);
 	}
 
 	@Override

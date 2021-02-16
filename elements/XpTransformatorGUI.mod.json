@@ -1,0 +1,96 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Amethiste",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Amethiste",
+          "x": 141,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nitronium",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Nitronium",
+          "x": 240,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mercure",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mercure",
+          "x": 195,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cliquez",
+          "onClick": {
+            "name": "XpTransformatorBouton1"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Cliquez",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cliquez",
+          "onClick": {
+            "name": "XpTransformatorBouton2"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Cliquez",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cliquez",
+          "onClick": {
+            "name": "XpTransformatorBouton3"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Cliquez",
+          "x": 186,
+          "y": 152
+        }
+      }
+    ]
+  }
+}

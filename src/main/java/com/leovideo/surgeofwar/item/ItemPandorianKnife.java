@@ -40,7 +40,7 @@ public class ItemPandorianKnife extends ElementsSurgeofwarMod.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 32;
 	public ItemPandorianKnife(ElementsSurgeofwarMod instance) {
-		super(instance, 241);
+		super(instance, 163);
 	}
 
 	@Override

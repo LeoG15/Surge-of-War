@@ -22,7 +22,7 @@ public class BlockWhiteBricks extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:white_bricks")
 	public static final Block block = null;
 	public BlockWhiteBricks(ElementsSurgeofwarMod instance) {
-		super(instance, 259);
+		super(instance, 48);
 	}
 
 	@Override

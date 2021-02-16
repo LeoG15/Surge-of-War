@@ -22,7 +22,7 @@ public class BlockPandoraGrass extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:pandora_grass")
 	public static final Block block = null;
 	public BlockPandoraGrass(ElementsSurgeofwarMod instance) {
-		super(instance, 233);
+		super(instance, 156);
 	}
 
 	@Override

@@ -33,7 +33,7 @@ public class ItemHellstoneTransformer extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:hellstonetransformer")
 	public static final Item block = null;
 	public ItemHellstoneTransformer(ElementsSurgeofwarMod instance) {
-		super(instance, 181);
+		super(instance, 152);
 	}
 
 	@Override

@@ -35,7 +35,7 @@ public class ItemObratumStick extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:obratumstick")
 	public static final Item block = null;
 	public ItemObratumStick(ElementsSurgeofwarMod instance) {
-		super(instance, 129);
+		super(instance, 124);
 	}
 
 	@Override

@@ -20,7 +20,7 @@ public class ItemSunPower extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:sun_power")
 	public static final Item block = null;
 	public ItemSunPower(ElementsSurgeofwarMod instance) {
-		super(instance, 236);
+		super(instance, 161);
 	}
 
 	@Override

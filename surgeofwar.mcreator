@@ -1,14 +1,14 @@
 {
   "id_map": {
-    "ENTITY": 41,
-    "DIMENSION": 3,
-    "GUI": 1
+    "GUI": 3,
+    "ENTITY": 46,
+    "DIMENSION": 3
   },
   "mod_elements": [
     {
       "name": "Amethisteore",
       "type": "block",
-      "sortid": 1,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -16,7 +16,7 @@
     {
       "name": "Amethiste",
       "type": "item",
-      "sortid": 2,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -24,7 +24,7 @@
     {
       "name": "ItemOfWar",
       "type": "tab",
-      "sortid": 3,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -32,7 +32,7 @@
     {
       "name": "BlocksOfSurge",
       "type": "tab",
-      "sortid": 4,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -40,7 +40,7 @@
     {
       "name": "AgeOfAmethiste",
       "type": "achievement",
-      "sortid": 5,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -48,7 +48,7 @@
     {
       "name": "AmethisteSword",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -56,7 +56,7 @@
     {
       "name": "AmethisteSwordRecipe",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -64,7 +64,7 @@
     {
       "name": "AmethisteRecipe",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -72,7 +72,7 @@
     {
       "name": "AmethisteApple",
       "type": "food",
-      "sortid": 9,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -80,7 +80,7 @@
     {
       "name": "AmethisteAppleRecipe",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -88,7 +88,7 @@
     {
       "name": "Amethistearmor",
       "type": "armor",
-      "sortid": 11,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -102,7 +102,7 @@
     {
       "name": "AmethistearmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 12,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -118,7 +118,7 @@
     {
       "name": "AmethisteAppleFoodEaten",
       "type": "procedure",
-      "sortid": 13,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -134,7 +134,7 @@
     {
       "name": "AmethisteItemIsCraftedsmelted",
       "type": "procedure",
-      "sortid": 14,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -150,7 +150,7 @@
     {
       "name": "InstallMod",
       "type": "achievement",
-      "sortid": 15,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -158,7 +158,7 @@
     {
       "name": "AmethistePickaxe",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -166,7 +166,7 @@
     {
       "name": "AmethisteAxe",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -174,7 +174,7 @@
     {
       "name": "AmethisteShowel",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -182,7 +182,7 @@
     {
       "name": "GoblinThisEntityKillsAnotherOne",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -198,7 +198,7 @@
     {
       "name": "Goblin",
       "type": "mob",
-      "sortid": 19,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -209,7 +209,7 @@
     {
       "name": "FirstGoblinKill",
       "type": "achievement",
-      "sortid": 20,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -217,7 +217,7 @@
     {
       "name": "GoblinEntityDies",
       "type": "procedure",
-      "sortid": 21,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -233,7 +233,7 @@
     {
       "name": "ViprinGrass",
       "type": "block",
-      "sortid": 23,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -241,7 +241,7 @@
     {
       "name": "ViprinDirt",
       "type": "block",
-      "sortid": 24,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -249,7 +249,7 @@
     {
       "name": "ViprinBlockPortal",
       "type": "block",
-      "sortid": 25,
+      "sortid": 8,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -258,7 +258,7 @@
     {
       "name": "Viprin",
       "type": "dimension",
-      "sortid": 26,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -268,7 +268,7 @@
     {
       "name": "ViprinLeaves",
       "type": "block",
-      "sortid": 27,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -276,7 +276,7 @@
     {
       "name": "ViprinLog",
       "type": "block",
-      "sortid": 28,
+      "sortid": 13,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -284,7 +284,7 @@
     {
       "name": "ViprinBiome",
       "type": "biome",
-      "sortid": 27,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -292,7 +292,7 @@
     {
       "name": "FolderCow",
       "type": "mob",
-      "sortid": 29,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -303,7 +303,7 @@
     {
       "name": "FolderSteak",
       "type": "food",
-      "sortid": 30,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -311,7 +311,7 @@
     {
       "name": "FolderCowEntityDies",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -327,7 +327,7 @@
     {
       "name": "AmethisteArmorRecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -335,7 +335,7 @@
     {
       "name": "AmethisteBodyRecipe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -343,7 +343,7 @@
     {
       "name": "AmethisteBoots",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -351,7 +351,7 @@
     {
       "name": "AmethisteLegs",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -359,7 +359,7 @@
     {
       "name": "Vitrome",
       "type": "item",
-      "sortid": 37,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -367,7 +367,7 @@
     {
       "name": "Vicoque",
       "type": "block",
-      "sortid": 38,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -375,7 +375,7 @@
     {
       "name": "VicoqueRecipe",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -383,7 +383,7 @@
     {
       "name": "Devil",
       "type": "mob",
-      "sortid": 43,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -394,7 +394,7 @@
     {
       "name": "NagaraGrass",
       "type": "block",
-      "sortid": 44,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -402,7 +402,7 @@
     {
       "name": "NagaraDirt",
       "type": "block",
-      "sortid": 45,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -410,7 +410,7 @@
     {
       "name": "NagaraWoods",
       "type": "block",
-      "sortid": 46,
+      "sortid": 18,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -418,7 +418,7 @@
     {
       "name": "NagaraLeaves",
       "type": "block",
-      "sortid": 47,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -426,7 +426,7 @@
     {
       "name": "Nagara",
       "type": "biome",
-      "sortid": 48,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -434,7 +434,7 @@
     {
       "name": "Kayn",
       "type": "mob",
-      "sortid": 50,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -445,7 +445,7 @@
     {
       "name": "Kayno",
       "type": "mob",
-      "sortid": 51,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -456,7 +456,7 @@
     {
       "name": "VitromeSword",
       "type": "tool",
-      "sortid": 52,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -464,7 +464,7 @@
     {
       "name": "Folderstick",
       "type": "item",
-      "sortid": 53,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -472,7 +472,7 @@
     {
       "name": "FolderStickRecipe",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -480,7 +480,7 @@
     {
       "name": "VitromeSwordRecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -488,7 +488,7 @@
     {
       "name": "Nitroniumore",
       "type": "block",
-      "sortid": 56,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -496,7 +496,7 @@
     {
       "name": "Nitronium",
       "type": "item",
-      "sortid": 57,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -504,7 +504,7 @@
     {
       "name": "NItroniumrecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -512,7 +512,7 @@
     {
       "name": "Nitroniumarmor",
       "type": "armor",
-      "sortid": 56,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -526,7 +526,7 @@
     {
       "name": "Nitroniumbody",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -534,7 +534,7 @@
     {
       "name": "Nitroniumbots",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -542,7 +542,7 @@
     {
       "name": "Nitroniumlegs",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -550,7 +550,7 @@
     {
       "name": "Nitroniumhelmet",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -558,7 +558,7 @@
     {
       "name": "NitroniumSword",
       "type": "tool",
-      "sortid": 63,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -566,7 +566,7 @@
     {
       "name": "NitroniumSwordRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -574,7 +574,7 @@
     {
       "name": "NitroniumPickaxe",
       "type": "tool",
-      "sortid": 65,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -582,7 +582,7 @@
     {
       "name": "DevilOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 66,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -614,7 +614,7 @@
     {
       "name": "Vhacanderleaves",
       "type": "block",
-      "sortid": 67,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -622,7 +622,7 @@
     {
       "name": "VhacanderBiome",
       "type": "biome",
-      "sortid": 68,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -630,7 +630,7 @@
     {
       "name": "Vhacandergrass",
       "type": "block",
-      "sortid": 69,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -638,7 +638,7 @@
     {
       "name": "VhacanderDirt",
       "type": "block",
-      "sortid": 70,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -646,7 +646,7 @@
     {
       "name": "BooklingMageEntityDies",
       "type": "procedure",
-      "sortid": 71,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -662,7 +662,7 @@
     {
       "name": "BooklingMageStrenght",
       "type": "procedure",
-      "sortid": 72,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -678,7 +678,7 @@
     {
       "name": "BooklingMage",
       "type": "mob",
-      "sortid": 71,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -689,7 +689,7 @@
     {
       "name": "EderniumOre",
       "type": "block",
-      "sortid": 73,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -697,7 +697,7 @@
     {
       "name": "Edernium",
       "type": "item",
-      "sortid": 74,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -705,7 +705,7 @@
     {
       "name": "EderniumFlower",
       "type": "plant",
-      "sortid": 75,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -713,7 +713,7 @@
     {
       "name": "EderniumFragment",
       "type": "item",
-      "sortid": 76,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -721,7 +721,7 @@
     {
       "name": "EderniumFragmentRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -729,7 +729,7 @@
     {
       "name": "EderniumRecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -737,7 +737,7 @@
     {
       "name": "EderniumNugget",
       "type": "item",
-      "sortid": 79,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -745,7 +745,7 @@
     {
       "name": "EderniumIngotRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -753,7 +753,7 @@
     {
       "name": "LeLingotDeGlace",
       "type": "achievement",
-      "sortid": 81,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -761,7 +761,7 @@
     {
       "name": "IronKnife",
       "type": "tool",
-      "sortid": 82,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -769,7 +769,7 @@
     {
       "name": "IronKnifeRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -777,7 +777,7 @@
     {
       "name": "LanceGlace",
       "type": "gun",
-      "sortid": 84,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -787,7 +787,7 @@
     {
       "name": "IceBullet",
       "type": "item",
-      "sortid": 85,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -795,7 +795,7 @@
     {
       "name": "LanceGlaceRecipe",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -803,7 +803,7 @@
     {
       "name": "IceBulletRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -811,7 +811,7 @@
     {
       "name": "EderniumSwordMobIsHitWithTool",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -827,7 +827,7 @@
     {
       "name": "EderniumSwordRightClickedInAir",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -843,7 +843,7 @@
     {
       "name": "EderniumSword",
       "type": "tool",
-      "sortid": 88,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -851,7 +851,7 @@
     {
       "name": "BooklinSorcerer",
       "type": "mob",
-      "sortid": 90,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -862,7 +862,7 @@
     {
       "name": "EderniumApple",
       "type": "food",
-      "sortid": 92,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -870,7 +870,7 @@
     {
       "name": "VitromeArmor",
       "type": "armor",
-      "sortid": 93,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -884,7 +884,7 @@
     {
       "name": "VitromeArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -900,7 +900,7 @@
     {
       "name": "EderniumSwordRecipe",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -908,7 +908,7 @@
     {
       "name": "EderniumAppleRecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -916,7 +916,7 @@
     {
       "name": "NotchAppleRecipe",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -924,7 +924,7 @@
     {
       "name": "AmethistePickaxeRecipe",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -932,7 +932,7 @@
     {
       "name": "AmethisteAxeRecipe",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -940,7 +940,7 @@
     {
       "name": "AmethisteShowelRecipe",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -948,7 +948,7 @@
     {
       "name": "AznarisGrass",
       "type": "block",
-      "sortid": 101,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -956,7 +956,7 @@
     {
       "name": "AznarisDirt",
       "type": "block",
-      "sortid": 102,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -964,7 +964,7 @@
     {
       "name": "AznarisStone",
       "type": "block",
-      "sortid": 103,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -972,7 +972,7 @@
     {
       "name": "ObratumOre",
       "type": "block",
-      "sortid": 104,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -980,7 +980,7 @@
     {
       "name": "Obratum",
       "type": "item",
-      "sortid": 105,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -988,7 +988,7 @@
     {
       "name": "ObratumRecipe",
       "type": "recipe",
-      "sortid": 106,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -996,7 +996,7 @@
     {
       "name": "NitroniumarmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 107,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1012,7 +1012,7 @@
     {
       "name": "EmeraldArmor",
       "type": "armor",
-      "sortid": 108,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1026,7 +1026,7 @@
     {
       "name": "EmeraldRecipe",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1034,7 +1034,7 @@
     {
       "name": "EmeraldStickRightClickedInAir",
       "type": "procedure",
-      "sortid": 110,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1054,7 +1054,7 @@
     {
       "name": "EmeraldStick",
       "type": "tool",
-      "sortid": 110,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1062,7 +1062,7 @@
     {
       "name": "EmeraldSword",
       "type": "tool",
-      "sortid": 111,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1070,7 +1070,7 @@
     {
       "name": "VitromeHelmetRecipe",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1078,7 +1078,7 @@
     {
       "name": "VitromeBodyRecipe",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1086,7 +1086,7 @@
     {
       "name": "VitromeLegsRecipe",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1094,7 +1094,7 @@
     {
       "name": "VitromeBootsRecipe",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1102,7 +1102,7 @@
     {
       "name": "EmeraldStickRecipe",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1110,7 +1110,7 @@
     {
       "name": "EmeraldSwordRecipe",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1118,7 +1118,7 @@
     {
       "name": "EmeraldHelmetRecipe",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1126,7 +1126,7 @@
     {
       "name": "EmeraldBodyRecipe",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1134,7 +1134,7 @@
     {
       "name": "EmeraldLegsRecipe",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1142,7 +1142,7 @@
     {
       "name": "EmeraldBootsRecipe",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1150,7 +1150,7 @@
     {
       "name": "EderniumAppleFoodEaten",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1166,7 +1166,7 @@
     {
       "name": "EderniumStickRightClickedInAir",
       "type": "procedure",
-      "sortid": 123,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1186,7 +1186,7 @@
     {
       "name": "EderniumStick",
       "type": "tool",
-      "sortid": 123,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1194,7 +1194,7 @@
     {
       "name": "AmethisteStickRightClickedInAir",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1214,7 +1214,7 @@
     {
       "name": "AmethisteStick",
       "type": "tool",
-      "sortid": 124,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1222,7 +1222,7 @@
     {
       "name": "AznarisOmam",
       "type": "block",
-      "sortid": 125,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1230,7 +1230,7 @@
     {
       "name": "AznarisLog",
       "type": "block",
-      "sortid": 126,
+      "sortid": 25,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -1238,7 +1238,7 @@
     {
       "name": "AznarisLeaves",
       "type": "block",
-      "sortid": 127,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1246,7 +1246,7 @@
     {
       "name": "AznarisFlower",
       "type": "plant",
-      "sortid": 128,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1254,7 +1254,7 @@
     {
       "name": "ObratumStickRightClickedInAir",
       "type": "procedure",
-      "sortid": 129,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1274,7 +1274,7 @@
     {
       "name": "ObratumStick",
       "type": "tool",
-      "sortid": 129,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1282,7 +1282,7 @@
     {
       "name": "EderniumStickRecipe",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1290,7 +1290,7 @@
     {
       "name": "AmethisteStickRecipe",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1298,7 +1298,7 @@
     {
       "name": "ObratumStickRecipe",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1306,7 +1306,7 @@
     {
       "name": "Aznaris",
       "type": "dimension",
-      "sortid": 133,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1316,7 +1316,7 @@
     {
       "name": "AznarisBiome",
       "type": "biome",
-      "sortid": 134,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1324,7 +1324,7 @@
     {
       "name": "AznarisOmamRecipe",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1332,7 +1332,7 @@
     {
       "name": "AznarTheChaos4thPhase",
       "type": "mob",
-      "sortid": 136,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1343,7 +1343,7 @@
     {
       "name": "AznarTheChaos4thPhaseEntityDies",
       "type": "procedure",
-      "sortid": 138,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1359,7 +1359,7 @@
     {
       "name": "AznarTheChaos3thPhase",
       "type": "mob",
-      "sortid": 139,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1370,7 +1370,7 @@
     {
       "name": "AznarTheChaos3thPhaseEntityDies",
       "type": "procedure",
-      "sortid": 140,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1402,7 +1402,7 @@
     {
       "name": "AznarTheChaos2ndPhaseEntityIsHurt",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1422,7 +1422,7 @@
     {
       "name": "AznarTheChaos2ndPhaseEntityDies",
       "type": "procedure",
-      "sortid": 142,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1454,7 +1454,7 @@
     {
       "name": "AznarTheChaos2ndPhase",
       "type": "mob",
-      "sortid": 141,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1465,7 +1465,7 @@
     {
       "name": "AznarTheChaos4thPhaseEntityIsHurt",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1485,7 +1485,7 @@
     {
       "name": "AznarTheChaosEntityIsHurt",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1505,7 +1505,7 @@
     {
       "name": "AznarTheChaosEntityDies",
       "type": "procedure",
-      "sortid": 145,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1537,7 +1537,7 @@
     {
       "name": "AznarTheChaos",
       "type": "mob",
-      "sortid": 144,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1548,7 +1548,7 @@
     {
       "name": "AznarTheChaos3thPhaseEntityIsHurt",
       "type": "procedure",
-      "sortid": 146,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1568,7 +1568,7 @@
     {
       "name": "ChaoticPowerRightClickedInAir",
       "type": "procedure",
-      "sortid": 147,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1579,7 +1579,7 @@
     {
       "name": "ChaoticPower",
       "type": "item",
-      "sortid": 147,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1587,7 +1587,7 @@
     {
       "name": "ChaoticPowerRightClickedOnBlock",
       "type": "procedure",
-      "sortid": 148,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1615,7 +1615,7 @@
     {
       "name": "ChaosShard",
       "type": "item",
-      "sortid": 149,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1623,7 +1623,7 @@
     {
       "name": "CreationShard",
       "type": "item",
-      "sortid": 150,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1631,7 +1631,7 @@
     {
       "name": "DoomOrb",
       "type": "item",
-      "sortid": 151,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1639,7 +1639,7 @@
     {
       "name": "CreationOrb",
       "type": "item",
-      "sortid": 152,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1647,7 +1647,7 @@
     {
       "name": "ArmetisArmorBootsTickEvent",
       "type": "procedure",
-      "sortid": 153,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1663,7 +1663,7 @@
     {
       "name": "ArmetisArmor",
       "type": "armor",
-      "sortid": 153,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1677,7 +1677,7 @@
     {
       "name": "Armetis",
       "type": "item",
-      "sortid": 154,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1685,7 +1685,7 @@
     {
       "name": "ArmetisOre",
       "type": "block",
-      "sortid": 155,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1693,7 +1693,7 @@
     {
       "name": "ArmetisBoots",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1701,7 +1701,7 @@
     {
       "name": "BienEquipe",
       "type": "achievement",
-      "sortid": 157,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1709,7 +1709,7 @@
     {
       "name": "ArmetisLegs",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1717,7 +1717,7 @@
     {
       "name": "ArmetisBody",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1725,7 +1725,7 @@
     {
       "name": "ArmetisHelmet",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1733,7 +1733,7 @@
     {
       "name": "ArmetisStickRightClickedInAir",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1753,7 +1753,7 @@
     {
       "name": "ArmetisStick",
       "type": "tool",
-      "sortid": 161,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1761,7 +1761,7 @@
     {
       "name": "ArmetisStickRecipe",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1769,7 +1769,7 @@
     {
       "name": "EmeraldBroadsword",
       "type": "tool",
-      "sortid": 163,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1777,7 +1777,7 @@
     {
       "name": "EderniumBroadsword",
       "type": "tool",
-      "sortid": 164,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1785,7 +1785,7 @@
     {
       "name": "RenforcedEderniumIngot",
       "type": "item",
-      "sortid": 165,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1793,7 +1793,7 @@
     {
       "name": "RenforcedEderniumIngotRecipe",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1801,7 +1801,7 @@
     {
       "name": "EderniumBroadswordRecipe",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1809,7 +1809,7 @@
     {
       "name": "EmeraldBroadswordRecipe",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1817,7 +1817,7 @@
     {
       "name": "Cuivre",
       "type": "item",
-      "sortid": 170,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1825,7 +1825,7 @@
     {
       "name": "CuivreOre",
       "type": "block",
-      "sortid": 171,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1833,7 +1833,7 @@
     {
       "name": "CuivreRappier",
       "type": "tool",
-      "sortid": 172,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1841,7 +1841,7 @@
     {
       "name": "EderniumRappier",
       "type": "tool",
-      "sortid": 173,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1849,7 +1849,7 @@
     {
       "name": "ViprinIgniter",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1857,7 +1857,7 @@
     {
       "name": "CuivreRappierRecipe",
       "type": "recipe",
-      "sortid": 175,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1865,7 +1865,7 @@
     {
       "name": "EderniumRappierRecipe",
       "type": "recipe",
-      "sortid": 176,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1873,7 +1873,7 @@
     {
       "name": "CuivreForge",
       "type": "item",
-      "sortid": 177,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1881,7 +1881,7 @@
     {
       "name": "EderniumArmor",
       "type": "armor",
-      "sortid": 178,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1895,7 +1895,7 @@
     {
       "name": "EderniumArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 179,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1911,7 +1911,7 @@
     {
       "name": "Hellstone",
       "type": "item",
-      "sortid": 180,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1919,7 +1919,7 @@
     {
       "name": "HellstoneTransformer",
       "type": "tool",
-      "sortid": 181,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1927,7 +1927,7 @@
     {
       "name": "HellstoneTransformerBlockDestroyedWithTool",
       "type": "procedure",
-      "sortid": 182,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1947,7 +1947,7 @@
     {
       "name": "HellstoneArmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 183,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1963,7 +1963,7 @@
     {
       "name": "HellstoneArmor",
       "type": "armor",
-      "sortid": 183,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1977,7 +1977,7 @@
     {
       "name": "Hellstonebootsrecipe",
       "type": "recipe",
-      "sortid": 184,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1985,7 +1985,7 @@
     {
       "name": "HellstoneLegsRecipe",
       "type": "recipe",
-      "sortid": 185,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1993,7 +1993,7 @@
     {
       "name": "HellstoneBodyRecipe",
       "type": "recipe",
-      "sortid": 186,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2001,7 +2001,7 @@
     {
       "name": "HellstoneHelmetRecipe",
       "type": "recipe",
-      "sortid": 187,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2009,7 +2009,7 @@
     {
       "name": "HellstoneTransformerRecipe",
       "type": "recipe",
-      "sortid": 188,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2017,7 +2017,7 @@
     {
       "name": "Copperseed",
       "type": "plant",
-      "sortid": 189,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2025,7 +2025,7 @@
     {
       "name": "CopperSeedFinish",
       "type": "plant",
-      "sortid": 190,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2033,7 +2033,7 @@
     {
       "name": "CopperseedNeighbourBlockChanges",
       "type": "procedure",
-      "sortid": 191,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2061,7 +2061,7 @@
     {
       "name": "CopperSeedFinishPlantRightClicked",
       "type": "procedure",
-      "sortid": 192,
+      "sortid": 291,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -2093,7 +2093,7 @@
     {
       "name": "RepairHammer",
       "type": "item",
-      "sortid": 193,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2101,7 +2101,7 @@
     {
       "name": "HellstoneSword",
       "type": "tool",
-      "sortid": 194,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2109,7 +2109,7 @@
     {
       "name": "CopperStick",
       "type": "item",
-      "sortid": 195,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2117,7 +2117,7 @@
     {
       "name": "HellstoneSwordRecipe",
       "type": "recipe",
-      "sortid": 195,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2125,7 +2125,7 @@
     {
       "name": "CopperStickRecipe",
       "type": "recipe",
-      "sortid": 196,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2133,7 +2133,7 @@
     {
       "name": "GodSlayer",
       "type": "achievement",
-      "sortid": 197,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2141,7 +2141,7 @@
     {
       "name": "FerForgeRecipe",
       "type": "recipe",
-      "sortid": 198,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2149,7 +2149,7 @@
     {
       "name": "CopperseedMiseAJourDuTick",
       "type": "procedure",
-      "sortid": 200,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2178,7 +2178,7 @@
     {
       "name": "Copperhang",
       "type": "biome",
-      "sortid": 201,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2187,7 +2187,7 @@
     {
       "name": "CopperhandFlower",
       "type": "plant",
-      "sortid": 202,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2196,7 +2196,7 @@
     {
       "name": "CopperHandReed",
       "type": "plant",
-      "sortid": 203,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2205,7 +2205,7 @@
     {
       "name": "GalzanDirt",
       "type": "block",
-      "sortid": 204,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2214,7 +2214,7 @@
     {
       "name": "GalzanGrass",
       "type": "block",
-      "sortid": 205,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2223,7 +2223,7 @@
     {
       "name": "GalzanLog",
       "type": "block",
-      "sortid": 206,
+      "sortid": 157,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -2232,7 +2232,7 @@
     {
       "name": "GalzanLeaves",
       "type": "block",
-      "sortid": 207,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2241,7 +2241,7 @@
     {
       "name": "GalzanMushroomBlock",
       "type": "plant",
-      "sortid": 208,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2250,7 +2250,7 @@
     {
       "name": "PinkGalzanMushroom",
       "type": "plant",
-      "sortid": 209,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2259,7 +2259,7 @@
     {
       "name": "RedGalzanMushroom",
       "type": "plant",
-      "sortid": 210,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2268,7 +2268,7 @@
     {
       "name": "GalzanBiome",
       "type": "biome",
-      "sortid": 211,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2277,7 +2277,7 @@
     {
       "name": "GalzanCandyBlock",
       "type": "block",
-      "sortid": 212,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2286,7 +2286,7 @@
     {
       "name": "Galzan",
       "type": "dimension",
-      "sortid": 211,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2297,7 +2297,7 @@
     {
       "name": "FragonitePlant",
       "type": "plant",
-      "sortid": 213,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2306,7 +2306,7 @@
     {
       "name": "Fragonite",
       "type": "item",
-      "sortid": 214,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2315,7 +2315,7 @@
     {
       "name": "ViprinIgniterRecipe",
       "type": "recipe",
-      "sortid": 218,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2324,7 +2324,7 @@
     {
       "name": "AznarisIgniterRecipe",
       "type": "recipe",
-      "sortid": 219,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2333,7 +2333,7 @@
     {
       "name": "ArmetisUnlockChest",
       "type": "gui",
-      "sortid": 221,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2344,7 +2344,7 @@
     {
       "name": "SlotUnlock",
       "type": "item",
-      "sortid": 222,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2353,7 +2353,7 @@
     {
       "name": "RedemptionQuandLentiteMeurt",
       "type": "procedure",
-      "sortid": 223,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2382,7 +2382,7 @@
     {
       "name": "Redemption",
       "type": "mob",
-      "sortid": 223,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2394,7 +2394,7 @@
     {
       "name": "FrogoniteToEdernium",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2403,7 +2403,7 @@
     {
       "name": "PandoraBricks",
       "type": "block",
-      "sortid": 225,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2412,7 +2412,7 @@
     {
       "name": "RedPandoraBricks",
       "type": "block",
-      "sortid": 226,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2421,7 +2421,7 @@
     {
       "name": "GoldReed",
       "type": "plant",
-      "sortid": 227,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2430,7 +2430,7 @@
     {
       "name": "BigBottle",
       "type": "item",
-      "sortid": 228,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2439,7 +2439,7 @@
     {
       "name": "PandoraBottleQuandLaNourritureEstMangee",
       "type": "procedure",
-      "sortid": 229,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2468,7 +2468,7 @@
     {
       "name": "PandoraBottle",
       "type": "food",
-      "sortid": 228,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2477,7 +2477,7 @@
     {
       "name": "PandoraLog",
       "type": "block",
-      "sortid": 230,
+      "sortid": 39,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -2486,7 +2486,7 @@
     {
       "name": "PandoraLeaves",
       "type": "block",
-      "sortid": 231,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2495,7 +2495,7 @@
     {
       "name": "PandoraDirt",
       "type": "block",
-      "sortid": 232,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2504,7 +2504,7 @@
     {
       "name": "PandoraGrass",
       "type": "block",
-      "sortid": 233,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2513,7 +2513,7 @@
     {
       "name": "Pandora",
       "type": "biome",
-      "sortid": 234,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2522,7 +2522,7 @@
     {
       "name": "AznarisSword",
       "type": "tool",
-      "sortid": 235,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2531,7 +2531,7 @@
     {
       "name": "SunPower",
       "type": "item",
-      "sortid": 236,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2540,7 +2540,7 @@
     {
       "name": "SunSwordQuandUneEntiteVivanteEstFrappeeAvecLoutil",
       "type": "procedure",
-      "sortid": 237,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2569,7 +2569,7 @@
     {
       "name": "SaoulaQuandLeJoueurFaitUnClicDroitSurLentite",
       "type": "procedure",
-      "sortid": 238,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2598,7 +2598,7 @@
     {
       "name": "Saoula",
       "type": "mob",
-      "sortid": 238,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2610,7 +2610,7 @@
     {
       "name": "SunnSwordQuandUneEntiteVivanteEstFrappeeAvecLoutil",
       "type": "procedure",
-      "sortid": 239,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2639,7 +2639,7 @@
     {
       "name": "SunSword",
       "type": "tool",
-      "sortid": 239,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2648,7 +2648,7 @@
     {
       "name": "UnGrandReveil",
       "type": "achievement",
-      "sortid": 240,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2657,7 +2657,7 @@
     {
       "name": "SaoulaaInvocationBlockLorsDunClicDroitSurLeBloc",
       "type": "procedure",
-      "sortid": 240,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2690,7 +2690,7 @@
     {
       "name": "PandorianKnife",
       "type": "gun",
-      "sortid": 241,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2701,7 +2701,7 @@
     {
       "name": "Pandorian",
       "type": "mob",
-      "sortid": 241,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2713,7 +2713,7 @@
     {
       "name": "SaoulaInvocationBlockLorsDunClicDroitSurLeBloc",
       "type": "procedure",
-      "sortid": 242,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2742,7 +2742,7 @@
     {
       "name": "SaoulaInvocationBlock",
       "type": "block",
-      "sortid": 242,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2751,7 +2751,7 @@
     {
       "name": "Angurus",
       "type": "mob",
-      "sortid": 243,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2763,7 +2763,7 @@
     {
       "name": "LeSpectre",
       "type": "achievement",
-      "sortid": 244,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2772,7 +2772,7 @@
     {
       "name": "LobjetDeBronze",
       "type": "achievement",
-      "sortid": 245,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2781,7 +2781,7 @@
     {
       "name": "CuivreQuandLitemEstDansLinventaireParTick",
       "type": "procedure",
-      "sortid": 246,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2798,7 +2798,7 @@
     {
       "name": "LeLingotDuChaos",
       "type": "achievement",
-      "sortid": 247,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2807,7 +2807,7 @@
     {
       "name": "AngurusInvocationBlockLorsDunClicDroitSurLeBloc",
       "type": "procedure",
-      "sortid": 248,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2836,7 +2836,7 @@
     {
       "name": "AngurusInvocationBlock",
       "type": "block",
-      "sortid": 248,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2845,7 +2845,7 @@
     {
       "name": "PandoraPyramid",
       "type": "structure",
-      "sortid": 249,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2854,7 +2854,7 @@
     {
       "name": "GalzanDirtPike1",
       "type": "structure",
-      "sortid": 250,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2863,7 +2863,7 @@
     {
       "name": "GalzanDirtPike2",
       "type": "structure",
-      "sortid": 251,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2872,7 +2872,7 @@
     {
       "name": "SpecterSword",
       "type": "tool",
-      "sortid": 252,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2881,7 +2881,7 @@
     {
       "name": "SpecterSwordQuandUneEntiteVivanteEstFrappeeAvecLoutil",
       "type": "procedure",
-      "sortid": 253,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2898,7 +2898,7 @@
     {
       "name": "SaoulaQuandLeJoueurEntreEnCollisionAvecLentite",
       "type": "procedure",
-      "sortid": 254,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2910,7 +2910,7 @@
     {
       "name": "ViprinBricks",
       "type": "block",
-      "sortid": 255,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2919,7 +2919,7 @@
     {
       "name": "Darkbricks",
       "type": "block",
-      "sortid": 256,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2928,7 +2928,7 @@
     {
       "name": "SpecterPiece",
       "type": "structure",
-      "sortid": 257,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2937,7 +2937,7 @@
     {
       "name": "Utopian",
       "type": "mob",
-      "sortid": 257,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2949,7 +2949,7 @@
     {
       "name": "AngurusQuandLeJoueurEntreEnCollisionAvecLentite",
       "type": "procedure",
-      "sortid": 258,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2961,7 +2961,7 @@
     {
       "name": "WhiteBricks",
       "type": "block",
-      "sortid": 259,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2970,7 +2970,7 @@
     {
       "name": "TheMasterOfChaos",
       "type": "achievement",
-      "sortid": 260,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2979,7 +2979,7 @@
     {
       "name": "AngurusClone",
       "type": "mob",
-      "sortid": 261,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -2991,7 +2991,7 @@
     {
       "name": "OverPassLorsDunClickDroitDansLair",
       "type": "procedure",
-      "sortid": 262,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3008,7 +3008,7 @@
     {
       "name": "OverPass",
       "type": "item",
-      "sortid": 262,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3017,7 +3017,7 @@
     {
       "name": "OverPassRecipe",
       "type": "recipe",
-      "sortid": 263,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3026,7 +3026,7 @@
     {
       "name": "AznarInvocationBlock",
       "type": "block",
-      "sortid": 262,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3035,7 +3035,7 @@
     {
       "name": "AznarInvocationBlockLorsDunClicDroitSurLeBloc",
       "type": "procedure",
-      "sortid": 264,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3064,7 +3064,7 @@
     {
       "name": "Teleporter",
       "type": "achievement",
-      "sortid": 265,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3073,7 +3073,7 @@
     {
       "name": "DarkBricksEscalier",
       "type": "block",
-      "sortid": 266,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3082,7 +3082,7 @@
     {
       "name": "GalzanCandyBlockRecipe",
       "type": "recipe",
-      "sortid": 267,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3091,7 +3091,7 @@
     {
       "name": "UtopianRasorBladeQuandUneEntiteVivanteEstFrappeeAvecLoutil",
       "type": "procedure",
-      "sortid": 268,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3108,7 +3108,7 @@
     {
       "name": "UtopianRasorBladeQuandLeBlocEstDetruitAvecLoutil",
       "type": "procedure",
-      "sortid": 269,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3137,7 +3137,7 @@
     {
       "name": "UtopianRasorBlade",
       "type": "tool",
-      "sortid": 268,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3146,7 +3146,7 @@
     {
       "name": "MercureArmor",
       "type": "armor",
-      "sortid": 270,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3161,7 +3161,7 @@
     {
       "name": "StoneBullet",
       "type": "item",
-      "sortid": 271,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3170,7 +3170,7 @@
     {
       "name": "LancePierre",
       "type": "gun",
-      "sortid": 271,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -3181,7 +3181,7 @@
     {
       "name": "StoneBulletRecipe",
       "type": "recipe",
-      "sortid": 272,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3190,7 +3190,7 @@
     {
       "name": "LancePierreRecipe",
       "type": "recipe",
-      "sortid": 273,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3199,7 +3199,7 @@
     {
       "name": "DesPierres",
       "type": "achievement",
-      "sortid": 274,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3208,7 +3208,7 @@
     {
       "name": "AutrePuissance",
       "type": "achievement",
-      "sortid": 275,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3217,7 +3217,7 @@
     {
       "name": "CaRaseLaChair",
       "type": "achievement",
-      "sortid": 276,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3226,11 +3226,1267 @@
     {
       "name": "AznarisSanctuary",
       "type": "structure",
-      "sortid": 277,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "aznaris_sanctuary"
+    },
+    {
+      "name": "UnlessSwordQuandUneEntiteVivanteEstFrappeeAvecLoutil",
+      "type": "procedure",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unless_sword_quand_une_entite_vivante_est_frappee_avec_loutil",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnlessSword",
+      "type": "tool",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unless_sword"
+    },
+    {
+      "name": "TheUnless",
+      "type": "mob",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 42,
+        "1": 43
+      },
+      "registry_name": "the_unless"
+    },
+    {
+      "name": "XpTransformatorGUI",
+      "type": "gui",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      },
+      "registry_name": "xp_transformator_gui"
+    },
+    {
+      "name": "XpTransformatorBouton1",
+      "type": "procedure",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_transformator_bouton_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mercure",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercure"
+    },
+    {
+      "name": "XpTransformatorBouton2",
+      "type": "procedure",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_transformator_bouton_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XpTransformatorBouton3",
+      "type": "procedure",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_transformator_bouton_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XpTransformatorLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_transformator_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XpTransformator",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_transformator"
+    },
+    {
+      "name": "XpTransformatorRecipe",
+      "type": "recipe",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_transformator_recipe"
+    },
+    {
+      "name": "NitroniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_pickaxe_recipe"
+    },
+    {
+      "name": "SlotUnlockLorsDunClickDroitDansLair",
+      "type": "procedure",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slot_unlock_lors_dun_click_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ameliorator",
+      "type": "gui",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      },
+      "registry_name": "ameliorator"
+    },
+    {
+      "name": "AmelioratorrLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amelioratorr_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HucknessPotionQuandLaPotionCommenceappliquee",
+      "type": "procedure",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "huckness_potion_quand_la_potion_commenceappliquee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HucknessPotion",
+      "type": "potion",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "huckness_potion"
+    },
+    {
+      "name": "HucknessArrow",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "huckness_arrow"
+    },
+    {
+      "name": "HucknessArrowRecipe",
+      "type": "recipe",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "huckness_arrow_recipe"
+    },
+    {
+      "name": "HucknessBowQuandUneBalleToucheUneEntiteVivante",
+      "type": "procedure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "huckness_bow_quand_une_balle_touche_une_entite_vivante",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HucknessBow",
+      "type": "gun",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 44
+      },
+      "registry_name": "huckness_bow"
+    },
+    {
+      "name": "BigTree",
+      "type": "structure",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_tree"
+    },
+    {
+      "name": "RenforcedPickaxe",
+      "type": "tool",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_pickaxe"
+    },
+    {
+      "name": "RenforcedAxe",
+      "type": "tool",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_axe"
+    },
+    {
+      "name": "RenforcedSword",
+      "type": "tool",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_sword"
+    },
+    {
+      "name": "RenforcedShovel",
+      "type": "tool",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_shovel"
+    },
+    {
+      "name": "RenforcedHoe",
+      "type": "tool",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_hoe"
+    },
+    {
+      "name": "RenforcedPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_pickaxe_recipe"
+    },
+    {
+      "name": "RenforcedAxeRecipe",
+      "type": "recipe",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_axe_recipe"
+    },
+    {
+      "name": "RenforcedSwordRecipe",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_sword_recipe"
+    },
+    {
+      "name": "RenforcedShovelRecipe",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_shovel_recipe"
+    },
+    {
+      "name": "RenforcedHoeRecipe",
+      "type": "recipe",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_hoe_recipe"
+    },
+    {
+      "name": "CuivreToolsPickaxe",
+      "type": "tool",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_tools_pickaxe"
+    },
+    {
+      "name": "CuivreToolsAxe",
+      "type": "tool",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_tools_axe"
+    },
+    {
+      "name": "CuivreToolsSword",
+      "type": "tool",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_tools_sword"
+    },
+    {
+      "name": "CuivreToolsShovel",
+      "type": "tool",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_tools_shovel"
+    },
+    {
+      "name": "CuivreToolsHoe",
+      "type": "tool",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_tools_hoe"
+    },
+    {
+      "name": "CuivreToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_tools_pickaxe_recipe"
+    },
+    {
+      "name": "CuivreToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_tools_axe_recipe"
+    },
+    {
+      "name": "CuivreToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_tools_sword_recipe"
+    },
+    {
+      "name": "CuivreToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_tools_shovel_recipe"
+    },
+    {
+      "name": "CuivreToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_tools_hoe_recipe"
+    },
+    {
+      "name": "CuivrePickaxe",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_pickaxe"
+    },
+    {
+      "name": "CuivreSword",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_sword"
+    },
+    {
+      "name": "CuivreShowel",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_showel"
+    },
+    {
+      "name": "CuivreAxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cuivre_axe"
+    },
+    {
+      "name": "MercureePickaxe",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuree_pickaxe"
+    },
+    {
+      "name": "MercureeAxe",
+      "type": "tool",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuree_axe"
+    },
+    {
+      "name": "MercureeSword",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuree_sword"
+    },
+    {
+      "name": "MercureeShovel",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuree_shovel"
+    },
+    {
+      "name": "MercureeHoe",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuree_hoe"
+    },
+    {
+      "name": "MercureePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuree_pickaxe_recipe"
+    },
+    {
+      "name": "MercureeAxeRecipe",
+      "type": "recipe",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuree_axe_recipe"
+    },
+    {
+      "name": "MercureeSwordRecipe",
+      "type": "recipe",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuree_sword_recipe"
+    },
+    {
+      "name": "MercureeShovelRecipe",
+      "type": "recipe",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuree_shovel_recipe"
+    },
+    {
+      "name": "MercureeHoeRecipe",
+      "type": "recipe",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mercuree_hoe_recipe"
+    },
+    {
+      "name": "KitDebutantQuandUneCommandeEstExecutee",
+      "type": "procedure",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kit_debutant_quand_une_commande_est_executee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KitDebutant",
+      "type": "command",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kit_debutant"
+    },
+    {
+      "name": "VitromeePickaxe",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vitromee_pickaxe"
+    },
+    {
+      "name": "VitromeeAxe",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vitromee_axe"
+    },
+    {
+      "name": "VitromeeShovel",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vitromee_shovel"
+    },
+    {
+      "name": "VitromeeHoe",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vitromee_hoe"
+    },
+    {
+      "name": "VitromeePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vitromee_pickaxe_recipe"
+    },
+    {
+      "name": "VitromeeAxeRecipe",
+      "type": "recipe",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vitromee_axe_recipe"
+    },
+    {
+      "name": "VitromeeSwordRecipe",
+      "type": "recipe",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vitromee_sword_recipe"
+    },
+    {
+      "name": "VitromeeShovelRecipe",
+      "type": "recipe",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vitromee_shovel_recipe"
+    },
+    {
+      "name": "VitromeeHoeRecipe",
+      "type": "recipe",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vitromee_hoe_recipe"
+    },
+    {
+      "name": "NitroniumMPickaxe",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_m_pickaxe"
+    },
+    {
+      "name": "NitroniumMAxe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_m_axe"
+    },
+    {
+      "name": "NitroniumMSword",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_m_sword"
+    },
+    {
+      "name": "NitroniumMShovel",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_m_shovel"
+    },
+    {
+      "name": "NitroniumMHoe",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_m_hoe"
+    },
+    {
+      "name": "NitroniumMPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_m_pickaxe_recipe"
+    },
+    {
+      "name": "NitroniumMAxeRecipe",
+      "type": "recipe",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_m_axe_recipe"
+    },
+    {
+      "name": "NitroniumMSwordRecipe",
+      "type": "recipe",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_m_sword_recipe"
+    },
+    {
+      "name": "NitroniumMShovelRecipe",
+      "type": "recipe",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_m_shovel_recipe"
+    },
+    {
+      "name": "NitroniumMHoeRecipe",
+      "type": "recipe",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nitronium_m_hoe_recipe"
+    },
+    {
+      "name": "RenforcedArmor",
+      "type": "armor",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RenforcedArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_armor_helmet_recipe"
+    },
+    {
+      "name": "RenforcedArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_armor_body_recipe"
+    },
+    {
+      "name": "RenforcedArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_armor_leggings_recipe"
+    },
+    {
+      "name": "RenforcedArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_armor_boots_recipe"
+    },
+    {
+      "name": "ArmetissPickaxe",
+      "type": "tool",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armetiss_pickaxe"
+    },
+    {
+      "name": "ArmetissAxe",
+      "type": "tool",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armetiss_axe"
+    },
+    {
+      "name": "ArmetissSword",
+      "type": "tool",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armetiss_sword"
+    },
+    {
+      "name": "ArmetissShovel",
+      "type": "tool",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armetiss_shovel"
+    },
+    {
+      "name": "ArmetissHoe",
+      "type": "tool",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armetiss_hoe"
+    },
+    {
+      "name": "ArmetissPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armetiss_pickaxe_recipe"
+    },
+    {
+      "name": "ArmetissAxeRecipe",
+      "type": "recipe",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armetiss_axe_recipe"
+    },
+    {
+      "name": "ArmetissSwordRecipe",
+      "type": "recipe",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armetiss_sword_recipe"
+    },
+    {
+      "name": "ArmetissShovelRecipe",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armetiss_shovel_recipe"
+    },
+    {
+      "name": "ArmetissHoeRecipe",
+      "type": "recipe",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armetiss_hoe_recipe"
+    },
+    {
+      "name": "DoomPickaxe",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_pickaxe"
+    },
+    {
+      "name": "DoomAxe",
+      "type": "tool",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_axe"
+    },
+    {
+      "name": "DoomSword",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_sword"
+    },
+    {
+      "name": "DoomShovel",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_shovel"
+    },
+    {
+      "name": "DoomHoe",
+      "type": "tool",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_hoe"
+    },
+    {
+      "name": "DoomPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_pickaxe_recipe"
+    },
+    {
+      "name": "DoomAxeRecipe",
+      "type": "recipe",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_axe_recipe"
+    },
+    {
+      "name": "DoomSwordRecipe",
+      "type": "recipe",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_sword_recipe"
+    },
+    {
+      "name": "DoomShovelRecipe",
+      "type": "recipe",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_shovel_recipe"
+    },
+    {
+      "name": "DoomHoeRecipe",
+      "type": "recipe",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_hoe_recipe"
+    },
+    {
+      "name": "KitavanceQuandUneCommandeEstExecutee",
+      "type": "procedure",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kitavance_quand_une_commande_est_executee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kitavance",
+      "type": "command",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kitavance"
+    },
+    {
+      "name": "KitOverQuandUneCommandeEstExecutee",
+      "type": "procedure",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kit_over_quand_une_commande_est_executee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KitOver",
+      "type": "command",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kit_over"
+    },
+    {
+      "name": "KitMineraisQuandUneCommandeEstExecutee",
+      "type": "procedure",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kit_minerais_quand_une_commande_est_executee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KitMinerais",
+      "type": "command",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kit_minerais"
+    },
+    {
+      "name": "DoomArmor",
+      "type": "armor",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DoomArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_armor_helmet_recipe"
+    },
+    {
+      "name": "DoomArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_armor_body_recipe"
+    },
+    {
+      "name": "DoomArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_armor_leggings_recipe"
+    },
+    {
+      "name": "DoomArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_armor_boots_recipe"
+    },
+    {
+      "name": "RenforcedArmorEvenementDeTickDuPlastron",
+      "type": "procedure",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "renforced_armor_evenement_de_tick_du_plastron",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoomArmorEvenementDeTickDuPlastron",
+      "type": "procedure",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "doom_armor_evenement_de_tick_du_plastron",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -3239,6 +4495,7 @@
     "en_us": {
       "item.edernium.name": "Edernium",
       "item.aznaris.name": "Aznaris Massar",
+      "item.doom_armorbody.name": "Doom Chestplate",
       "item.vitromearmorboots.name": "Vitrome Armor Boots",
       "item.emeraldbroadsword.name": "Emerald Broadsword",
       "item.icebullet.name": "Ice Bullet",
@@ -3251,34 +4508,41 @@
       "item.vitromearmorbody.name": "Vitrome Armor Body",
       "tile.pandora_leaves.name": "Pandora Leaves",
       "item.ederniumarmorhelmet.name": "Edernium Armor Helmet",
-      "advancements.des_pierres.title": "Des Pierres ?",
       "item.mercure_armorboots.name": "Bottes en Mercure Armor",
-      "item.aznaris_sword.name": "Aznaris Sword",
+      "advancements.des_pierres.title": "Des Pierres ?",
       "tile.ederniumflower.name": "Edernium Flower",
+      "item.aznaris_sword.name": "Aznaris Sword",
       "tile.pandora_log.name": "Pandora Log",
       "advancements.le_lingot_du_chaos.title": "Le Minerais Du Chaos",
+      "item.cuivre_tools_sword.name": "CuivreTools Sword",
       "item.over_pass.name": "Over Pass",
       "itemGroup.tabblocksofsurge": "Mythics Blocks",
       "entity.utopian.name": "Utopian",
+      "item.doom_pickaxe.name": "Doom Pickaxe",
       "item.sun_power.name": "Sun Power",
       "advancements.un_grand_reveil.descr": "Vous avez libérez une divinité du soleil !",
       "tile.vhacanderlog.name": "Vhacander log",
       "item.armetisarmorbody.name": "Armetis Armor Body",
-      "item.galzan.name": "Galzan Portal Igniter",
       "item.hellstonearmorlegs.name": "Hellstone Armor Leggings",
+      "item.galzan.name": "Galzan Portal Igniter",
       "item.hellstonearmorhelmet.name": "Hellstone Armor Helmet",
-      "entity.aznarthechaos2ndphase.name": "Aznar The Chaos 2nd Phase",
       "advancements.the_master_of_chaos.title": "The Master Of Chaos",
+      "entity.aznarthechaos2ndphase.name": "Aznar The Chaos 2nd Phase",
       "tile.vhacanderdirt.name": "Vhacander Dirt",
+      "item.renforced_armorhelmet.name": "Renforced Helmet",
       "item.amethisteshowel.name": "Amethiste Showel",
       "advancements.bienequipe.descr": "Ca fait quoi d\u0027avoir du loot ?",
       "advancements.firstgoblinkill.title": "First Goblin Kill",
       "advancements.ca_rase_la_chair.title": "Ca Rase La Chair",
+      "item.doom_axe.name": "Doom Axe",
       "item.ironknife.name": "Iron Knife",
       "tile.nagaradirt.name": "Nagara Dirt",
+      "item.mercuree_sword.name": "Mercure Sword",
       "item.specter_sword.name": "Specter Sword",
       "tile.nagaraleaves.name": "Nagara Leaves",
+      "item.vitromee_pickaxe.name": "Vitromee Pickaxe",
       "item.amethisteaxe.name": "Amethiste Axe",
+      "item.doom_sword.name": "Doom Sword",
       "tile.cuivreore.name": "Cuivre Ore",
       "advancements.ca_rase_la_chair.descr": "Aïe, je l\u0027ai à peine touchée !",
       "advancements.un_grand_reveil.title": "Un Grand Reveil",
@@ -3286,15 +4550,23 @@
       "entity.kayn.name": "Kayn",
       "item.ederniumarmorboots.name": "Edernium Armor Boots",
       "tile.galzan_grass.name": "Galzan Grass",
+      "item.renforced_axe.name": "Renforced Axe",
+      "item.renforced_hoe.name": "Renforced Hoe",
+      "item.unless_sword.name": "Unless Sword",
       "advancements.le_lingot_du_chaos.descr": "on dirait de l\u0027air",
       "tile.galzan_candy_block.name": "Galzan Candy Block",
+      "item.cuivre_sword.name": "Cuivre Sword",
       "advancements.installmod.title": "Surge of War",
       "item.fragonite.name": "Fragonite",
-      "item.sun_sword.name": "Sun Sword",
-      "tile.aznarisdirt.name": "Aznaris Dirt",
       "item.nitroniumarmorlegs.name": "Nitronium Leggings",
+      "tile.aznarisdirt.name": "Aznaris Dirt",
+      "item.sun_sword.name": "Sun Sword",
+      "item.armetiss_sword.name": "Armetiss Sword",
+      "item.nitronium_m_hoe.name": "NitroniumM Hoe",
       "item.vitromearmorhelmet.name": "Vitrome Armor Helmet",
+      "item.cuivre_axe.name": "Cuivre Axe",
       "item.nitronium.name": "Nitronium",
+      "item.armetiss_pickaxe.name": "Armetiss Pickaxe",
       "item.ederniumrappier.name": "Renforced Edernium Rappier",
       "item.emeraldsword.name": "Emerald Sword",
       "tile.angurus_invocation_block.name": "Angurus Invocation Block",
@@ -3302,31 +4574,46 @@
       "tile.aznarisgrass.name": "Aznaris Grass",
       "tile.saoula_invocation_block.name": "Saoula Invocation Block",
       "item.ederniumapple.name": "Edernium Apple",
+      "splash_potion.effect.huckness_potion": "Splash Huckness",
       "tile.amethisteore.name": "Amethiste ore",
       "tile.galzan_log.name": "Galzan Log",
       "item.stone_bullet.name": "Stone Bullet",
       "advancements.installmod.descr": "Surge of War have been installed !",
       "advancements.lobjet_de_bronze.descr": "On dirait qu\u0027il ne se cuit pas",
       "tile.aznarisflower.name": "Aznaris Flower",
+      "effect.huckness_potion": "Huckness Potion",
       "item.nitroniumarmorbody.name": "Nitronium Body",
+      "item.nitronium_m_axe.name": "Nitronium Axe",
       "item.slot_unlock.name": "Slot Unlock",
       "advancements.le_spectre.descr": "Un spectre mal réveillé",
+      "lingering_potion.effect.huckness_potion": "Lingering Huckness",
+      "item.mercure.name": "Mercure",
       "item.nitroniumsword.name": "Nitronium Sword",
       "advancements.lelingotdeglace.descr": "Le progret avant tout !",
       "item.cuivrerappier.name": "Cuivre Rappier",
       "item.lance_pierre.name": "Lance Pierre",
+      "item.vitromee_shovel.name": "Vitromee Shovel",
+      "entity.the_unless.name": "The Unless",
       "tile.gold_reed.name": "Gold Reed",
       "tile.aznarislog.name": "Aznaris Log",
       "item.viprin.name": "Viprin Portal Igniter",
       "item.foldersteak.name": "Folder Steak",
+      "item.mercuree_shovel.name": "Mercuree Shovel",
       "entity.devil.name": "Devil",
+      "item.renforced_shovel.name": "Renforced Shovel",
       "tile.darkbricks.name": "Darkbricks",
+      "tipped_arrow.effect.huckness_potion": "Arrow of Huckness",
+      "item.mercuree_hoe.name": "Mercure Hoe",
       "item.cuivre.name": "Cuivre",
       "tile.vicoque.name": "Vicoque",
+      "potion.effect.huckness_potion": "Huckness",
       "tile.red_galzan_mushroom.name": "Red Galzan Mushroom",
+      "item.renforced_sword.name": "Renforced Sword",
+      "item.cuivre_tools_hoe.name": "CuivreTools Hoe",
       "item.emeraldstick.name": "Emerald Stick",
       "entity.pandorian.name": "Pandorian",
       "item.hellstonetransformer.name": "Hellstone Transformer",
+      "item.cuivre_tools_shovel.name": "CuivreTools Shovel",
       "item.big_bottle.name": "Big Bottle",
       "tile.pandora_bricks.name": "Pandora Bricks",
       "advancements.godslayer.title": "God Slayer",
@@ -3336,21 +4623,28 @@
       "item.copperstick.name": "Copper Stick",
       "advancements.lobjet_de_bronze.title": "Un objet De Bronze",
       "entity.foldercow.name": "Folder Cow",
+      "tile.xp_transformator.name": "Xp Transformator",
       "tile.galzan_leaves.name": "Galzan Leaves",
+      "item.doom_shovel.name": "Doom Shovel",
       "item.amethistepickaxe.name": "Amethiste Pickaxe",
       "item.amethistestick.name": "Amethiste Stick",
       "advancements.autre_puissance.descr": "Aïe !",
       "item.armetisarmorlegs.name": "Armetis Armor Leggings",
+      "item.doom_armorlegs.name": "Doom Leggings",
       "item.hellstonesword.name": "Hellstone Sword",
       "item.ederniumsword.name": "Edernium Sword",
       "entity.saoula.name": "Saoula",
+      "item.mercuree_axe.name": "Mercure Axe",
       "tile.obratumore.name": "Obratum Ore",
       "item.ederniumfragment.name": "Edernium Fragment",
       "item.doomorb.name": "Doom Orb",
       "entity.booklingmage.name": "Bookling Mage",
+      "item.huckness_arrow.name": "Huckness Arrow",
       "item.vitromearmorlegs.name": "Vitrome Armor Leggings",
+      "item.cuivre_tools_axe.name": "CuivreTools Axe",
       "item.emeraldarmorbody.name": "Emerald Armor Body",
       "item.pandorian_knife.name": "Pandorian Knife",
+      "item.doom_armorhelmet.name": "Doom Helmet",
       "item.renforcedederniumingot.name": "Renforced Edernium Ingot",
       "entity.aznarthechaos4thphase.name": "Aznar The Chaos4th Phase",
       "item.vitrome.name": "Vitrome",
@@ -3365,11 +4659,17 @@
       "item.chaosshard.name": "Chaos Shard",
       "item.ederniumarmorlegs.name": "Edernium Armor Leggings",
       "item.armetisarmorhelmet.name": "Armetis Armor Helmet",
+      "item.renforced_armorlegs.name": "Renforced Leggings",
       "item.repairhammer.name": "Repair Hammer",
+      "item.renforced_pickaxe.name": "Renforced Pickaxe",
       "advancements.firstgoblinkill.descr": "Good kill ! ",
+      "item.nitronium_m_pickaxe.name": "NitroniumM Pickaxe",
       "entity.goblin.name": "Goblin",
       "item.amethistearmorboots.name": "Amethiste Boots",
+      "item.armetiss_axe.name": "Armetiss Axe",
+      "item.armetiss_hoe.name": "Armetiss Hoe",
       "advancements.des_pierres.descr": "Un bâton avec une pierre...",
+      "item.mercuree_pickaxe.name": "Mercure Pickaxe",
       "tile.nagaragrass.name": "Nagara Grass",
       "advancements.teleporter.title": "Teleporter",
       "item.nitroniumarmorboots.name": "Nitronium Boots",
@@ -3377,6 +4677,7 @@
       "tile.copper_hand_reed.name": "Copper Hand Reed",
       "entity.booklinsorcerer.name": "Booklin Sorcerer",
       "item.vitromesword.name": "Vitrome Sword",
+      "item.cuivre_tools_pickaxe.name": "CuivreTools Pickaxe",
       "item.creationshard.name": "Creation Shard",
       "entity.angurus.name": "Angurus",
       "tile.nitroniumore.name": "Nitronium ore",
@@ -3386,9 +4687,11 @@
       "tile.pandora_grass.name": "Pandora Grass",
       "advancements.ageofamethiste.title": "Age Of Amethiste",
       "tile.nagarawoods.name": "Nagara Log",
+      "item.doom_hoe.name": "Doom Hoe",
       "tile.vipringrass.name": "Viprin Grass",
       "tile.pandora_dirt.name": "Pandora Dirt",
       "tile.copperseedfinish.name": "Copper Seed 2",
+      "item.cuivre_pickaxe.name": "Cuivre Pickaxe",
       "item.emeraldarmorboots.name": "Emerald Armor Boots",
       "item.hellstonearmorboots.name": "Hellstone Armor Boots",
       "entity.redemption.name": "Redemption",
@@ -3397,40 +4700,50 @@
       "tile.viprindirt.name": "Viprin Dirt",
       "tile.pink_galzan_mushroom.name": "Pink Galzan Mushroom",
       "advancements.godslayer.descr": "You look than a god slayer !",
+      "item.cuivre_showel.name": "Cuivre Showel",
       "item.ederniumbroadsword.name": "Edernium Broadsword",
       "item.utopian_rasor_blade.name": "Utopian Rasor Blade",
       "tile.vhacanderleaves.name": "Vhacander leaves",
       "tile.ederniumore.name": "Edernium Ore",
       "tile.white_bricks.name": "White Bricks",
+      "item.renforced_armorboots.name": "Renforced Boots",
       "tile.fragonite_plant.name": "Fragonite Plant",
       "tile.vhacandergrass.name": "Vhacander grass",
       "item.mercure_armorbody.name": "Plastron de Mercure Armor",
       "item.amethistearmorlegs.name": "Amethiste Leggings",
       "tile.galzan_dirt.name": "Galzan Dirt",
+      "item.huckness_bow.name": "Huckness Bow",
       "tile.viprinleaves.name": "Viprin Leaves",
       "item.obratumstick.name": "Obratum Stick",
       "item.amethisteapple.name": "Amethiste Apple",
+      "item.renforced_armorbody.name": "Renforced Chestplate",
       "item.mercure_armorlegs.name": "Jambières de Mercure Armor",
       "item.hellstone.name": "Hellstone",
       "tile.armetisore.name": "Armetis Ore",
       "item.pandora_bottle.name": "Pandora Bottle",
       "advancements.the_master_of_chaos.descr": "Ehm, do you know who it is ?",
       "tile.galzan_mushroom_block.name": "Galzan Mushroom Block",
+      "item.vitromee_axe.name": "Vitrome Axe",
       "advancements.bienequipe.title": "Bien Equipé",
       "item.emeraldarmorlegs.name": "Emerald Armor Leggings",
       "advancements.le_spectre.title": "Le Spectre",
+      "item.nitronium_m_shovel.name": "NitroniumM Shovel",
       "tile.aznar_invocation_block.name": "Aznar Invocation Block",
       "item.armetisarmorboots.name": "Armetis Armor Boots",
       "entity.kayno.name": "Kayno",
       "item.amethiste.name": "Amethiste",
       "item.obratum.name": "Obratum",
       "item.nitroniumarmorhelmet.name": "Nitronium Helmet",
+      "item.doom_armorboots.name": "Doom Boots",
       "item.amethistearmorhelmet.name": "Amethiste Helmet",
+      "item.armetiss_shovel.name": "Armetiss Shovel",
       "item.amethistesword.name": "Amethiste Sword",
       "tile.aznarisstone.name": "Aznaris Stone",
       "item.armetisstick.name": "Armetis Stick",
       "item.ederniumarmorbody.name": "Edernium Armor Body",
+      "item.vitromee_hoe.name": "Vitromee Hoe",
       "advancements.lelingotdeglace.title": "Le Lingot De Glace",
+      "item.nitronium_m_sword.name": "Nitronium Sword",
       "item.emeraldarmorhelmet.name": "Emerald Armor Helmet",
       "entity.angurus_clone.name": "Angurus Clone",
       "item.amethistearmorbody.name": "Amethiste Body"
@@ -3438,6 +4751,7 @@
     "fr_fr": {
       "item.edernium.name": "Edernium",
       "item.aznaris.name": "Aznaris Massar",
+      "item.doom_armorbody.name": "Doom Chestplate",
       "item.vitromearmorboots.name": "Vitrome Armor Boots",
       "item.emeraldbroadsword.name": "Emerald Broadsword",
       "item.icebullet.name": "Ice Bullet",
@@ -3450,34 +4764,41 @@
       "item.vitromearmorbody.name": "Vitrome Armor Body",
       "tile.pandora_leaves.name": "Pandora Leaves",
       "item.ederniumarmorhelmet.name": "Edernium Armor Helmet",
-      "advancements.des_pierres.title": "Des Pierres ?",
       "item.mercure_armorboots.name": "Bottes en Mercure Armor",
-      "item.aznaris_sword.name": "Aznaris Sword",
+      "advancements.des_pierres.title": "Des Pierres ?",
       "tile.ederniumflower.name": "Edernium Flower",
+      "item.aznaris_sword.name": "Aznaris Sword",
       "tile.pandora_log.name": "Pandora Log",
       "advancements.le_lingot_du_chaos.title": "Le Minerais Du Chaos",
+      "item.cuivre_tools_sword.name": "CuivreTools Sword",
       "item.over_pass.name": "Over Pass",
       "itemGroup.tabblocksofsurge": "Blocks Of Surge",
       "entity.utopian.name": "Utopian",
+      "item.doom_pickaxe.name": "Doom Pickaxe",
       "item.sun_power.name": "Sun Power",
       "advancements.un_grand_reveil.descr": "Vous avez libérez une divinité du soleil !",
       "tile.vhacanderlog.name": "Vhacander log",
       "item.armetisarmorbody.name": "Armetis Armor Body",
-      "item.galzan.name": "Galzan Portal Igniter",
       "item.hellstonearmorlegs.name": "Hellstone Armor Leggings",
+      "item.galzan.name": "Galzan Portal Igniter",
       "item.hellstonearmorhelmet.name": "Hellstone Armor Helmet",
-      "entity.aznarthechaos2ndphase.name": "Aznar The Chaos 2nd Phase",
       "advancements.the_master_of_chaos.title": "The Master Of Chaos",
+      "entity.aznarthechaos2ndphase.name": "Aznar The Chaos 2nd Phase",
       "tile.vhacanderdirt.name": "Vhacander Dirt",
+      "item.renforced_armorhelmet.name": "Renforced Helmet",
       "item.amethisteshowel.name": "Amethiste Showel",
       "advancements.bienequipe.descr": "Ca fait quoi d\u0027avoir du loot ?",
       "advancements.firstgoblinkill.title": "First Goblin Kill",
       "advancements.ca_rase_la_chair.title": "Ca Rase La Chair",
+      "item.doom_axe.name": "Doom Axe",
       "item.ironknife.name": "Iron Knife",
       "tile.nagaradirt.name": "Nagara Dirt",
+      "item.mercuree_sword.name": "Mercuree Sword",
       "item.specter_sword.name": "Specter Sword",
       "tile.nagaraleaves.name": "Nagara Leaves",
+      "item.vitromee_pickaxe.name": "Vitromee Pickaxe",
       "item.amethisteaxe.name": "Amethiste Axe",
+      "item.doom_sword.name": "Doom Sword",
       "tile.cuivreore.name": "Cuivre Ore",
       "advancements.ca_rase_la_chair.descr": "Aïe, je l\u0027ai à peine touchée !",
       "advancements.un_grand_reveil.title": "Un Grand Reveil",
@@ -3485,15 +4806,23 @@
       "entity.kayn.name": "Kayn",
       "item.ederniumarmorboots.name": "Edernium Armor Boots",
       "tile.galzan_grass.name": "Galzan Grass",
+      "item.renforced_axe.name": "Renforced Axe",
+      "item.renforced_hoe.name": "Renforced Hoe",
+      "item.unless_sword.name": "Unless Sword",
       "advancements.le_lingot_du_chaos.descr": "on dirait de l\u0027air",
       "tile.galzan_candy_block.name": "Galzan Candy Block",
+      "item.cuivre_sword.name": "Cuivre Sword",
       "advancements.installmod.title": "Surge of War",
       "item.fragonite.name": "Fragonite",
-      "item.sun_sword.name": "Sun Sword",
-      "tile.aznarisdirt.name": "Aznaris Dirt",
       "item.nitroniumarmorlegs.name": "Nitronium Leggings",
+      "tile.aznarisdirt.name": "Aznaris Dirt",
+      "item.sun_sword.name": "Sun Sword",
+      "item.armetiss_sword.name": "Armetiss Sword",
+      "item.nitronium_m_hoe.name": "NitroniumM Hoe",
       "item.vitromearmorhelmet.name": "Vitrome Armor Helmet",
+      "item.cuivre_axe.name": "Cuivre Axe",
       "item.nitronium.name": "Nitronium",
+      "item.armetiss_pickaxe.name": "Armetiss Pickaxe",
       "item.ederniumrappier.name": "Renforced Edernium Rappier",
       "item.emeraldsword.name": "Emerald Sword",
       "tile.angurus_invocation_block.name": "Angurus Invocation Block",
@@ -3501,31 +4830,46 @@
       "tile.aznarisgrass.name": "Aznaris Grass",
       "tile.saoula_invocation_block.name": "Saoula Invocation Block",
       "item.ederniumapple.name": "Edernium Apple",
+      "splash_potion.effect.huckness_potion": "Splash Huckness Potion",
       "tile.amethisteore.name": "Amethiste ore",
       "tile.galzan_log.name": "Galzan Log",
       "item.stone_bullet.name": "Stone Bullet",
       "advancements.installmod.descr": "Surge of War have been installed !",
       "advancements.lobjet_de_bronze.descr": "On dirait qu\u0027il ne se cuit pas",
       "tile.aznarisflower.name": "Aznaris Flower",
+      "effect.huckness_potion": "Huckness Potion",
       "item.nitroniumarmorbody.name": "Nitronium Body",
+      "item.nitronium_m_axe.name": "NitroniumM Axe",
       "item.slot_unlock.name": "Slot Unlock",
       "advancements.le_spectre.descr": "Un spectre mal réveillé",
+      "lingering_potion.effect.huckness_potion": "Lingering Huckness Potion",
+      "item.mercure.name": "Mercure",
       "item.nitroniumsword.name": "Nitronium Sword",
       "advancements.lelingotdeglace.descr": "Le progret avant tout !",
       "item.cuivrerappier.name": "Cuivre Rappier",
       "item.lance_pierre.name": "Lance Pierre",
+      "item.vitromee_shovel.name": "Vitromee Shovel",
+      "entity.the_unless.name": "The Unless",
       "tile.gold_reed.name": "Gold Reed",
       "tile.aznarislog.name": "Aznaris Log",
       "item.viprin.name": "Viprin Portal Igniter",
       "item.foldersteak.name": "Folder Steak",
+      "item.mercuree_shovel.name": "Mercuree Shovel",
       "entity.devil.name": "Devil",
+      "item.renforced_shovel.name": "Renforced Shovel",
       "tile.darkbricks.name": "Darkbricks",
+      "tipped_arrow.effect.huckness_potion": "Arrow of Huckness Potion",
+      "item.mercuree_hoe.name": "Mercuree Hoe",
       "item.cuivre.name": "Cuivre",
       "tile.vicoque.name": "Vicoque",
+      "potion.effect.huckness_potion": "Huckness Potion",
       "tile.red_galzan_mushroom.name": "Red Galzan Mushroom",
+      "item.renforced_sword.name": "Renforced Sword",
+      "item.cuivre_tools_hoe.name": "CuivreTools Hoe",
       "item.emeraldstick.name": "Emerald Stick",
       "entity.pandorian.name": "Pandorian",
       "item.hellstonetransformer.name": "Hellstone Transformer",
+      "item.cuivre_tools_shovel.name": "CuivreTools Shovel",
       "item.big_bottle.name": "Big Bottle",
       "tile.pandora_bricks.name": "Pandora Bricks",
       "advancements.godslayer.title": "God Slayer",
@@ -3535,21 +4879,28 @@
       "item.copperstick.name": "Copper Stick",
       "advancements.lobjet_de_bronze.title": "Un objet De Bronze",
       "entity.foldercow.name": "Folder Cow",
+      "tile.xp_transformator.name": "Xp Transformator",
       "tile.galzan_leaves.name": "Galzan Leaves",
+      "item.doom_shovel.name": "Doom Shovel",
       "item.amethistepickaxe.name": "Amethiste Pickaxe",
       "item.amethistestick.name": "Amethiste Stick",
       "advancements.autre_puissance.descr": "Aïe !",
       "item.armetisarmorlegs.name": "Armetis Armor Leggings",
+      "item.doom_armorlegs.name": "Doom Leggings",
       "item.hellstonesword.name": "Hellstone Sword",
       "item.ederniumsword.name": "Edernium Sword",
       "entity.saoula.name": "Saoula",
+      "item.mercuree_axe.name": "Mercuree Axe",
       "tile.obratumore.name": "Obratum Ore",
       "item.ederniumfragment.name": "Edernium Fragment",
       "item.doomorb.name": "Doom Orb",
       "entity.booklingmage.name": "Bookling Mage",
+      "item.huckness_arrow.name": "Huckness Arrow",
       "item.vitromearmorlegs.name": "Vitrome Armor Leggings",
+      "item.cuivre_tools_axe.name": "CuivreTools Axe",
       "item.emeraldarmorbody.name": "Emerald Armor Body",
       "item.pandorian_knife.name": "Pandorian Knife",
+      "item.doom_armorhelmet.name": "Doom Helmet",
       "item.renforcedederniumingot.name": "Renforced Edernium Ingot",
       "entity.aznarthechaos4thphase.name": "Aznar The Chaos4th Phase",
       "item.vitrome.name": "Vitrome",
@@ -3564,11 +4915,17 @@
       "item.chaosshard.name": "Chaos Shard",
       "item.ederniumarmorlegs.name": "Edernium Armor Leggings",
       "item.armetisarmorhelmet.name": "Armetis Armor Helmet",
+      "item.renforced_armorlegs.name": "Renforced Leggings",
       "item.repairhammer.name": "Repair Hammer",
+      "item.renforced_pickaxe.name": "Renforced Pickaxe",
       "advancements.firstgoblinkill.descr": "Good kill ! ",
+      "item.nitronium_m_pickaxe.name": "NitroniumM Pickaxe",
       "entity.goblin.name": "Goblin",
       "item.amethistearmorboots.name": "Amethiste Boots",
+      "item.armetiss_axe.name": "Armetiss Axe",
+      "item.armetiss_hoe.name": "Armetiss Hoe",
       "advancements.des_pierres.descr": "Un bâton avec une pierre...",
+      "item.mercuree_pickaxe.name": "Mercuree Pickaxe",
       "tile.nagaragrass.name": "Nagara Grass",
       "advancements.teleporter.title": "Teleporter",
       "item.nitroniumarmorboots.name": "Nitronium Boots",
@@ -3576,6 +4933,7 @@
       "tile.copper_hand_reed.name": "Copper Hand Reed",
       "entity.booklinsorcerer.name": "Booklin Sorcerer",
       "item.vitromesword.name": "Vitrome Sword",
+      "item.cuivre_tools_pickaxe.name": "CuivreTools Pickaxe",
       "item.creationshard.name": "Creation Shard",
       "entity.angurus.name": "Angurus",
       "tile.nitroniumore.name": "Nitronium ore",
@@ -3585,9 +4943,11 @@
       "tile.pandora_grass.name": "Pandora Grass",
       "advancements.ageofamethiste.title": "Age Of Amethiste",
       "tile.nagarawoods.name": "Nagara Log",
+      "item.doom_hoe.name": "Doom Hoe",
       "tile.vipringrass.name": "Viprin Grass",
       "tile.pandora_dirt.name": "Pandora Dirt",
       "tile.copperseedfinish.name": "Copper Seed 2",
+      "item.cuivre_pickaxe.name": "Cuivre Pickaxe",
       "item.emeraldarmorboots.name": "Emerald Armor Boots",
       "item.hellstonearmorboots.name": "Hellstone Armor Boots",
       "entity.redemption.name": "Redemption",
@@ -3596,40 +4956,50 @@
       "tile.viprindirt.name": "Viprin Dirt",
       "tile.pink_galzan_mushroom.name": "Pink Galzan Mushroom",
       "advancements.godslayer.descr": "You look than a god slayer !",
+      "item.cuivre_showel.name": "Cuivre Showel",
       "item.ederniumbroadsword.name": "Edernium Broadsword",
       "item.utopian_rasor_blade.name": "Utopian Rasor Blade",
       "tile.vhacanderleaves.name": "Vhacander leaves",
       "tile.ederniumore.name": "Edernium Ore",
       "tile.white_bricks.name": "White Bricks",
+      "item.renforced_armorboots.name": "Renforced Boots",
       "tile.fragonite_plant.name": "Fragonite Plant",
       "tile.vhacandergrass.name": "Vhacander grass",
       "item.mercure_armorbody.name": "Plastron de Mercure Armor",
       "item.amethistearmorlegs.name": "Amethiste Leggings",
       "tile.galzan_dirt.name": "Galzan Dirt",
+      "item.huckness_bow.name": "Huckness Bow",
       "tile.viprinleaves.name": "Viprin Leaves",
       "item.obratumstick.name": "Obratum Stick",
       "item.amethisteapple.name": "Pomme d\u0027Amethiste",
+      "item.renforced_armorbody.name": "Renforced Chestplate",
       "item.mercure_armorlegs.name": "Jambières de Mercure Armor",
       "item.hellstone.name": "Hellstone",
       "tile.armetisore.name": "Armetis Ore",
       "item.pandora_bottle.name": "Pandora Bottle",
       "advancements.the_master_of_chaos.descr": "Ehm, do you know who it is ?",
       "tile.galzan_mushroom_block.name": "Galzan Mushroom Block",
+      "item.vitromee_axe.name": "Vitromee Axe",
       "advancements.bienequipe.title": "Bien Equipé",
       "item.emeraldarmorlegs.name": "Emerald Armor Leggings",
       "advancements.le_spectre.title": "Le Spectre",
+      "item.nitronium_m_shovel.name": "NitroniumM Shovel",
       "tile.aznar_invocation_block.name": "Aznar Invocation Block",
       "item.armetisarmorboots.name": "Armetis Armor Boots",
       "entity.kayno.name": "Kayno",
       "item.amethiste.name": "Amethiste",
       "item.obratum.name": "Obratum",
       "item.nitroniumarmorhelmet.name": "Nitronium Helmet",
+      "item.doom_armorboots.name": "Doom Boots",
       "item.amethistearmorhelmet.name": "Amethiste Helmet",
+      "item.armetiss_shovel.name": "Armetiss Shovel",
       "item.amethistesword.name": "Amethiste Sword",
       "tile.aznarisstone.name": "Aznaris Stone",
       "item.armetisstick.name": "Armetis Stick",
       "item.ederniumarmorbody.name": "Edernium Armor Body",
+      "item.vitromee_hoe.name": "Vitromee Hoe",
       "advancements.lelingotdeglace.title": "Le Lingot De Glace",
+      "item.nitronium_m_sword.name": "NitroniumM Sword",
       "item.emeraldarmorhelmet.name": "Emerald Armor Helmet",
       "entity.angurus_clone.name": "Angurus Clone",
       "item.amethistearmorbody.name": "Amethiste Body"

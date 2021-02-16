@@ -38,7 +38,7 @@ public class EntityUtopian extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 37;
 	public static final int ENTITYID_RANGED = 38;
 	public EntityUtopian(ElementsSurgeofwarMod instance) {
-		super(instance, 257);
+		super(instance, 169);
 	}
 
 	@Override

@@ -35,7 +35,7 @@ public class ItemEderniumStick extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:ederniumstick")
 	public static final Item block = null;
 	public ItemEderniumStick(ElementsSurgeofwarMod instance) {
-		super(instance, 123);
+		super(instance, 113);
 	}
 
 	@Override

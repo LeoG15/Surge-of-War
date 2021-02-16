@@ -28,7 +28,7 @@ public class ItemOverPass extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:over_pass")
 	public static final Item block = null;
 	public ItemOverPass(ElementsSurgeofwarMod instance) {
-		super(instance, 262);
+		super(instance, 140);
 	}
 
 	@Override

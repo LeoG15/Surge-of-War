@@ -15,7 +15,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureVitromeArmorBodyTickEvent extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureVitromeArmorBodyTickEvent(ElementsSurgeofwarMod instance) {
-		super(instance, 94);
+		super(instance, 224);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

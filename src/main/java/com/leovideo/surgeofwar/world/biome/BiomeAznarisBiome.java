@@ -29,7 +29,7 @@ public class BiomeAznarisBiome extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:aznarisbiome")
 	public static final BiomeGenCustom biome = null;
 	public BiomeAznarisBiome(ElementsSurgeofwarMod instance) {
-		super(instance, 134);
+		super(instance, 252);
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class ItemAmethistePickaxe extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:amethistepickaxe")
 	public static final Item block = null;
 	public ItemAmethistePickaxe(ElementsSurgeofwarMod instance) {
-		super(instance, 16);
+		super(instance, 67);
 	}
 
 	@Override

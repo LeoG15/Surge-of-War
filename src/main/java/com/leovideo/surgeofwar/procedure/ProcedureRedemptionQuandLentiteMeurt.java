@@ -11,7 +11,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureRedemptionQuandLentiteMeurt extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureRedemptionQuandLentiteMeurt(ElementsSurgeofwarMod instance) {
-		super(instance, 223);
+		super(instance, 302);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

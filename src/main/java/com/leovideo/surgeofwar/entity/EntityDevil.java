@@ -46,7 +46,7 @@ public class EntityDevil extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 5;
 	public static final int ENTITYID_RANGED = 6;
 	public EntityDevil(ElementsSurgeofwarMod instance) {
-		super(instance, 43);
+		super(instance, 173);
 	}
 
 	@Override

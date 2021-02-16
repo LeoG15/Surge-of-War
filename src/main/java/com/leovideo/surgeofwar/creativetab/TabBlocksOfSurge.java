@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class TabBlocksOfSurge extends ElementsSurgeofwarMod.ModElement {
 	public TabBlocksOfSurge(ElementsSurgeofwarMod instance) {
-		super(instance, 4);
+		super(instance, 183);
 	}
 
 	@Override

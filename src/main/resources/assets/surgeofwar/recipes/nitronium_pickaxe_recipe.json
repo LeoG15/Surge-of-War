@@ -1,0 +1,30 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:nitronium"
+    },
+    "1": {
+      "item": "surgeofwar:nitronium"
+    },
+    "2": {
+      "item": "surgeofwar:nitronium"
+    },
+    "4": {
+      "item": "surgeofwar:folderstick"
+    },
+    "7": {
+      "item": "surgeofwar:folderstick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:nitroniumpickaxe",
+    "count": 1
+  }
+}

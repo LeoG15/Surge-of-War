@@ -29,7 +29,7 @@ public class ItemAznarisSword extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:aznaris_sword")
 	public static final Item block = null;
 	public ItemAznarisSword(ElementsSurgeofwarMod instance) {
-		super(instance, 235);
+		super(instance, 123);
 	}
 
 	@Override

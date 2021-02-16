@@ -27,7 +27,7 @@ public class ItemEderniumApple extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:ederniumapple")
 	public static final Item block = null;
 	public ItemEderniumApple(ElementsSurgeofwarMod instance) {
-		super(instance, 92);
+		super(instance, 109);
 	}
 
 	@Override

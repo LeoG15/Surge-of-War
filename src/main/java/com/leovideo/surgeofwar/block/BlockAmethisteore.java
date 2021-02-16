@@ -31,7 +31,7 @@ public class BlockAmethisteore extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:amethisteore")
 	public static final Block block = null;
 	public BlockAmethisteore(ElementsSurgeofwarMod instance) {
-		super(instance, 1);
+		super(instance, 5);
 	}
 
 	@Override

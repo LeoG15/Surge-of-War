@@ -23,7 +23,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class StructureAznarisSanctuary extends ElementsSurgeofwarMod.ModElement {
 	public StructureAznarisSanctuary(ElementsSurgeofwarMod instance) {
-		super(instance, 277);
+		super(instance, 339);
 	}
 
 	@Override

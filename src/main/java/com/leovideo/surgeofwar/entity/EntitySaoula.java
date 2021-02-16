@@ -48,7 +48,7 @@ public class EntitySaoula extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 30;
 	public static final int ENTITYID_RANGED = 31;
 	public EntitySaoula(ElementsSurgeofwarMod instance) {
-		super(instance, 238);
+		super(instance, 308);
 	}
 
 	@Override

@@ -27,7 +27,7 @@ public class ItemAmethisteAxe extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:amethisteaxe")
 	public static final Item block = null;
 	public ItemAmethisteAxe(ElementsSurgeofwarMod instance) {
-		super(instance, 17);
+		super(instance, 68);
 	}
 
 	@Override

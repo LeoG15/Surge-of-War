@@ -22,7 +22,7 @@ public class BlockNitroniumore extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nitroniumore")
 	public static final Block block = null;
 	public BlockNitroniumore(ElementsSurgeofwarMod instance) {
-		super(instance, 56);
+		super(instance, 15);
 	}
 
 	@Override

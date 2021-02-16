@@ -22,7 +22,7 @@ public class BlockGalzanDirt extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:galzan_dirt")
 	public static final Block block = null;
 	public BlockGalzanDirt(ElementsSurgeofwarMod instance) {
-		super(instance, 204);
+		super(instance, 32);
 	}
 
 	@Override

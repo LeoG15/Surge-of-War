@@ -32,7 +32,7 @@ public class ItemChaoticPower extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:chaoticpower")
 	public static final Item block = null;
 	public ItemChaoticPower(ElementsSurgeofwarMod instance) {
-		super(instance, 147);
+		super(instance, 136);
 	}
 
 	@Override

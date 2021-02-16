@@ -34,7 +34,7 @@ public class BlockGoldReed extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:gold_reed")
 	public static final Block block = null;
 	public BlockGoldReed(ElementsSurgeofwarMod instance) {
-		super(instance, 227);
+		super(instance, 41);
 	}
 
 	@Override

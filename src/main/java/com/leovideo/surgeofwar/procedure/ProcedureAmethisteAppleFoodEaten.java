@@ -12,7 +12,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureAmethisteAppleFoodEaten extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureAmethisteAppleFoodEaten(ElementsSurgeofwarMod instance) {
-		super(instance, 13);
+		super(instance, 189);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

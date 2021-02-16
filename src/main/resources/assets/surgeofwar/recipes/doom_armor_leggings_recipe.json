@@ -1,0 +1,36 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:doomorb"
+    },
+    "1": {
+      "item": "surgeofwar:doomorb"
+    },
+    "2": {
+      "item": "surgeofwar:doomorb"
+    },
+    "3": {
+      "item": "surgeofwar:doomorb"
+    },
+    "5": {
+      "item": "surgeofwar:doomorb"
+    },
+    "6": {
+      "item": "surgeofwar:doomorb"
+    },
+    "8": {
+      "item": "surgeofwar:doomorb"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:doom_armorlegs",
+    "count": 1
+  }
+}

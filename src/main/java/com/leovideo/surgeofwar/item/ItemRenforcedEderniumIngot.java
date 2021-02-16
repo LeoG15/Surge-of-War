@@ -20,7 +20,7 @@ public class ItemRenforcedEderniumIngot extends ElementsSurgeofwarMod.ModElement
 	@GameRegistry.ObjectHolder("surgeofwar:renforcedederniumingot")
 	public static final Item block = null;
 	public ItemRenforcedEderniumIngot(ElementsSurgeofwarMod instance) {
-		super(instance, 165);
+		super(instance, 114);
 	}
 
 	@Override

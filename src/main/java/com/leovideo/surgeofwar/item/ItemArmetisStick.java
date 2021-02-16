@@ -35,7 +35,7 @@ public class ItemArmetisStick extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:armetisstick")
 	public static final Item block = null;
 	public ItemArmetisStick(ElementsSurgeofwarMod instance) {
-		super(instance, 161);
+		super(instance, 149);
 	}
 
 	@Override

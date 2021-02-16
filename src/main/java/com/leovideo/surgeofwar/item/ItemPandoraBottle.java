@@ -27,7 +27,7 @@ public class ItemPandoraBottle extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:pandora_bottle")
 	public static final Item block = null;
 	public ItemPandoraBottle(ElementsSurgeofwarMod instance) {
-		super(instance, 228);
+		super(instance, 160);
 	}
 
 	@Override

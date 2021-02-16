@@ -1,0 +1,36 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "1": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "2": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "3": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "5": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "6": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "8": {
+      "item": "surgeofwar:renforcedederniumingot"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:renforced_armorlegs",
+    "count": 1
+  }
+}

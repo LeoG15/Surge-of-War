@@ -22,7 +22,7 @@ public class BiomeCopperhang extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:copperhang")
 	public static final BiomeGenCustom biome = null;
 	public BiomeCopperhang(ElementsSurgeofwarMod instance) {
-		super(instance, 201);
+		super(instance, 297);
 	}
 
 	@Override

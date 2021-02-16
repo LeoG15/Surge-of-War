@@ -42,14 +42,17 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 10,
+    "frequencyOnChunks": 7,
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBiomes": [
       {
-        "value": "forest"
+        "value": "CUSTOM:Copperhang"
       }
-    ]
+    ],
+    "onTickUpdate": {
+      "name": "CopperseedMiseAJourDuTick"
+    }
   }
 }

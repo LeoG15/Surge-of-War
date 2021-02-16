@@ -1,0 +1,30 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:doomorb"
+    },
+    "1": {
+      "item": "surgeofwar:doomorb"
+    },
+    "2": {
+      "item": "surgeofwar:doomorb"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:doom_pickaxe",
+    "count": 1
+  }
+}

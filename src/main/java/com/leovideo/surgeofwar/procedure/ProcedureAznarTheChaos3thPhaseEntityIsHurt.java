@@ -12,7 +12,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureAznarTheChaos3thPhaseEntityIsHurt extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureAznarTheChaos3thPhaseEntityIsHurt(ElementsSurgeofwarMod instance) {
-		super(instance, 146);
+		super(instance, 264);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

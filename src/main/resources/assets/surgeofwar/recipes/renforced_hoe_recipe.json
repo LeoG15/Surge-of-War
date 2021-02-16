@@ -1,0 +1,27 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "1": {
+      "item": "surgeofwar:renforcedederniumingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:renforced_hoe",
+    "count": 1
+  }
+}

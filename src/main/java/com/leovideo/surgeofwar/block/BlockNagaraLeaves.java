@@ -30,7 +30,7 @@ public class BlockNagaraLeaves extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nagaraleaves")
 	public static final Block block = null;
 	public BlockNagaraLeaves(ElementsSurgeofwarMod instance) {
-		super(instance, 47);
+		super(instance, 92);
 	}
 
 	@Override

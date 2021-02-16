@@ -14,7 +14,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureEmeraldStickRightClickedInAir extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureEmeraldStickRightClickedInAir(ElementsSurgeofwarMod instance) {
-		super(instance, 110);
+		super(instance, 234);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

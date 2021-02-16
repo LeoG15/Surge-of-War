@@ -21,7 +21,7 @@ public class ItemFolderSteak extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:foldersteak")
 	public static final Item block = null;
 	public ItemFolderSteak(ElementsSurgeofwarMod instance) {
-		super(instance, 30);
+		super(instance, 83);
 	}
 
 	@Override

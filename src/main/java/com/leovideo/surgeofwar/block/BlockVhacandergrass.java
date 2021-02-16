@@ -22,7 +22,7 @@ public class BlockVhacandergrass extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vhacandergrass")
 	public static final Block block = null;
 	public BlockVhacandergrass(ElementsSurgeofwarMod instance) {
-		super(instance, 69);
+		super(instance, 6);
 	}
 
 	@Override

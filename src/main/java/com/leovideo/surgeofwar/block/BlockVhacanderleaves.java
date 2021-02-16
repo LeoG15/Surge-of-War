@@ -30,7 +30,7 @@ public class BlockVhacanderleaves extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vhacanderleaves")
 	public static final Block block = null;
 	public BlockVhacanderleaves(ElementsSurgeofwarMod instance) {
-		super(instance, 67);
+		super(instance, 9);
 	}
 
 	@Override

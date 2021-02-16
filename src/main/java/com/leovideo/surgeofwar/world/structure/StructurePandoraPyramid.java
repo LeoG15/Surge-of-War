@@ -24,7 +24,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class StructurePandoraPyramid extends ElementsSurgeofwarMod.ModElement {
 	public StructurePandoraPyramid(ElementsSurgeofwarMod instance) {
-		super(instance, 249);
+		super(instance, 319);
 	}
 
 	@Override

@@ -20,7 +20,7 @@ public class ItemCreationOrb extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:creationorb")
 	public static final Item block = null;
 	public ItemCreationOrb(ElementsSurgeofwarMod instance) {
-		super(instance, 152);
+		super(instance, 128);
 	}
 
 	@Override

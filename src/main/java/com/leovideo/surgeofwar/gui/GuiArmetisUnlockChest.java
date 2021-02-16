@@ -12,7 +12,6 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.Slot;
@@ -38,7 +37,7 @@ public class GuiArmetisUnlockChest extends ElementsSurgeofwarMod.ModElement {
 	public static int GUIID = 1;
 	public static HashMap guistate = new HashMap();
 	public GuiArmetisUnlockChest(ElementsSurgeofwarMod instance) {
-		super(instance, 221);
+		super(instance, 301);
 	}
 
 	@Override
@@ -266,7 +265,7 @@ public class GuiArmetisUnlockChest extends ElementsSurgeofwarMod.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("surgeofwar:textures/armetis_unlock_chest.png");
+
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();
@@ -277,10 +276,6 @@ public class GuiArmetisUnlockChest extends ElementsSurgeofwarMod.ModElement {
 		@Override
 		protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
 			GL11.glColor4f(1, 1, 1, 1);
-			this.mc.renderEngine.bindTexture(texture);
-			int k = (this.width - this.xSize) / 2;
-			int l = (this.height - this.ySize) / 2;
-			this.drawModalRectWithCustomSizedTexture(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			zLevel = 100.0F;
 		}
 

@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class RecipeVicoqueRecipe extends ElementsSurgeofwarMod.ModElement {
 	public RecipeVicoqueRecipe(ElementsSurgeofwarMod instance) {
-		super(instance, 41);
+		super(instance, 201);
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class BlockCopperHandReed extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:copper_hand_reed")
 	public static final Block block = null;
 	public BlockCopperHandReed(ElementsSurgeofwarMod instance) {
-		super(instance, 203);
+		super(instance, 4);
 	}
 
 	@Override

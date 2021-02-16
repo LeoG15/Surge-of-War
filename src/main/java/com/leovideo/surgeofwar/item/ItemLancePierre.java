@@ -40,7 +40,7 @@ public class ItemLancePierre extends ElementsSurgeofwarMod.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 41;
 	public ItemLancePierre(ElementsSurgeofwarMod instance) {
-		super(instance, 271);
+		super(instance, 52);
 	}
 
 	@Override

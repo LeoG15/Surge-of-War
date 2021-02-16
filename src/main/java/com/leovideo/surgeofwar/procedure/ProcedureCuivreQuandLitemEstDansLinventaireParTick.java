@@ -15,7 +15,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureCuivreQuandLitemEstDansLinventaireParTick extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureCuivreQuandLitemEstDansLinventaireParTick(ElementsSurgeofwarMod instance) {
-		super(instance, 246);
+		super(instance, 316);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -83,7 +83,7 @@ public class WorldGalzan extends ElementsSurgeofwarMod.ModElement {
 	public static final BlockCustomPortal portal = null;
 	public static DimensionType dtype;
 	public WorldGalzan(ElementsSurgeofwarMod instance) {
-		super(instance, 211);
+		super(instance, 158);
 	}
 
 	@Override

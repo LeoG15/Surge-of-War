@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureSaoulaInvocationBlockLorsDunClicDroitSurLeBloc extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureSaoulaInvocationBlockLorsDunClicDroitSurLeBloc(ElementsSurgeofwarMod instance) {
-		super(instance, 242);
+		super(instance, 312);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

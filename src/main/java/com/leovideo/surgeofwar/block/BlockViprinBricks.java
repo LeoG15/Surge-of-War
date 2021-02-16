@@ -22,7 +22,7 @@ public class BlockViprinBricks extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:viprin_bricks")
 	public static final Block block = null;
 	public BlockViprinBricks(ElementsSurgeofwarMod instance) {
-		super(instance, 255);
+		super(instance, 46);
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class RecipeNItroniumrecipe extends ElementsSurgeofwarMod.ModElement {
 	public RecipeNItroniumrecipe(ElementsSurgeofwarMod instance) {
-		super(instance, 58);
+		super(instance, 205);
 	}
 
 	@Override

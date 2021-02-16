@@ -22,7 +22,7 @@ public class BlockNagaraDirt extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nagaradirt")
 	public static final Block block = null;
 	public BlockNagaraDirt(ElementsSurgeofwarMod instance) {
-		super(instance, 45);
+		super(instance, 17);
 	}
 
 	@Override

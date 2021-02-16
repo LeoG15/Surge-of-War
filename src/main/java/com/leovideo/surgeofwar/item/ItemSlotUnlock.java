@@ -7,11 +7,19 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
+import net.minecraft.world.World;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
+import java.util.Map;
+import java.util.HashMap;
+
+import com.leovideo.surgeofwar.procedure.ProcedureSlotUnlockLorsDunClickDroitDansLair;
 import com.leovideo.surgeofwar.creativetab.TabItemOfWar;
 import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 
@@ -20,7 +28,7 @@ public class ItemSlotUnlock extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:slot_unlock")
 	public static final Item block = null;
 	public ItemSlotUnlock(ElementsSurgeofwarMod instance) {
-		super(instance, 222);
+		super(instance, 151);
 	}
 
 	@Override
@@ -61,6 +69,25 @@ public class ItemSlotUnlock extends ElementsSurgeofwarMod.ModElement {
 		@SideOnly(Side.CLIENT)
 		public boolean hasEffect(ItemStack itemstack) {
 			return true;
+		}
+
+		@Override
+		public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer entity, EnumHand hand) {
+			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
+			ItemStack itemstack = ar.getResult();
+			int x = (int) entity.posX;
+			int y = (int) entity.posY;
+			int z = (int) entity.posZ;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureSlotUnlockLorsDunClickDroitDansLair.executeProcedure($_dependencies);
+			}
+			return ar;
 		}
 	}
 }

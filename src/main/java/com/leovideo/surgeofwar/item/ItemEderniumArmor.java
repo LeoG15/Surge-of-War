@@ -35,7 +35,7 @@ public class ItemEderniumArmor extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:ederniumarmorboots")
 	public static final Item boots = null;
 	public ItemEderniumArmor(ElementsSurgeofwarMod instance) {
-		super(instance, 178);
+		super(instance, 112);
 	}
 
 	@Override

@@ -35,7 +35,7 @@ public class ItemAmethistearmor extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:amethistearmorboots")
 	public static final Item boots = null;
 	public ItemAmethistearmor(ElementsSurgeofwarMod instance) {
-		super(instance, 11);
+		super(instance, 72);
 	}
 
 	@Override

@@ -11,7 +11,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureCopperseedNeighbourBlockChanges extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureCopperseedNeighbourBlockChanges(ElementsSurgeofwarMod instance) {
-		super(instance, 191);
+		super(instance, 290);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

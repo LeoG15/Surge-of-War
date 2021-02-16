@@ -52,7 +52,7 @@ public class EntityBooklingMage extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 11;
 	public static final int ENTITYID_RANGED = 12;
 	public EntityBooklingMage(ElementsSurgeofwarMod instance) {
-		super(instance, 71);
+		super(instance, 176);
 	}
 
 	@Override

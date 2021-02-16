@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class TabItemOfWar extends ElementsSurgeofwarMod.ModElement {
 	public TabItemOfWar(ElementsSurgeofwarMod instance) {
-		super(instance, 3);
+		super(instance, 182);
 	}
 
 	@Override
@@ -27,9 +27,9 @@ public class TabItemOfWar extends ElementsSurgeofwarMod.ModElement {
 
 			@SideOnly(Side.CLIENT)
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundImageName("item_search.png");
+		};
 	}
 	public static CreativeTabs tab;
 }

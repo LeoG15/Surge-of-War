@@ -29,7 +29,7 @@ public class BiomeNagara extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:nagara")
 	public static final BiomeGenCustom biome = null;
 	public BiomeNagara(ElementsSurgeofwarMod instance) {
-		super(instance, 48);
+		super(instance, 202);
 	}
 
 	@Override

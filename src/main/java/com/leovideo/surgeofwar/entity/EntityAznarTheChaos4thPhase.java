@@ -17,12 +17,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAISwimming;
 import net.minecraft.entity.ai.EntityAIPanic;
+import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
 import net.minecraft.entity.ai.EntityAILookIdle;
-import net.minecraft.entity.ai.EntityAILeapAtTarget;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EnumCreatureAttribute;
@@ -46,7 +47,7 @@ public class EntityAznarTheChaos4thPhase extends ElementsSurgeofwarMod.ModElemen
 	public static final int ENTITYID = 16;
 	public static final int ENTITYID_RANGED = 17;
 	public EntityAznarTheChaos4thPhase(ElementsSurgeofwarMod instance) {
-		super(instance, 136);
+		super(instance, 254);
 	}
 
 	@Override
@@ -95,10 +96,10 @@ public class EntityAznarTheChaos4thPhase extends ElementsSurgeofwarMod.ModElemen
 		@Override
 		protected void initEntityAI() {
 			super.initEntityAI();
-			this.tasks.addTask(1, new EntityAIWander(this, 1));
-			this.tasks.addTask(2, new EntityAILookIdle(this));
-			this.tasks.addTask(3, new EntityAISwimming(this));
-			this.tasks.addTask(4, new EntityAILeapAtTarget(this, (float) 0.8));
+			this.targetTasks.addTask(1, new EntityAINearestAttackableTarget(this, EntityPlayer.class, false, true));
+			this.tasks.addTask(2, new EntityAIWander(this, 1));
+			this.tasks.addTask(3, new EntityAILookIdle(this));
+			this.tasks.addTask(4, new EntityAISwimming(this));
 			this.tasks.addTask(5, new EntityAIPanic(this, 1.2));
 			this.targetTasks.addTask(6, new EntityAIHurtByTarget(this, false));
 		}

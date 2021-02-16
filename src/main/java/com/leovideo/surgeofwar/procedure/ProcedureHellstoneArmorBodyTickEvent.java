@@ -12,7 +12,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureHellstoneArmorBodyTickEvent extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureHellstoneArmorBodyTickEvent(ElementsSurgeofwarMod instance) {
-		super(instance, 183);
+		super(instance, 283);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

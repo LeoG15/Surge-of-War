@@ -22,7 +22,7 @@ public class BlockEderniumOre extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:ederniumore")
 	public static final Block block = null;
 	public BlockEderniumOre(ElementsSurgeofwarMod instance) {
-		super(instance, 73);
+		super(instance, 20);
 	}
 
 	@Override

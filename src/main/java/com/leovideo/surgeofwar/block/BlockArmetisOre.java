@@ -28,7 +28,7 @@ public class BlockArmetisOre extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:armetisore")
 	public static final Block block = null;
 	public BlockArmetisOre(ElementsSurgeofwarMod instance) {
-		super(instance, 155);
+		super(instance, 19);
 	}
 
 	@Override

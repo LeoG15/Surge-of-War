@@ -15,7 +15,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureNitroniumarmorBodyTickEvent extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureNitroniumarmorBodyTickEvent(ElementsSurgeofwarMod instance) {
-		super(instance, 107);
+		super(instance, 232);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

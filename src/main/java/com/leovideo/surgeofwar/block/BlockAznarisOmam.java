@@ -22,7 +22,7 @@ public class BlockAznarisOmam extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:aznarisomam")
 	public static final Block block = null;
 	public BlockAznarisOmam(ElementsSurgeofwarMod instance) {
-		super(instance, 125);
+		super(instance, 28);
 	}
 
 	@Override

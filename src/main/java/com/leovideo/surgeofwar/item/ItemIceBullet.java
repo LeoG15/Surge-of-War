@@ -20,7 +20,7 @@ public class ItemIceBullet extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:icebullet")
 	public static final Item block = null;
 	public ItemIceBullet(ElementsSurgeofwarMod instance) {
-		super(instance, 85);
+		super(instance, 111);
 	}
 
 	@Override

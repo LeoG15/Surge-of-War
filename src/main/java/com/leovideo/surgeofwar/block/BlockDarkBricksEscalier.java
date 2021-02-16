@@ -23,7 +23,7 @@ public class BlockDarkBricksEscalier extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:dark_bricks_escalier")
 	public static final Block block = null;
 	public BlockDarkBricksEscalier(ElementsSurgeofwarMod instance) {
-		super(instance, 266);
+		super(instance, 50);
 	}
 
 	@Override

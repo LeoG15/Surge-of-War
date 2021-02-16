@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Nitronium"
+      },
+      {
+        "value": "CUSTOM:Nitronium"
+      },
+      {
+        "value": "CUSTOM:Nitronium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Folderstick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Folderstick"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NitroniumPickaxe"
+    },
+    "name": "nitronium_pickaxe_recipe",
+    "namespace": "mod"
+  }
+}

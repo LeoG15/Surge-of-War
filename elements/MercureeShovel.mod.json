@@ -1,0 +1,30 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "mercuree_shovel",
+    "customModelName": "Normal",
+    "name": "Mercuree Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ItemOfWar"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 7,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 70,
+    "damageVsEntity": 7.0,
+    "usageCount": 2380,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Mercure"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -14,7 +14,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureFolderCowEntityDies extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureFolderCowEntityDies(ElementsSurgeofwarMod instance) {
-		super(instance, 31);
+		super(instance, 196);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -30,7 +30,7 @@ public class BlockPandoraLeaves extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:pandora_leaves")
 	public static final Block block = null;
 	public BlockPandoraLeaves(ElementsSurgeofwarMod instance) {
-		super(instance, 231);
+		super(instance, 40);
 	}
 
 	@Override

@@ -36,7 +36,7 @@ public class ItemUtopianRasorBlade extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:utopian_rasor_blade")
 	public static final Item block = null;
 	public ItemUtopianRasorBlade(ElementsSurgeofwarMod instance) {
-		super(instance, 268);
+		super(instance, 137);
 	}
 
 	@Override

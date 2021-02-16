@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class RecipeObratumRecipe extends ElementsSurgeofwarMod.ModElement {
 	public RecipeObratumRecipe(ElementsSurgeofwarMod instance) {
-		super(instance, 106);
+		super(instance, 231);
 	}
 
 	@Override

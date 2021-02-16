@@ -27,6 +27,9 @@
     "hasGlow": true,
     "guiBoundTo": "ArmetisUnlockChest",
     "inventorySize": 17,
-    "inventoryStackSize": 64
+    "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "SlotUnlockLorsDunClickDroitDansLair"
+    }
   }
 }

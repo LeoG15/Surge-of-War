@@ -20,7 +20,7 @@ public class ItemCreationShard extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:creationshard")
 	public static final Item block = null;
 	public ItemCreationShard(ElementsSurgeofwarMod instance) {
-		super(instance, 150);
+		super(instance, 126);
 	}
 
 	@Override

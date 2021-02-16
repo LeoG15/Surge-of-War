@@ -1,0 +1,42 @@
+{
+  "group": "surgeofwar",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:emerald_block"
+    },
+    "1": {
+      "item": "minecraft:glass_bottle"
+    },
+    "2": {
+      "item": "minecraft:emerald_block"
+    },
+    "3": {
+      "item": "minecraft:glass_bottle"
+    },
+    "4": {
+      "item": "surgeofwar:ederniumapple"
+    },
+    "5": {
+      "item": "minecraft:glass_bottle"
+    },
+    "6": {
+      "item": "minecraft:emerald_block"
+    },
+    "7": {
+      "item": "minecraft:glass_bottle"
+    },
+    "8": {
+      "item": "minecraft:emerald_block"
+    }
+  },
+  "result": {
+    "item": "surgeofwar:xp_transformator",
+    "count": 1
+  }
+}

@@ -22,7 +22,7 @@ public class BlockViprinGrass extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:vipringrass")
 	public static final Block block = null;
 	public BlockViprinGrass(ElementsSurgeofwarMod instance) {
-		super(instance, 23);
+		super(instance, 11);
 	}
 
 	@Override

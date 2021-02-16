@@ -20,7 +20,7 @@ public class ItemStoneBullet extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:stone_bullet")
 	public static final Item block = null;
 	public ItemStoneBullet(ElementsSurgeofwarMod instance) {
-		super(instance, 271);
+		super(instance, 53);
 	}
 
 	@Override

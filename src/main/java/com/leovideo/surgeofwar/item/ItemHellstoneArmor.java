@@ -35,7 +35,7 @@ public class ItemHellstoneArmor extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:hellstonearmorboots")
 	public static final Item boots = null;
 	public ItemHellstoneArmor(ElementsSurgeofwarMod instance) {
-		super(instance, 183);
+		super(instance, 154);
 	}
 
 	@Override

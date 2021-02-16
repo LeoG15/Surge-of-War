@@ -13,7 +13,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureCopperseedMiseAJourDuTick extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureCopperseedMiseAJourDuTick(ElementsSurgeofwarMod instance) {
-		super(instance, 200);
+		super(instance, 296);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -37,7 +37,7 @@ public class ProcedureCopperseedMiseAJourDuTick extends ElementsSurgeofwarMod.Mo
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		if ((Math.random() >= 0.5)) {
+		if ((Math.random() <= 0.5)) {
 			{
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
 				IBlockState _bs = BlockCopperSeedFinish.block.getDefaultState();

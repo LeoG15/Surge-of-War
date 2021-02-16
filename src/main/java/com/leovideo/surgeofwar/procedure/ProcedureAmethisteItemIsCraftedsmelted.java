@@ -15,7 +15,7 @@ import com.leovideo.surgeofwar.ElementsSurgeofwarMod;
 @ElementsSurgeofwarMod.ModElement.Tag
 public class ProcedureAmethisteItemIsCraftedsmelted extends ElementsSurgeofwarMod.ModElement {
 	public ProcedureAmethisteItemIsCraftedsmelted(ElementsSurgeofwarMod instance) {
-		super(instance, 14);
+		super(instance, 190);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -40,7 +40,7 @@ public class ItemLanceGlace extends ElementsSurgeofwarMod.ModElement {
 	public static final Item block = null;
 	public static final int ENTITYID = 13;
 	public ItemLanceGlace(ElementsSurgeofwarMod instance) {
-		super(instance, 84);
+		super(instance, 110);
 	}
 
 	@Override

@@ -46,7 +46,7 @@ public class EntityKayno extends ElementsSurgeofwarMod.ModElement {
 	public static final int ENTITYID = 9;
 	public static final int ENTITYID_RANGED = 10;
 	public EntityKayno(ElementsSurgeofwarMod instance) {
-		super(instance, 51);
+		super(instance, 175);
 	}
 
 	@Override

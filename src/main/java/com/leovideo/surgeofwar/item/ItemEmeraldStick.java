@@ -35,7 +35,7 @@ public class ItemEmeraldStick extends ElementsSurgeofwarMod.ModElement {
 	@GameRegistry.ObjectHolder("surgeofwar:emeraldstick")
 	public static final Item block = null;
 	public ItemEmeraldStick(ElementsSurgeofwarMod instance) {
-		super(instance, 110);
+		super(instance, 64);
 	}
 
 	@Override
